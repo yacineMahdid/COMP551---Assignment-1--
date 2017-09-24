@@ -1,0 +1,462 @@
+<s><utt uid=1> Je pense pas que quelqu'un va t'envoyer du code comme ça par MP. . .
+Si c'est la syntaxe spécifique à Java qui t'intéresse, tu devrais chercher des tutoriels (le code sera vraiment bien commenté et expliqué, ce qui n'est pas toujours le cas avec du code "original"). Si c'est la programmation en général (algorithme, résolution de problèmes, technique . . .), va donc sur Github et plonge dans le code d'un projet au hasard. 
+</utt><utt uid=2> Merci! Mais pourquoi personne ne m'enverrait du code? Je ne demande du code que Pour etudier avec.
+</utt><utt uid=1> La plateforme n'est pas vraiment adaptée pour ça. Du Java en vrac avec la présentation et la mise en page de Reddit, c'est pas joli. 
+Ta demande est parfaitement légitime ! C'est juste qu'il sera pas exploitable comme ça.
+Je ne connais pas ton niveau, mais développez.net a des tutos excellents juste ici : https://java.developpez.com/cours/
+</utt><utt uid=2> Je vois. Merci pour les tutos! En fait je débute vraiment en Java, j'ai même un peu de mal avec Éclipse mais j'ai un PDF qui va m'aider, faut juste que je me botte le cul pour le lire ^
+</utt></s>
+<s><utt uid=1> Je ne suis plus très jeune et j'aurais du mal à énumérer tous les langages auxquels j'ai été confronté, mais l'expérience m'a appris que le meilleur moyen d'assimiler à un haut niveau un nouveau langage c'est ;
+1/ Avoir un projet concret avec ce langage et être motivé à le concrétiser
+2/ Accompagné par un expert du langage impliqué dans le projet
+Le fait est que aucune école, aucun tutoriel ne nous enseigne les aspects les plus durs d'un langage ; les subtilités du compilateur ou interpréteur (et incompatibilités entre éditeurs), ainsi que les contraintes de l'environnement (du matériel et des protocoles d'échange de données).
+La théorie, les principes, et la syntaxe d'un langage s'apprend en quelques jours sans aide extérieure, alors que le reste, ce que j'ai évoqué et qui est le plus utile à un niveau professionnel, requiert plusieurs mois de pratique voir même des années.
+Je suis effaré par ces "formations continues" qui saoulent un élève pendant plusieurs mois avec de la paperasserie théorique sans jamais exiger d'eux de mettre les mains dans le cambouis. Leur diplôme ne vaut rien si il ne valide pas un projet personnel exposé à un jury d'experts professionnels.
+</utt><utt uid=2> Je valide totalement l'importance de la pratique :)
+Merci pour ton retour d'expérience !
+</utt><utt uid=1> L’intérêt du projet c'est aussi qu'il met dans une situation sous contraintes (matérielles et du langage).
+Je viens de découvrir le jeu Leekwars où il faut programmer l'IA de son personnage. C'est une façon ludique d'acquérir de l'expérience dans un environnement sous contraintes.
+A défaut d'un projet individuel, un jeu ou défi mettant en compétition les élèves pourrait être une alternative instructive.
+</utt></s>
+<s><utt uid=1> Pourquoi en faire un nouveau?
+</utt><utt uid=2> Car /r/programmation semble plutôt mort à l'heure actuelle…
+Et /r/FranceCode espère réunir des développeurs, des programmeurs, des amateurs et passionnés d'informatique, etc., afin d'avoir une audience plus large et de créer une réelle communauté (avec un chan IRC, une team Slack ou différentes autres choses en dehors de Reddit).
+</utt><utt uid=1> Autant faire revivre /r/programmation. Je suis certain que tu peux contacter les modos.
+</utt><utt uid=3> Donc au lieu de dynamiser le forum existant essayer de le tuer définitivement en en créant un autre, tout aussi mort ?
+</utt></s>
+<s><utt uid=1> Utilisateur de Geany, j'apprécie ce genre de discussions où les participants donnent leur avis et leur expérience sur les EDIs pour éventuellement trouver des outils plus adaptés à mes besoins.
+</utt><utt uid=2> Geany ça se compare plutôt à Notepad ++, VIM, code:blocks ?
+</utt><utt uid=3> Je cherche une alternative open-source à Notepad++, depuis la version 6.8.3 son auteur a implémenté des modifs qui ont cassés d'anciennes fonctionnalités (et compatibilité avec des plugins).
+Mon besoin, c'est la coloration du code pour tous types de langages (PHP, JS, CSS), liste des fonctions ou objets en panneau latéral, support UTF8 ou ISO, support de JSLint & JSHint, et options de saisie (indentation, saut de ligne, fermeture auto des quotes) tolérant tous les styles dont le style Whitesmiths. 
+</utt></s>
+<s><utt uid=1> Java > IntelliJ, il n'y a pratiquement pas photo dans la grande majorité des cas. Eclipse et Netbeans restent utiles dans des cas particuliers.
+</utt><utt uid=2> Et toujours sur Jetbrains, pour C++ un avis sur Clion versus Visual studio ?
+</utt><utt uid=3> Netbeans a le bon gout d'utiliser Maven pour builder, et ça, <3
+</utt></s>
+<s><utt uid=1> Je me trompe où cette étude oublie de prendre en compte les assurances sociales ? Si vous êtes payés sur un contrat Américain il faut ajouter un gros pourcentage pour compenser l'absence de sécu.
+Par ailleurs, la seule autre ville Européenne citée est Londres. Si le panel contenait d'autres villes Européennes, la France ne serait pas si mal placée.
+Par ailleurs, mélanger province et Paris pour comparer à Londres n'a aucun sens.
+On pourrait continuer. Globalement ça semble un peu n'importe quoi cette "étude".
+</utt><utt uid=2> Ça serais un travail énorme de prendre en compte le coût de la vie dans chaque pays ou chaque ville.
+C'est juste juste une étude "brute", donc qui ne prends pas en compte ces facteurs, ça la rends pas fausse pour autant. C'est tout l'objet du débat qui viens à la suite : https://www.developpez.net/forums/d1645374/emploi-etudes-informatique/emploi/salaires/etude-salaires-developpeurs-l-it-france-parmi-plus-bas/
+</utt><utt uid=1> Non, ça n'a pas de sens le brut. C'est comme publier un sondage en disant qu'il y a 50% à ajouter ou à retrancher à certains chiffres.
+C'est juste du shitpost.
+</utt><utt uid=3> Lol, j'ai trouvé l'ingénieur mal payé!
+</utt><utt uid=1> Heu... Outre que ta réaction est stupide je suis sûr qu'en cherchant un peu tu pourrais trouver que mes startups ont eu du succès et moi aussi...
+C'est peut-être parce que je ne me base pas sur des brèves de comptoir érigées en "étude" lorsque je prends de décisions.
+</utt></s>
+<s><utt uid=1> C'est vrai que les tests c'est la partie la moins appréciée du développement mais aussi en ces temps modernes la moins prise au sérieux avec les logiciels qui sont le plus souvent testés par les clients. Je trouve que l'illustration présente dans l'article est plutôt bien trouvée pour l'expliquer.
+</utt><utt uid=1> Je ne suis pas d'accord pour dire que c'est la partie la moins prise au sérieux. La complexité des logiciels, qui est naturellement croissante, est également en cause.
+Si tu compares un photoshop de 2016, ça n'a vraiment rien à voir avec le même truc d'il y a 10 ans. Les jeux vidéos en sont également un bon exemple: les premières semaines d'un jeu AAA sont très souvent désastreuses pour les joueurs jusqu'à ce qu'arrivent les premiers patchs.
+Si on ajoute à cela les dizaines de couches logicielles (qui elles-même augmentent en complexité avec le temps) que sont les librairies, les pilotes, les systèmes d'exploitation, parfois les machines virtuelles, etc... Il devient pratiquement impossible de tester son produit de façon vraiment pertinente, à moins d'y mettre de très gros moyens.
+Bon après je dis ça, mais je procrastine aussi sur l'écriture de mes tests :)
+</utt><utt uid=2> Étant moi-même développeur, je ne trouve pas les logiciels de maintenant significativement plus complexes que ceux du passé. Photoshop a peut-être évolué, mais je ne suis pas sûr qu'on puisse parler d'un facteur 10 en puissance pour d'autres logiciels, comme les OS ou les suites bureautiques.
+Quand on sait la puissance disponible sur les ordinateurs de maintenant et que les logiciels en eux-même n'ont pas gagné en rapidité, voire le contraire, on a l'impression que maintenant le but est de développer le logiciel de la manière la plus rentable possible, du coup on utilise des milliers de composants tout faits et on laisse tomber l'optimisation.
+Et tout donne l'impression que la partie tests aussi est de plus en plus négligée, car forcément tout cela coûte cher et on (= le client) veut tout gratuit si possible ou au moins cher.
+Je pense que c'est l'époque qui veut ça. Pour moi, livrer un logiciel bogué me paraît inconcevable. Mais cela ne semble pas vrai pour tout le monde. Je serais heureux de me tromper sur ce point. ;)
+</utt></s>
+<s><utt uid=1> Très intéressant cet article, bravo à l'auteur.
+Mon langage préféré à savoir le VBA fait parti des meilleurs (en onzième position). ;)
+</utt><utt uid=2> En fait je pense qu'il y à pas mal de gens qui utilisent VBA mais c'est pas forcément des développeurs professionnels qui eux utilisent des langages de programmation plus hardcore genre C++ etc.
+Donc VBA c'est utilisé énormément par les utilisateurs avancés en informatique des produits Office, Access ou Excel.
+</utt><utt uid=3> En général, VBA c'est le chemin pour la reconversion des non informaticiens en entreprise en informaticiens : Un besoin d'automatisation se pose > On essaie de trouver une solution avec VBA Excel ou Access et on y prend goût > désormais, on veut tout automatiser, mais à un certain moment, on voit les limites de VBA > On cherche donc un langage plus pro et c'est parti !... On finit par apprendre un ou deux langages pro et ainsi de suite, à un certain moment, on devient un dev pro.
+</utt><utt uid=2> Tout à fait sauf que quand même beaucoup restent à VBA.
+</utt></s>
+<s><utt uid=1> Tant de questions, cela dépend d’où tu en es de ton parcours.
+
+Quels seraient vos conseils pour un futur prog ?
+
+Bosser, essayer de faire de l'alternance, avoir de l’expérience (projet open source,ect...). L'expérience fait quasiment tout dans ce milieu.
+
+Quel est votre parcours si vous êtes vous-même prog ?
+
+DUT => Licence => Master (en alternance)
+
+Quels sont les outils essentiels à connaître ?
+
+Dépend de ce que tu veux faire
+
+Par quel language commencer l'apprentissage
+
+L'ada évidemment ! Mais bon en ligne c'est compliqué donc le C je dirais (ou le python si tu veux tester d'abord, c'est plus simple)
+
+Où trouver une FAQ si j'ai d'autres questions ?
+
+Aucune idée mais tu peux demander ici
+</utt><utt uid=1> Bonjour, j'ai une double licence en Info-com/histoire de l'art donc aucun rapport avec la prog. Je suis en re-conversion, n'ayant pas trouvé ma voie. Je souhaiterais commencer à étudier chez moi et apprendre les bases de la prog pour ensuite integrer un cursus plus ou moins scolaire selon les formations proposées, et, dans l'absolu pouvoir en faire mon activitée principale.
+Je n'ai pas d'idée sur comment me lancer. Je ne me suis pas encore renseigné sur les opportunités de stage/alternance proposés par les écoles et structures de formations.
+Qu'est ce que l'ADA ?
+J'ai téléchargé des tas de cours sur l'html, est-ce un bon moyen de prendre pied avec la prog ou est-ce une perte de temps ?
+</utt><utt uid=2> Le problème d'apprendre chez toi, c'est que quand tu vas arriver en cours tu vas en savoir plus de 90% des gens et du coup tu vas te faire chier pendant les 6 premiers mois de cours.
+L'ADA est un langage de programmation. Si tu veux pas trop étudier tu peux faire un DUT info en 2ans t'es prêt pour le marché du travail. Sinon y a des formation à domicile (je connais plus le nom de la strcture) qui fait des cours ok, mais c'est pas aussi bien valorisé qu'une école.
+</utt><utt uid=3> ADA est un bon langage pour l'éducation mais c'est le langage qui s'apprends dans certaines Fac généralement après le Pascal, mais tout cela est un peu passé de mode, en éducation la nouvelle mode c'est surtout Python et encore Java. 
+HTML n'est pas un langage de programmation mais un langage de de balisage pour le web, cela ne t'apprendra donc pas la programmation.
+</utt></s>
+<s><utt uid=1> De mon point de vue je dirais que ça dépend surtout de toi:
+Comment et quoi veux tu apprendre ?
+Tu veux un langage généraliste et facile, qui couvre tout au risque de cacher le fonctionnement d'un ordi: apprends python (commence par le python3)
+Tu veux comprendre comment marche un ordi avant tout, histoire d'avoir de bonnes bases: fais du C.
+Et pour apprendre la meilleurs façon c'est de te trouver un projet: un conseil: regarde dans ce que tu fait au quotidien et cherche à automatiser une partie.
+Dans l'idéal je te conseille d'apprendre 2 langages : C/C++/Java (au choix) et Python car comme ça tu as des langages moins haut niveaux mais plus recherchés et plus performants  et un autre pour faire du prototypage rapide et les scripts au quotidien.
+Python est mon langage préféré mais je fais du Java/bash/scala au quotidien.
+</utt><utt uid=2> Bonjour, merci pour tes réponses :) . Sais-tu où je devrais me renseigner pour des formations C/C++/Java ? Devrais-je commencer directement par ces languages, n'ayant jamais jamais fait de prog ?
+</utt><utt uid=1> C++ c'est ce qu'il y à de plus dur ça n'est pas avec ce langage qu'on débute en programmation généralement. Tu peux débuter en Java, par exemple avec le cours Java enfants qui est facile et ludique : http://java.developpez.com/livres-collaboratifs/javaenfants/ ou encore avec Python, le meilleur cours gratuit du net c'est celui-ci, un véritable livre très bien fait et très complet :  Apprendre à programmer avec Python 3 par Gérard Swinnen : http://python.developpez.com/cours/apprendre-python3/ 
+</utt></s>
+<s><utt uid=1> Dois-je traduire:
+
+
+en
+fr
+
+
+
+Pattern Matching
+Filtrage par motif
+
+
+Pretty print
+Impression élégante
+
+
+Debugging
+Débogage
+
+
+Unpack
+déballer
+
+
+Union type
+?
+
+
+Record)
+Enregistrement)
+
+
+Anonymous pipe
+Tube anonyme
+
+
+Domain-driven design
+Conception pilotée par le domaine
+
+
+Domain)
+Domaine ?
+
+
+Parsing
+Analyse syntaxique
+
+
+Underscore
+tiret bas, sous-tiret, souligné ou blanc souligné, caractère de soulignement, underscore?
+
+
+flags
+?
+
+
+</utt><utt uid=2> Vraiment je pense pas que ce soit nécessaire. Utilises les tel quels dans ton texte et fait peut être un lexique avec une traduction / un paragraphe expliquant le concept en français pour les gens le voulant. Mais vraiment je pense que traduire tout terme technique rend le texte un peu hermétique si ton auditeur à une certaines connaissance de la programmation et à l'inverse un novice va s'y habitué peut être à tord et n'arrivera pas à faire le lien avec d'autre ressource. En espérant être clair :)
+EDIT : De la même manière que la personne ayant commenter sur ton Issue GH je pense justement que l'inverse est mieux pour ton texte (anglais avec le français entre parenthèse / un lien vers un lexique)
+</utt><utt uid=3> Filtrage de motifs, débogage, type somme (pour "union type"), enregistrement et analyse syntaxique sont par exemple tous utilisés dans la littérature OCaml (mais pas uniquement). Il serait dommage de ne pas les utiliser à mon avis, au moins la première fois comme ça t'a été conseilél ailleurs.
+</utt></s>
+<s><utt uid=1> Tout d'abord merci pour cet article ! 
+Je me permet d'ajouter qu'auparavant je stockais des données de configurations dans un fichier PHP contenant des define. 
+De cette manière la par exemple :
+define("ROOT", "./");
+define("SITE_TITLE", "Blog");
+Et ainsi de suite.
+Il me suffisait simplement d'inclure ce fichier dans mon fichier general_include.php (que j'incluais partout) et le tour était joué.
+Qu'en penses-tu ?
+</utt><utt uid=2> Bonjour,
+J'ai procédé de cette manière également, mais à présent, avec un peu de recul je me permets de dire que ce n'est pas une bonne pratique.
+Cela ne veut pas dire qu'il faut abandonner les constantes, mais les utiliser uniquement là où il faut :
+Dans ton exemple, l'utilisation de ta constante ROOT est bonne, puisque relative à l'architecture du code et peu susceptible de changer.
+En revanche, SITE_TITLE est un titre utilisé par l'application, et pas par le moteur. De plus, le titre du site peut-être amené à évoluer.
+=> Ici, une configuration qu'elle qu'elle soit serait bien plus adaptée qu'une constante.
+Merci à toi.
+</utt><utt uid=1> Je pense qu'en disant "constantes" tu parle de define, comme expliquées dans mon exemple ? Je pense qu'il faut faire attention, ce sont deux notions différentes.
+Du coup on peux conclure que suivant les configurations il y à des avantage et des inconvénients ?
+Par exemple l'utilisation de define ici peux être appropriées pour mon moteur mais pas pour l'application qu'il fait tourner.
+</utt><utt uid=2> En effet, je parle bien de cela.
+Mais lorsque tu utilises la fonction define, tu définis des constantes.
+Constantes qui sont en dehors du travail de classe, mais constantes quand même ;)
+Constantes PHP
+En effet, chaque méthode de chargement de configuration possède des avantages et des inconvénients (facilité, rapidité, ...). Il faut alors savoir laquelle utiliser selon ses besoins (modification nécessaire, fréquence ?) mais aussi ses préférences (autocomplétion ?)
+</utt></s>
+<s><utt uid=1> J'ai été voir, c'est marqué "Not Supported" :|
+</utt><utt uid=2> Je crois que ton problème se situe la: c'est quoi ton proc ?
+Si tu as un AMD: Bios -> Advanced -> CPU Configuration -> SVM
+</utt><utt uid=2> En fait j'ai des config semblable à la tienne et j'ai déjà fait ça pas mal de fois, et ce qu'il te manque c'est l'option virtualization dans le Bios ou Vt-x selon intel et la tu as tout et y'a aucune raison pour laquelle tu pourrais pas mettre linux ou faire du VirtualBox.
+Les drivers de la carte mère sont installés ?
+</utt></s>
+<s><utt uid=1> C'est bien mais personnellement je ne pense pas que des présentations sans présentateur soient un média très efficace sur le web. La même chose en blog avec le texte qui va bien (et moins d'images humoristiques) serait bien plus utile.
+</utt><utt uid=2> T'as pas tort, c'est tres leger, mais je crois que la video sera disponible, je vais fouiller.
+</utt><utt uid=2> L'auteur m'a urlé la version précédente a une autre conf https://youtu.be/ZAtdKvpc1UQ
+Enjoy
+</utt></s>
+<s><utt uid=1> Assembleur, l'apprentissage nécessite de nombreuses ressources qui ne sont pas facilement trouvable et mis à part l'aspect obligatoire dans le cadre scolaire son application dans le monde de l'entreprise a l'air faible 
+</utt><utt uid=2> La complexité de l'assembleur dépends beaucoup de l'architecture pour lequel il est écrit. Il a encore des applications dans certain cas particuliers, mais je suis d'accord que si on peut s'en passer, c'est pas plus mal. 
+Mais au moins, les instructions sont simples à décrypter. 
+Personnellement j'ai une vrai aversion pour le perl. C'est puissant, mais illisible. 
+</utt><utt uid=3> C'est pas vraiment de l'assembleur, mais le bytecode de la CLR est lu de temps en temps par les dev .NET. Quand tu veux vérifier précisement un point dans ton code (ce qu'il se fasse under the hood), c'est nécessaire.
+Comme tu dis l'usage est faible, mais pas inexistant. J'ai pas pris le module en cours et je le vis bien aujourd'hui.
+</utt><utt uid=4> Pourtant je m'en suis servi tous les jours pendant des années. L'intérêt d'apprendre l'assembleur c'est de pouvoir en apprendre un autre, d'apprendre à lire une datasheet et aussi de mieux comprendre comment un ordinateur est fait du point de vue du code.
+</utt></s>
+<s><utt uid=1> J'adore toute la haine que récolte le Javascript, sans vraie raison valable. Critiquer le typage faible sans mentionner les joies de l'héritage prototypique c'est un peu montrer qu'on n'a rien compris à ce langage...
+Bonus points pour le gars qui dit que JS c'est nul parceque tout le monde utilise jQuery (qui apparemment modifie la structure profonde du langage? quel ramassis de conneries), et parcequ'il y a trop de frameworks. Excusez nous si on a un écosystème super dynamique :D
+</utt><utt uid=2> super dynamique chaotique.
+Il est courant de voir des entreprises lancer des projets sur des outils qui ne sont pas encore en v1... Les outils sont tellement critiquables qu'il existe tout un groupe de puriste qui ne jure que par le VanillaJS. JavaScript n'a pas une communauté mais une archipel de communauté.
+Sinon, si JavaScript était pas aussi moche, personne ne s'ennuirait à perdre du temps à faire ou à utiliser des transpilers. Je parle de "moche" car c'est relatif. Que tu fasses du Java, du C#, du Lisp, du Ruby ou autre, nous devons tous faire du JS en fois sur le frontend. Forcément, une bonne partie pleure de perdre ses repères et passe sur TypeScript, ClojureScript, CoffeeScript ou juste Babel pour supporter un JS plus à jour.
+De ce qu'en ai fait (ponctuellement depuis 5/6 ans) le JS, c'est un peu wtf et je ne m'imagine pas encore faire un projet lourd avec. Ca fait le taf.
+</utt><utt uid=1> 
+Il est courant de voir des entreprises lancer des projets sur des outils qui ne sont pas encore en v1
+
+Ce n'est pas vraiment la faute du langage. Tu pourrais lancer un projet sur un framework PHP tout neuf en v0.3 ce serait tout aussi stupide.
+
+puriste qui ne jure que par le VanillaJS
+
+Définir VanillaJS? jQuery est devenu marginal, et je doute que ces puristes fassent de grosses applications professionelles à la mimine sans un framework MV*. Perso ce sont surtout les débutants que je vois s'embourber dans ce genre de considérations. D'autant qu'un script jQuery ça reste du javascript hein :)
+
+Babel pour supporter un JS plus à jour
+
+Les navigateurs evergreen supportent très bien la syntaxe ES6, du moins ses aspects les plus saillants comme les arrow functions, block scope variables et autres générateurs. Babel c'était vraiment pour expérimenter avant que la norme soit stabilisée, sauf cas de figure très spécifique ce n'est plus très utile.
+
+une bonne partie pleure de perdre ses repères
+
+En même temps les frameworks de backend sont tellement en retard conceptuellement parlant que la bascule vers un mode de pensée "frontend" doit effectivement faire mal aux fesses. Encore une fois je ne crois pas que ce soit la faute du langage.
+On dit que l'écosystème est fragmenté (ou chaotique comme tu dis), mais perso je ne le vois pas. C'est sûr il y a une nouvelle librairie toutes les 10 minutes mais la réalité c'est que personne n'oblige à les utiliser. Par exemple dans les frameworks MV, il y en a 70 sur le papier, mais dans la vraie vie de robuste tu as Angular et React (qui ne fonctionnent *pas du tout** pareil), tout le reste est "mineur". Et si dans 1 an la mode passe à autre chose, Angular restera maintenu pendant des années et les projets en Angular seront toujours pertinents. Par exemple jQuery vient de sortir sa v3 et continue à être maintenu, bien qu'il soit complètement passé de mode.
+Ca peut paraitre paradoxal mais un écosystème très dynamique (je persiste) ne veut pas dire qu'il n'est pas assez solide pour bâtir dessus. Il faut juste être prudent face aux nouvelles sorties, ce qui est vrai dans n'importe quelle techno.
+</utt><utt uid=2> 
+Ce n'est pas vraiment la faute du langage.
+
+Absolument. C'est juste courant dans les communautés JS.
+Définir VanillaJS?
+un javascript sans plugin
+
+jQuery est devenu marginal
+
+De quoi parles-tu? 70% des 10 premiers millions de site l'utilisent encore et son utilisation augmente (ralenti mais augmente). Sinon oui c'est du JS, mais la syntaxe est différente.
+
+Les navigateurs evergreen
+
+C'est vrai que les utilisateurs utilisent toujours des navigateurs à jour ;)
+
+tout le reste est "mineur"
+
+meteor, ember, aurelia, ou encore knockout ou barckbone qui sont encore utilisés sont bien présent. Si tu es freelance ou que tu changes d'emploi, tu peux être vite être supris par les stacks trouvable en entreprise.
+
+Et si dans 1 an la mode passe à autre chose, Angular restera maintenu pendant des années et les projets en Angular seront toujours pertinents.
+
+Il n'y a pas encore d'exemple de framework suffisamment vieux pour faire cas d'école. je pense par exemple à batmanjs qui est mort avec la baisse d'usage de rails. On est c est rien. Angular est prometteur (et je l aime bien perso), mais on ne peut être certain de son futur.
+
+Ca peut paraitre paradoxal mais un écosystème très dynamique (je persiste) ne veut pas dire qu'il n'est pas assez solide pour bâtir dessus. Il faut juste être prudent face aux nouvelles sorties, ce qui est vrai dans n'importe quelle techno.
+
+Absolument. C'est juste courant dans les communautés JS. En soit JS est pas pire qu'un autre. On se retrouve tous à devoir en faire côté client et c'est le chaos.
+</utt></s>
+<s><utt uid=1> Sur http://www.developpez.com les tutoriels sont disponibles gratuitement non seulement en ligne mais aussi offline en téléchargement, en format pdf ou mobiles. Exemples :
+Javascript : http://javascript.developpez.com/cours/
+HTML : http://xhtml.developpez.com/cours/
+CSS : http://css.developpez.com/cours/
+PHP : http://php.developpez.com/cours/
+Les cours sont très bien faits, par des professionnels ou des profs réputés. Pour bien apprendre faire les exercices et mettre  toujours en pratique, par exemple avec des projets perso ce que tu apprends, sinon tu ne retiendra rien. Si tu ne comprends pas un truc tu as aussi les FAQ développement Web : http://web.developpez.com/faq/ et pour les autres questions des forums d'aide pour le développement web : http://www.developpez.net/forums/f9/webmasters-developpement-web/
+</utt><utt uid=2> Merci !
+Je commencerai à pratiquer dès que j'aurai quelques bases !
+</utt><utt uid=3> Tu as aussi Scratch en offline pour apprendre les rudiments de l'algorithmique.
+https://scratch.mit.edu/scratch2download/
+</utt></s>
+<s><utt uid=1> Personnellement, je te conseil d'en apprendre d'avantage sur le C (structures de données avancés, pointeurs sur fonctions..) tout en te noyant dans le monde Unix pour compiler à la manos (Makefile, gcc, valgrind..) ceci peut t'offrir des bases assez solides. Pour coder utilises git.. Du côté des IDE vas vers Vim ou Emacs.. Pour t'entrainer, pourquoi ne pas faire des projets EPITECH (en pdf sur le web) ?
+</utt><utt uid=2> Aucun intérêt de faire du code juste pour du code si le but est de réaliser un projet: les SDK sont là pour abstraire une bonne partie du taff (qui lui, est fait par ceux qui apprennent le C/C++ à fond). Vouloir faire les deux (un vrai projet + un vrai code), c'est utopique, surtout seul, surtout en tant que débutant.
+</utt><utt uid=1> Tu m'excusera mais la personne qui vient de poster n'a pas l'air de différencier l'HTML du C.. Je veux bien compendre que l'utilisation d'un SDK ou Framework est tout à fait normal mais faudrait déjà savoir ce qu'est la POO avant d'en utiliser un.. Je trouve ça très drole ces étudiants qui sortent d'un bac +n et qui n'ont jamais codé un putchar de leur vie.. Si pour toi savoir utiliser correctement Unix n'est pas important alors tu n'as rien compris. PS : un "vrai code" n'est pas forcement bas niveau.
+</utt><utt uid=2> Je ne parle pas ici de se vanter de "savoir coder" bit à bit une brouette de purin-maison mais de la méthodologie pour mener un projet à bien. Et un projet, même informatique, ce n'est pas taper le plus de lignes de codes basiques.
+</utt><utt uid=3> 
+Tu m'excusera mais la personne qui vient de poster n'a pas l'air de différencier l'HTML du C.
+
+Mince alors j'ai du mal m'exprimer, mais je sais très bien faire la différence.
+Si j'ai parlé de HTML/CSS c'est parce que pour mon application je n'avais pas envie qu'elle soit mono-plateforme et comme je ne veux pas m’embêter à refaire la même appli en plusieurs langage je comptais utiliser cordova qui est un framework en HTML/CSS et Javascript.
+Bien sur que je sait coder un putchar, un putstr, ou même un 42sh ;)
+J'ai laissé de coté la POO lors de mes études parce que les premières notions me paraissaient trop simple et donc pas nécessaire de faire un effort pour comprendre le reste.
+Aujourd'hui je regrette pas mal de ne pas avoir travaillé la POO lorsque j'aurais pus recevoir de l'aide.
+Je suis sous UNIX très régulièrement windows ne me sert que pour jouer.
+</utt><utt uid=1> Ah d'accord, sinon à propos de cordova j'ai pas mal entendus dire que c'était pas stable mais je ne connais pas.
+</utt></s>
+<s><utt uid=1> Tu prends comme postulat de base que l'empathie et la réflexion sont des concepts "magiques" qui ne seraient pas reprogrammable. Ils découlent pourtant de fait purement physiques et chimiques et donc copiable. A mon avis il n'y a pas vraiment de limites à la copie de l'humain. La seule variable qui compte vraiment c'est le temps qu'il faudra à une machine pour apprendre a être empathique.
+Mais après on rentre aussi dans le champs des croyances car il y a beaucoup de trous dans nos connaissances sur la question. Pour l'instant...
+</utt><utt uid=2> Une fois qu'on en est la au niveau de l'IA, c'est toute la façon de fonctionner du monde qu'il faudra revoir... Pas juste la carrière de développeur.
+</utt></s>
+<s><utt uid=1> J'ai trouvé ça intéressant, ça m'a un peu éclairé sur 2-3 points que je n'avais pas trop compris. Je comptais m'intéresser à HoTT cet été et ça m'aidera sûrement à me plonger plus facilement dans leurs codes. Tu fais quoi/c'est quoi ton background ? Vu ton historique tu as l'air d'attaquer la chose plus par le côté informatique
+</utt><utt uid=1> C'est bien car je trouve que mes explications ne sont pas super claires lorsque je me reecoute.  je n'en suis pas tres satisfait, mais j'espere que ca pourra donner des idees, sans rien installer
+Tous les programmeurs devraient savoir qu'ils font des maths (avec des languages plus ou moins concu pour mais c'est un autre debat...)
+
+J'ai vaguement regarde HoTT et j'en ai rapidement conclu que cela me depassait. 
+J'aime bien le cote mathématique -  j'aimerais bien décortiquer https://github.com/myuon/agda-cate par exemple - mais lorsque cela reste proche des applications. Or elles sont vraiment partout et il suffit de peu de concepts pour qu'elles pullulent.
+La je voulais mettre l'accent sur le code effectivement, pour demystifier. On fait des maths.. en manipulant du code..  et c'est simple.. ma mere a prouvé plusieurs implications non triviales de la logique propositionnelle.. lorsque je lui ai montré l'equivalent logique, elle a fait un stackoverflow, alors qu'avec le code elle trouvait ca trivial.
+
+In fine, si je ne rechigne pas à passer par les categories, je recherche des applications simples à ce stade : les structures libres sont tres utiles, les monoides dans differentes categories, ou alors des applications dans le cadre de maths 'simples' (algebre lineaire, etc.. )
+De ce côté là j'adorerais voir un recueil d'exercice de maths de base (licence) formalisés. 
+
+Backgound : ingénieur, et j'ai recemment regardé quelques sujets autour du computer science côté "PL" (semantique, polymorphisme, categories). J'adorerais voir plus de video, et de conversation autour de ces sujets.
+On dirait qu'il y a une barriere, un peu artificielle, entre les universitaires et les utilisateurs avancés / professionnels. Ca serait bien de democratiser tout ca.
+</utt><utt uid=1> Alors non effectivement ce n'est pas clair :p je vais développer un peu. Moi j'ai l'impression que ça m'a bien aidé parce que j'ai déjà un peu entendu parler du truc sans vraiment avoir pris le temps de m'y plonger, c'est ton explication de comment tout se met en place et ton développement sur l'exemple qui m'a fait raccrocher des notions ensembles et j'en sors assez content.
+Pendant la vidéo par contre je me suis demandé à plusieurs reprises qui était le public visé. Des détails donnés me paraissaient évidents si on avait déjà des bases en info et d'autres si on avait les bases en maths. Certains sont biens pour rappeler rapidement quelque chose pour le mathématicien ou pour l'informaticien, mais dautres à la fois trop développés pour ceux qui connaissent et pas assez pour les autres.
+Si tu en fais d'autres, ce serait je pense, bien de déterminer si tu t'adresses à des gens qui ont des bases maths, info, ou les deux.
+</utt></s>
+<s><utt uid=1> Pourquoi le poster sur reddit plutôt que sur git ou autre?
+</utt><utt uid=2> En fait le code des TPs et projets est pour l'instant sur Codeplex avec la plateforme, et je le passerai avec les slides sur Github d'ici l'été, mais il me semblait que Reddit était intéressant pour le suivi du cours, ayant vu passer des expériences positives dans le passé, comme par exemple certains des cours proposés sur University of Reddit. 
+L'étape suivante sera justement de voir comment proposer au mieux le cours entièrement en ligne (la première session comprenait 30 heures en classe), et j'ai cru comprendre qu'il y a de nouveau outils et de nouvelle plateformes qu'il faudrait que je regarde de plus prêt.  
+</utt><utt uid=3> Tu pourrais aussi le proposer la il y à potentiellement 4 millions de lecteurs : http://www.developpez.com/hebergement/
+</utt><utt uid=2> Merci pour le conseil, je regarderai ça de plus près.
+</utt></s>
+<s><utt uid=1> Ou alors un password manager. Moi aussi j'ai oublié mes mots de passe, mais je ne me repose pas sur un mécanisme de "mot de passe oublié" qui est pourri sur un paquet de sites.
+</utt><utt uid=2> En effet :). J'ai précisé que c'était une solution de à l'arrache et pas terrible. Le problème n'est pas vraiment pour mes mots de passe (je me débrouillais bien jusqu'à maintenant), mais plutôt au niveau du partage d'accès.
+</utt><utt uid=1> C'est très juste pour le partage d'accès, c'est possible avec du password manager mais pas toujours pratique.
+</utt></s>
+<s><utt uid=1> Les étudiants des écoles payantes sont souvent sous le joug d'un prêt étudiant. En débaucher un pour un smic sera tendu. Vous trouverez par contre un 3e année sans grosse difficulté si vous contactez ces écoles (epitech, epita, supinfo, etc.). Sinon le public, sans problème. La différence de niveau n'est pas vraiment à trier pas école. Je vous recommande putôt de voir au cas par cas. Par ailleurs, il existe en informatique d'excellent éléments autodidactes sans diplôme. Ouvrez leur vos esprits et  vos portes.
+</utt><utt uid=2> Merci beaucoup! Je vais augmenter la rémunération autant que possible et je vais considérer des profils plus divers. De toute façon, nous avons prévu un test technique donc l'école est sans importance. Un stagiaire autodidacte correspondra bien à la culture de la société. Je vais même mentionner ça dans l'annonce. Si vous des recommandations de sites / forums pour viser des profils autodidactes, je suis très intéressé...
+</utt><utt uid=3> 
+nous avons prévu un test technique 
+
+Cet article t'intéressera peut-être : Zach Holman - Startup Interview is Fucked.
+</utt><utt uid=2> Merci! Des excellents conseils. J'aime beaucoup l'idée de pair programming pendant l'entretien
+</utt><utt uid=4> Salut, personellement, lors de mes phases de recherche d'emploi, je consulte pas mal remixjobs.com.
+</utt><utt uid=1> Pour faire un stage tu es obligé d'être étudiant (sauf cas particulier pour les chômeurs). Donc pas facile de prendre des autodidactes.
+</utt></s>
+<s><utt uid=1> Je plussoies à ce qui est écrit.
+J'ajouterais qu'il n'est pas forcément inopportun d'avoir plusieurs projets, du moins des petits projets annexes (ou indépendants) à un gros projet.
+En se concentrant sur un petit projet après une version du gros projet, ça procure un petit break. En tout cas, ne surtout pas s'engager sur deux gros projets, toujours avoir à l'esprit et admettre que les petits projets sont sacrifiables, et à sacrifier dés qu'un peu de lassitude ou surmenage apparaissent.
+Par ailleurs, si le gros projet aboutit à une impasse ou raz-le-bol définitif, un petit projet peut aider à rebondir moralement.
+</utt><utt uid=2> Je n'avais pas vu les choses comme ça, c'est intéressant comme remarque. 
+J'ai bien fait de préciser que je parle de gros projet, d'ou la partie agile sur le fractionnement du projet, car sur des petits projets je pense que ça marche très bien en effet.
+Je garde ça en tête !
+</utt><utt uid=1> Autre-chose, ce que tu conseilles comme logiciel de prise de notes et todo list me semble très léger. Ma propre expérience (15 ans à bricoler des trucs) m'a appris que c'est encore plus important que pour des projets en équipe en entreprise.
+D'un part, les idées de projets, et les idées de fonctionnalités font fuser plus vite que tu ne peux les réaliser. De plus, le fait de noter une idée te libères l'esprit (de la crainte de l'oublier). Et quand la v1 va commencer à servir, bugs, suggestions, et critiques vont s'accumuler plus vite que tu ne peux y répondre.
+J'utilise Evernote depuis 2006, c'est mon plus fidèle camarade de bricolage (mes notes ayant survécu à deux crash sévères d'ordis). Avant de commencer une version d'un projet, je relis les vieilles notes et todo annulées, je créé une nouvelle note avec une todo de base que je détailles durant l'avancement, et j'annule certaines todo quand je vois que l'accomplissement prendra plus de 3 ou 6 mois (pour les reporter à une autre version).
+</utt></s>
+<s><utt uid=1> Un must à écouter pour tout développeur.
+</utt><utt uid=2> C'est une des approches possibles mais il y en a d'autres (par exemple des langages fortement typés). Au passage un peu de pub pour /r/Coq.
+</utt><utt uid=1> Merci pour le retour et merci pour /r/Coq, je vais regarder ça de près.
+</utt></s>
+<s><utt uid=1> Pour moi, c'est tout en anglais. Le mélange du franglais m'insupporte.
+En ce moment, je travaille sur un projet avec que des francophones. Nous parlons en français et nous écrivons en anglais (je les pousse un peu). Les messages de commit sont un gros mixte des deux langues.
+Le français dans le code me dérange étrangement.
+</utt><utt uid=2> Pareil que toi, je trouve surtout dur de lire par exemple "if $trouve then"...
+</utt><utt uid=1> void augmente_score(int points_gagnes) 
+{
+    this->score += points_gagnes;
+}
+// troll
+
+</utt><utt uid=2> j'ai taffé dans une web agence bidon qui m'obligeait à faire des choses comme ça, je t'avoue que le couteau à bien souvent failli tailler mes veines quand je lisait des choses comme : 
+function ConnectionAMysql($login, $pass) 
+{
+$tiquet = mysql_connect($login, $pass, $GLOBALS['SERVEURMYSQL']);
+$reussie = true;
+if ($tiquet == $reussie) return $tiquet;
+else return "Connection échouée";
+}
+//Troll...
+</utt><utt uid=3> le genre d'exemple que t'as a la fac surtout quand tu dois utiliser des fonctions du prof
+Le pire c'est quand on nous a introduit le java " en plus on peut coder avec des accents "
+</utt></s>
+<s><utt uid=1> Je code purement pour le plaisir, généralement sans collaborateurs, mais c'est presque toujours en anglais que je le fais. 
+</utt><utt uid=2> Je suppose que ce n'est pas ta langue maternelle.
+
+Je code purement pour le plaisir
+
+Tu fais quoi comme projet  par exemple ? Tu as appris en ligne j'imagine. Sdz ?
+</utt><utt uid=1> Le français est définitivement ma langue maternelle; je suis né au Québec dans une petite ville où tout se passait uniquement en français.  Ce n'est que lorsque j'ai commencé mes études au doctorat dans une province anglophone que j'ai vraiment appris l'anglais.   Depuis une trentaine d'années, je vis surtout en anglais au quotidien.  J'ai appris des rudiments de programmation en fortran à l'âge de 17 ans au collège, mais ce n'est que depuis une dizaine d'années que je m'intéresse vraiment à la programmation comme passe-temps.  Comme tu as deviné, j'ai effectivement surtout appris en ligne.  Parmi mes projets: Crunchy (http://code.google.com/p/crunchy) et rur-ple (http://code.google.com/p/rur-ple).  Le plus récent est sur le site http://reeborg.ca/index_fr.html.
+</utt></s>
+<s><utt uid=1> Pour mes trucs perso, c'est en anglais.
+Là où je bosse, c'est en Français, mais on utilise la version anglaise de l'outil de développement (il y a quelque temps, ils utilisaient la version Française). 
+L'inconvénient, c'est le manque de respect des accents, problème qu'on n'aurait pas eu en Anglais (langage bizarre, on met ce qu'on veut comme nom de variable ; on a des accents, des points, des espaces, ...).
+Sinon, c'est plutôt lisible au final, d'autant plus qu'il y a pleins de termes techniques dont je connais à peine la définition en Français.
+Équipe francophone.
+</utt><utt uid=2> 
+langage bizarre
+
+Il doit accepter l'utf8 ou la norme iso trucmachin et non l'ascii basique.
+C'est lequel ?
+Vous codez en français par habitude donc. Est-ce que l'un d'entre vous a déjà proposé de passer à l'anglais ? Si oui, penses-tu que ce changement pourrait avoir lieu ?
+</utt><utt uid=3> 
+L'inconvénient, c'est le manque de respect des accents
+
+Ce qui est rigolo, c'est que sans forcément qu'on le sache, un certain nombre d'environnements/langage de développement supportent très bien les caractères accentués sans broncher, y compris dans les noms de variable. C'est le cas de Java par exemple.
+(il faut juste parfois se méfier de l'encodage utilisé, qui peut nécessiter par la suite de changer certains paramètres).
+</utt></s>
+<s><utt uid=1> Au travail : En français, par convention. Personnellement, je n'écrirais que les commentaires et documentation en français, mais j'ai pas le choix de me conformer, alors... tout.
+À la maison : Tout en anglais. 
+</utt><utt uid=2> Donc c est ton entreprise qui te force. C est quel type d entreprise? Quelle taille ? Tu penses à soulever le "problème" un jour ? Ou pas du tout car au final ça te va ?
+</utt><utt uid=1> Gouvernemental. J'ai déjà soulevé le problème (le franglais m'horripile) et ça a été soumis au vote dans l'équipe de développement. Le codage 100 % français a gagné par deux points, alors c'est ça.
+Je dois ajouter que la moitié de mon équipe est incapable de parler anglais couramment, aussi étrange que ça puisse paraître pour une équipe de programmeurs.
+</utt><utt uid=2> Ils font comment pour lire la doc, utiliser stack overflow, faire de la veille décente, suivre les best practices, etc. Tu dois en voir des belles souvent.
+Je ne m'imagine tellement pas faire de la prog sans faire de l'anglais.
+</utt><utt uid=1> Ben… il sont capable de le lire au point de comprendre l'essentiel de la doc, mais ils ont de la difficulté à l'écrire, et encore plus à le parler.
+</utt></s>
+<s><utt uid=1> Quand je code sur un projet perso, c'est en anglais, nom des variables, fonctions et commentaires.  
+Sur un projet pro en équipe, c'est plus varié : nom des fonctions et nom des variables en français (la plupart du temps) et commentaires intégralement en français.
+</utt><utt uid=2> Par exemple les boucles d'update ou les draw vous les traduisez ? Idem pour les getter et les setter ?
+</utt><utt uid=1> Les noms de fonctions simples et courts ne sont pas traduites en général. Mais ça dépend fortement des développeurs dans l'équipe : certains préfèrent donner le nom de rechercher au lieu de search ou get.
+Il n'y a pas de normes de développement fortes, chacun fait un peu ce qu'il veut en essayant de ne pas trop s'écarter de ce qui existe déjà.
+</utt></s>
+<s><utt uid=1> Beaucoup de franglais, notamment parce qu'on n'a pas mis en place avec le métier un lexique métier français-anglais. Du coup les mots du métier sont en français. C'est pas terrible mais on s'y habitue...
+</utt><utt uid=2> Tu comptes faire "évoluer" ca ou au final tu t y es habitué ?
+Si un jour vous réalisez un lexique français anglais, je serai heureux de pouvoir le consulter.
+</utt><utt uid=1> Le lexique est très dépendant du métier, donc du client. Ça nécessite côté métier d'avoir quelqu'un d'un minimum bilingue sinon c'est compliqué.
+Actuellement je ne pense pas qu'on le mettra en place, ne serait-ce que parce que le refactoring a opérer sur l'existant serait énorme et qu'on a d'autres priorités pour améliorer la qualité de nos développements (qui auront des impacts positifs bien plus importants)
+</utt><utt uid=2> C est vrai qu au fond on s en fiche un peu... La réussite du projet est bien plus importante.
+</utt><utt uid=1> On ne s'en fiche pas forcément, un nommage cohérent dans le code d'une application c'est un facteur de qualité parmi d'autres. Par contre ça n'est généralement pas le plus prioritaire.
+</utt></s>
+<s><utt uid=1> Personnellement c'est tout en anglais. Non pas pour le problème du franglais, mais simplement parce que je poste tout ou partie de mes scripts sur http://community.spiceworks.com et cette communauté est anglophone.
+</utt><utt uid=2> Hors SdZ OpenClassroom, il y a des communautés uniquement francophone autour du code ?
+</utt><utt uid=1> Pas faux! 
+</utt><utt uid=3> Il y a des petites communautés sympas, notamment http://progdupeu.pl/ qui a été créée suite au déclin du SdZ, ce dernier ayant perdu énormément de sa communauté (et de son staff) suite à la v4 foirée, au renommage et à l'hyper-commercialisation du site.
+</utt></s>
+<s><utt uid=1> Je pense que la logique est la même que la licence CeCILL, ou l'idée est d'avoir un équivalent à la GPL, mais pour adaptée au droit Français. Comme ils le disent sur leur site, ils sont compatibles avec Creative Commons, et la version Anglaise.
+Je sais pas quelles incompatibilités il y a entre la CC et le droit Français, mais c'est bien d'avoir une licence dont on est sur qu'elle soit valide aux yeux du droit Français.
+</utt><utt uid=2> Cela n'aurait pas été plus simple d'adoubé la MIT ou la licence Apache ?
+Il y a déjà des beaucoups trop de licence à mon gout.
+</utt><utt uid=1> Il faut un truc équivalent à la licence CC, car on parle de documents et de médias, et non de code et de logiciel. Pour autant que je sache, la licence MIT ou Apache s'appliquent uniquement à ce qui est du logiciel.
+</utt><utt uid=2> 
+la licence MIT ou Apache s'appliquent uniquement à ce qui est du logiciel.
+
+Je l'ignorais. Merci.
+</utt></s>
+<s><utt uid=1> Moi aussi, je teste l'audience...
+Dites si ce type d'article, a priori spécifique mais que j'imagine quand même devoir intéresser un peu plus que les développeurs Go, a selon vous sa place ici.
+</utt><utt uid=1> Oui personnellement je suis convaincu qu'il a sa place ici. Je ne suis pas développeur GO mais ça m'amène à m’intéresser à ce langage...
+Dailleurs, je suis ingénieur senior en informatique je travail principalement en C++ et java. Avez vous des sites de références sur le GO, pour apprendre rapidement ses spécificités par rapport a C++ ou java par exemple...
+</utt><utt uid=1> Je vais te trouver ça (en Anglais malheureusement) mais voici déjà quelques caractéristiques en quelques mots :
+
+compilé (avec les avantages et les inconvénients associés)
+très très rapide à l'exécution (un peu moins que C mais bien plus rapide que le java)
+bien plus rapide à la compilation que je crois tout le reste
+garbage collector
+pas de try/catch (mais je vois ça en général comme un atout)
+clair et simple par sa syntaxe et son organisation
+pas mal de bonnes idées syntaxiques et structurelles
+très bonne gestion native des string, array (et slices) et map
+contrairement au java ou au C++, quand on a réussi à compiler on n'a en général pas des bugs latents : ça marche
+librairies modernes et simplissimes (pas forcément évident immédiatement de trouver comment ça marche mais une fois trouvé on code énormément en très peu d'appels)
+mal documenté et très peu de références sur le web
+totalement UTF-8 (faut dire c'est conçu par les inventeurs d'UTF-8)
+philosophie linux. Pas forcément évident pour qui n'a que la culture windows
+toujours en évolution, ce qui signifie qu'il va y avoir encore des gains mais aussi que de temps en temps il faut adapter son programme
+inaccessible pour l'instant aux mauvais programmeurs
+très efficace en réseau
+je n'ai pas trop suivi le développement des GUI mais je ne suis pas certain qu'on ait actuellement une solution trans-plateforme suffisante
+pas totalement objet. Je préfère, mais les jeunes développeurs ne seront pas guidés dans la structure de leur programme (et ne pondront pas des milliers de classes et de couches en trop)
+je ne sais pas si la diffusion d'exe sous windows ou de package sous linux permet facilement de diffuser des applications. Moi je compile sur tous mes postes (en fait, vu que la compil est instantanée, je compile directement dans les scripts de lancement)
+closures disponibles
+pas de generics. Personnellement ça ne me manque pas mais je sais que c'est un sujet de discussion permanent avec trois propositions par semaine sur la mailing-list... 
+philosophie genre Google : simple, pur et sans répétition, à l'opposé de la culture de couches en mille-feuilles à la Apache ou Hibernate
+
+Un truc sympa c'est la fiabilité et la performance. Je suis parti cet été sans crainte en laissant tourner un programme serveur (300 000 requêtes à mon retour pour une communauté de joueurs) parce qu'une fois que c'est compilé, ben ça marche sans surprise, et sans que des try/catch dissimulent la poussière sous le tapis.
+Si jamais tu regardes mes programmes sur github, garde à l'esprit qu'ils ne sont pas forcément dans le style du go car le jour je programme avec d'autres technologies malheureusement...
+</utt><utt uid=1> Super, merci beaucoup pour les caractéristiques, c'est prometteur. Aucun souci pour des sites en anglais !
+</utt></s>
+<s><utt uid=1> Je teste les limites de ce subreddit. :-)  En tout cas, sur /r/programming, ils feraient la tête... 
+</utt><utt uid=2> Je ne sais pas si le subreddit prendra, mais très bon article.
+</utt><utt uid=3> Et pas de problème. D'autant plus qu'un article n'a pas à être consensuel ni même à intéresser toute notre (large) communauté.
+</utt></s>
