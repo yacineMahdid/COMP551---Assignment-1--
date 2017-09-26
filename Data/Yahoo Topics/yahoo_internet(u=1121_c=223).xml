@@ -1,0 +1,2385 @@
+<s><utt uid=1> COMMENT SUPPRIMER UN COMPTE YAHOO?
+</utt><utt uid=2> Discrètement, sinon t'en prends pour 20 piges !
+</utt><utt uid=3> tu peux le supprimer  à la Kalach, le noyer, l'étouffer le pendre,  l'écraser, l'empoisonner, le poignarder etc ....
+</utt><utt uid=4> En n'y allant plus... ou peut-être en allant dans les paramètres.
+</utt><utt uid=5> Pourquoi?
+</utt></s>
+<s><utt uid=1> Comment retrouver le point envoyer après avoir écrit mon mail?
+</utt><utt uid=2> Bonjour merci ?
+</utt><utt uid=3> D'habitude il y a un carré bleu Envoyer. Si tu ne le vois pas essaie de minimiser l'image à l'écran (Ctrl plus -)
+</utt><utt uid=4> Enfin... Il faut lire et chercher ! Sur Yahoo mail c'est en bas dans un rectangle bleu, bien visible. (Sur pc. Sur téléphone je ne sais pas).
+</utt><utt uid=5> la question est incompréhensible !
+</utt><utt uid=6> Combien j'ai de doigts ? Marcher sur la ligne droite SVP monsieur.
+</utt><utt uid=7> Alors là, je donne ma langue au chat ! !
+</utt></s>
+<s><utt uid=1> Recycler vos disques durs et lecteur floppy pour faire de la musique : Le Floppotron?
+</utt><utt uid=2> Le Floppotron est un orchestre composé de 64 lecteurs de disquettes, 8 disques durs et 2 scanners. Le créateur ;  Paweł Zadrożniak est un ingénieur en informatique qui a inventé cette originalité. 
+Le principe est simple (mais demande un sacré bidouillage en électronique) : 
+Les lecteurs Floppy et les scanners utilisent des moteurs pas à pas. Ici, en faisant varier la fréquence des impulsions de commande on va générer des sons. 
+Les deux scanner sont utilisés pour les solos (sons assez aigus). 
+Les 64 lecteurs de disquettes sont eux destinés à la basse et à la rythmique leur fréquence de travail étant plus basse. Quant aux disque durs ce sont leurs actuators (bras de commande des têtes) qui en tapant sur l'axe central sont tutilisés pour la batterie et les percussions. 
+
+Ecoutez, ceux qui ne connaissent pas le Floppotron seront étonnés ! 
+
+(par manque de place dans la question je donnerai les détails technique en réponse) 
+Et à présent mister Paweł Zadrożniak, je vous laisse nous faire entendre The Final Countdown ! 
+
+https://youtu.be/G-X-p0C0Uas
+</utt><utt uid=3> Vous appelez ça de la musique ?  
+Au mieux c'est du bruit.....
+</utt><utt uid=4> Boff c'est nul.
+</utt><utt uid=5> Détails technique sur le fonctionnement du Floppotron : 
+Les lecteurs de disquettes sont connectés par groupes de 8 à un contrôleur 8-canaux construit sur un microcontrôleur ATMega16. Chaque contrôleur correspond à une voix avec son enveloppe. Ca permet de faire des enveloppes genre ADSR et de simuler des instruments de musique comme un piano(decay exponentiel) ou des cordes(sinus, « vibrato »).  
+
+Un connecteur ISP lie par 8 les lecteurs de disquettes dans une chaine SPI. Les longues chaines SPI en communication unidirectionnelle ne sont pas un exemple de bonne conception, mais ça évite d’avoir à faire des modifications matérielles. 
+
+Les scanners et contrôleurs de têtes de lecture des disques durs partagent la même base avec les lecteurs de disquettes, mais ils ont une « interface-instrument » différente. Pour diriger les bobines des actuators de disque dur, 2 sorties en étage push-pull construites avec des SMD MOSFET pour chaque unité disque. 
+
+Les contrôleurs des moteurs des scanners ont été faits avec une carte Arduino Uno et un L298 pour gagner du temps nécessaire pour dessiner et graver les cartes. 
+L’interface PC(une autre carte Arduino) reçoit les données via la liaison USB-UART, stocke les messages et garde les timings pendant que les paquets de données parviennent aux « instruments de musique » via le port SPI, de manière à ce qu’une interruption de Windows n’interrompe pas la lecture de la musique. Ça pourrait aussi bien être contrôlé via un Rapsberry, un smartphone(avec un adaptateur UART-Blueetooth) ou n’importe quel autre microcontrôleur. 
+L’application qui gère le tout est écrit en Python 2.7. Le programme traduit un langage simple utilisé pour écrire des séquences de notes arrangées en pistes liées à un contrôleur/canal spécifique et fusionne ses pistes parallèles dans une liste de commande qui est transférée via le port COM virtuel qui pilote le port USB et pousse les données dans la liaison USB-UART. Il peut aussi – partiellement – générer des « song script » (fichier de musique) à partir de fichiers MIDI, ce qui accélère le processus de « portage de chanson ». 
+
+Lien vers le site officiel de Paweł Zadrożniak. 
+certains articles sont en polonais et d'autres (chance !) En anglais. 
+http://silent.org.pl/home/2016/07/06/ret... 
+
+Lexique technique pour les habitués : 
+ADSR : Attack – Decay – Sustain – Release. Un modèle simple pour faire une enveloppe de note, c-a-d une note avec un début et un fin. 
+
+ISP : In System Programming, ou programmation in-situ, permet de reprogrammer un système sans changer le matériel utilisé. 
+
+ Liaison SPI : Serial Peripheral Interface, est bus de données full duplex(il marche dans les deux sens). 
+
+Port COM : ou Port Série permet la communication entre un microcontrôleur(p.e. carte Arduino) et un ordi. 
+---------------------------------------... 
+
+Une autre musique jouée en Floppotron : 
+Stayin' Alive (Bee Gees) : 
+https://youtu.be/lRdKD5ETXow
+</utt><utt uid=6> Ah bé voilà, une belle prouesse artistique. Au moins ça change un peu des niaiseries de la bande FM.
+</utt></s>
+<s><utt uid=1> Comment changer le mot de passe?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> Donne on compte je le fais
+</utt><utt uid=4> Voir dans les paramètres.
+</utt><utt uid=5> et c'est repartiiii !! QUESTION POSEE 7000 fois !!!! 
+
+https://fr.answers.search.yahoo.com/sear...
+</utt></s>
+<s><utt uid=1> L'application Yahoo de mon téléphone android a été supprimé. Je ne recois donc plus la clé d'activation pour me connecter. comment faire?
+</utt><utt uid=2> Aide pour l'application Yahoo Mail sur Android 
+►https://fr.aide.yahoo.com/kb/mail-app-fo...
+</utt><utt uid=3> Lorsque je l'ai reinstallé il faut me connecter avec cette clé de compte que je ne peux plus recevoir!!! et je suis également déconnecté de mon ordinateur. Et de plus ce qui m'énerve encore plus c'est que mon mail de récupération s'est une adresse voila.fr qui n'existe plus... 
+Pourtant j'ai toujours mon mot de passe qu'on me demande jamais!!!
+</utt><utt uid=4> jeter tes trucs andromachin, et prendre un tel à 30 balles, comme ça plus emmerdé.
+</utt><utt uid=5> Tu la télécharges à nouveau et ton mail Yahoo fonctionnera comme avant.
+</utt></s>
+<s><utt uid=1> Comment fait-on pour " créer un dossier" ?
+merci?
+</utt><utt uid=2> Créer et gérer des dossiers dans Yahoo Mail 
+►https://fr.aide.yahoo.com/kb/mail-for-de...
+</utt><utt uid=3> Cliquer sur "Dossiers" !
+</utt><utt uid=4> https://cours-informatique-gratuit.fr/co... 
+
+Tu y trouveras sans doute d'autres infos nécessaires...
+</utt><utt uid=5> La question que tu devrais d'abord te poser, c'est comment fait-on pour se lancer dans l'informatique sans prendre un minimum de cours pour comprendre le B.A-ba sans avoir à TOUJOURS demander de l'aide pour des choses simplissimes comme la création d'un dossier ?...pffft
+</utt></s>
+<s><utt uid=1> Création compte j.bisotto. Comment procéder?
+</utt><utt uid=2> Quel est ton mot de passe ? 
+
+Qu'on initialise .
+</utt><utt uid=3> Comme pour le premier !
+</utt><utt uid=4> https://fr.aide.yahoo.com/kb/Cr%C3%A9er-...
+</utt><utt uid=5> Pas malin de mettre le nom ici...  Il y a déjà sûrement une volée de plaisantins qui ont essayé de créer ce compte.... 
+Oubliez. Et soyez moins bavard.
+</utt><utt uid=6> persévères
+</utt></s>
+<s><utt uid=1> Bonjour
+peut on changer son mot de passe
+merci?
+</utt><utt uid=2> Facile  
+https://fr.aide.yahoo.com/kb/account/Changer-votre-mot-de-passe-Yahoo-ou-r%C3%A9initialiser-un-mot-de-passe-oubli%C3%A9-sln27051.html
+</utt><utt uid=3> mieux vaut changer d'adresse  de tout en fin de compte!
+</utt><utt uid=4> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=5> Oui ! !
+</utt><utt uid=6> Oui
+</utt><utt uid=7> oui bien sûr , dans tes paramètres de sécurité .
+</utt></s>
+<s><utt uid=1> Impossible ouvrier mails !!!?
+</utt><utt uid=2> ouvrier mails c'est quoi ?
+</utt><utt uid=3> C'est peut-être un bug.
+</utt><utt uid=4> prend un pied de biche
+</utt><utt uid=5> ouvrir
+</utt><utt uid=6> lol
+</utt></s>
+<s><utt uid=1> Ma sessio est expire comment je peux résoudre ce problème pour que je peuvent lire mes e mail?
+</utt><utt uid=2> Ce message s’affiche si vous êtes connecté à Yahoo Mail depuis plus de huit heures. Il s’agit d’une mesure de sécurité : Yahoo affiche ce message exigeant une nouvelle connexion à Yahoo Mail en particulier à l’intention des personnes qui utilisent un ordinateur partagé ou un ordinateur public (par exemple dans un cybercafé ou une médiathèque).
+</utt><utt uid=3> Fait un clique, ou rafraîchie la page.
+</utt><utt uid=4> Brancher d'abord l'ordinateur !
+</utt><utt uid=5> lui faire du bouche à bouche
+</utt><utt uid=6> session expirée
+</utt></s>
+<s><utt uid=1> J;ai crée mon compte yahoo en anglais ,je veut là remetrre en français?
+</utt><utt uid=2> Les services Yahoo mettent à jour votre position dès que l’appareil que vous utilisez se déplace. La fonctionnalité d’ajout ou de sélection manuelles des positions est désactivée temporairement pendant le développement d’améliorations.  
+
+Si votre position ne se met pas à jour automatiquement - Vérifiez que la fonctionnalité de position du navigateur , de l’application ou de l’appareil mobile que vous utilisez est activée.
+</utt><utt uid=3> Colonne de gauche, complètement en bas,  
+clique sur International, puis sur le drapeau français.
+</utt><utt uid=4> voir dans les propriétés.
+</utt><utt uid=5> impossible,il faut etre ressortissant français pour ça.tu as voté pour le brexit,il faut assumer
+</utt><utt uid=6> veux
+</utt></s>
+<s><utt uid=1> Comment retourner a l'ancienne version de yahoo amil?
+</utt><utt uid=2> Seul Dieu en décide .
+</utt><utt uid=3> Maya tu nous fout les abeilles à force ! 
+
+On a déjà dit 100 fois que c'était non, non ET NON !
+</utt><utt uid=4> Mission impossible !
+</utt><utt uid=5> moi je voudrais gagner 8000€/mois !
+</utt><utt uid=6> Ce n'est + possible  ! !
+</utt><utt uid=7> Je ne sais pas
+</utt></s>
+<s><utt uid=1> Mes mails YAHOO! ne partent pas depuis mon telephone?
+</utt><utt uid=2> C'est peut-être un bug.
+</utt><utt uid=3> Tu m'en vois réellement désolé !
+</utt><utt uid=4> Blocage?
+</utt><utt uid=5> Téléphone leurs
+</utt><utt uid=6> https://be.aide.yahoo.com/kb/SLN14699.ht...
+</utt></s>
+<s><utt uid=1> Sur Facebook, comment "supprimer un ami"?
+</utt><utt uid=2> tu peux pas le supprimer, mais tu peux le bloquer, vas à paramètres et tu descends à blocage. Tu le verras plus et il ne te verras plus !!
+</utt><utt uid=3> Pas plus simple tu te rend sur son profil ou survole son nom et prénom puis décocher, retirer de la liste d'amis ou il y a amis avec le signe ok, tu clique et choisis de le retirer !
+</utt><utt uid=4> clique sur tes amis, ensuite passe ton curseur sur "amis" de la personne concernée, menu déroulant : supprimer de la liste d'amis.
+</utt><utt uid=5> Un 365 Magnum devrait faire l'affaire.
+</utt><utt uid=6> Je ne sais pas
+</utt></s>
+<s><utt uid=1> Pourquoi n'ai je pas une version française de mon courriel Yahoo?
+</utt><utt uid=2> Voir dans les paramètres.
+</utt><utt uid=3> Par ce que tu n'a pas désigné la France comme location favorite en Infos compte.
+</utt><utt uid=4> I don't speak French !!
+</utt><utt uid=5> yahoo.fr
+</utt></s>
+<s><utt uid=1> Comment revenir a l'ancienne version?
+</utt><utt uid=2> Facile.
+</utt><utt uid=3> Mission impossible !
+</utt><utt uid=4> Impossible
+</utt><utt uid=5> Impossible  ! !
+</utt><utt uid=6> En claquant des doigts
+</utt><utt uid=7> l'ancienne version de quoi?
+</utt></s>
+<s><utt uid=1> Bonjour
+ma boite mail a été piratée. que dois je faire,?
+</utt><utt uid=2> Change de mot de passe.
+</utt><utt uid=3> Changer le mot de passe
+</utt><utt uid=4> Changer pour netcourrier ou GMail.
+</utt><utt uid=5> Change ton Mp, et change aussi tout les comptes qui utilisent le même login et mot de passe. 
+
+Bah oui parce que le 1er truc que va faire un pirate c'est essayé cette combinaison sur plein de site.
+</utt><utt uid=6> Récupère ton compte à l'aide de la question de récuparation de compte et change de mot de passe (un solide) 
+
+
+à l'abordaaaaaaaaaaaaaage !
+</utt><utt uid=7> Bien qu'étant moi-même un pirate je te jure que c'est pas moi !
+</utt></s>
+<s><utt uid=1> Agrandir police caracteres?
+</utt><utt uid=2> Non
+</utt><utt uid=3> l'icone outils (Alt + x) en haut à droite puis zoom
+</utt><utt uid=4> Pour écrire clique sur Tt en bas de la page de rédaction. 
+Pour lire Ctrl plus + (minus pour le contraire)
+</utt><utt uid=5> Cliquer sur Zoom
+</utt></s>
+<s><utt uid=1> Creer un compte yahoo?
+</utt><utt uid=2> Tu viens de le créer banane.
+</utt><utt uid=3> ben t'en as un a priori !!
+</utt><utt uid=4> oui
+</utt><utt uid=5> Courage ! Presque !
+</utt><utt uid=6> C'est possible !
+</utt><utt uid=7> c'est bien  continues comme ça..
+</utt></s>
+<s><utt uid=1> Bonjour, mon mari n'arrive pas se connecter à son compte car il a changé de téléphone. pouvez vous nous aider svp ?
+</utt><utt uid=2> Donne nous aussi son mot de passe..lol
+</utt><utt uid=3> Quand vous changez le numéro de téléphone ou l'adresse secondaire, vous devez l'ajoutez (signaler) dans Paramètres, Compte. Nous ne pouvons pas vous aider, ni Yahoo.
+</utt><utt uid=4> son compte est pascalmadier@yahoo.com
+</utt><utt uid=5> Il faut demander à la voisine !
+</utt><utt uid=6> Je sais pas comment ton Mari reste avec une non débrouillarde Comme Toi
+</utt></s>
+<s><utt uid=1> Bonjour, on a piraté ma boite mail Yahoo et mon compte est en arabe. Je ne lis pas l'arabe et je veux changer la langue. comment faire ?
+</utt><utt uid=2> saloperies d'arabes hein ! ils reculent devant rien ces chacals !
+</utt><utt uid=3> même quand je me connecte sur Yahoo France mon compte s'affiche en arabe
+</utt><utt uid=4> Allez sur yahoo France ! !
+</utt><utt uid=5> Tourne la de coté
+</utt></s>
+<s><utt uid=1> Bonjour,je n'arrive plus à envoyer de mail?
+</utt><utt uid=2> C'est ballot
+</utt><utt uid=3> Voir dans Paramètres.
+</utt><utt uid=4> embouteillage; bas débit
+</utt><utt uid=5> Blocage?
+</utt></s>
+<s><utt uid=1> Bonjour, je souhaite une seconde adresse mail Yahoo. Comment faire ?
+Merci?
+</utt><utt uid=2> Adresses jetables dans Yahoo Mail 
+Les adresses mail jetables agissent comme un alias pour votre adresse mail réelle et permettent de bénéficier d’une plus grande confidentialité et d’un meilleur contrôle des spams. Elles se composent du nom de base et de mots de passe (jusqu’à 500) qui sont joints au nom de base. 
+Lire la suite►https://fr.aide.yahoo.com/kb/mail-for-de...
+</utt><utt uid=3> Booon... Je ne sais pas ce que tu veux exactement. 
+Moi j'en ai au moins 3... Ce sont des adresses "jetables" rattachées au compte principal. Mais ceux à qui je la donne ne savent pas qui je suis !!  
+Par exemple : je ne veux pas donner mon adresse mail à youtube. le mot "racine" (celui qui commencera toutes mes adresses jetables) séparé de - puis mon pseudo chez youtube suivi de @yahoo.com ou fr selon...  
+Ce qui donne, par exemple : framboise-jupiter @yahoo.com ou fr...  
+Tu trouveras tout ça expliqué dans aide de la boite mail en cliquant sur ton pseudo de la boite mail. (ajouter un compte) sur PC.
+</utt><utt uid=4> https://fr.aide.yahoo.com/kb/Cr%C3%A9er-...
+</utt><utt uid=5> Voir dans Aide en haut à droite.
+</utt></s>
+<s><utt uid=1> J'aime avoir des parametres Yahoo meilleurs?
+</utt><utt uid=2> Bonjour merci ?
+</utt><utt uid=3> Ça s'appelle avoir de la volonté.
+</utt><utt uid=4> j'aime croire au Père Noël !
+</utt><utt uid=5> À prendre ou à laisser  ! !
+</utt></s>
+<s><utt uid=1> Des sites internet pour lire des articles très intéressant ?
+</utt><utt uid=2> http://www.jovanovic.com/blog.htm
+</utt><utt uid=3> On trouve tout ça sur le net.   
+http://www.psychologies.com/
+</utt><utt uid=4> C'est plus intéressant de lire des magazines.
+</utt><utt uid=5> www.http/bougetonculfainiant.org
+</utt><utt uid=6> wikipédia
+</utt></s>
+<s><utt uid=1> Comment recevoir confirmation de lecture d'un mail?
+</utt><utt uid=2> Pas possible sur yahoo. Possible sur Gmail
+</utt><utt uid=3> Avec yahoo il n'y en a pas.
+</utt><utt uid=4> Yahoo ne le fait pas demande une reponse à ton destinataire.
+</utt><utt uid=5> En cliquant sur accusé de réception.
+</utt></s>
+<s><utt uid=1> Puis je modifier le nom de mon compte supplémentaire yahoo pour plus de sécurité?
+</utt><utt uid=2> Oui
+</utt><utt uid=3> Facile  
+https://fr.aide.yahoo.com/kb/account/Changer-votre-mot-de-passe-Yahoo-ou-r%C3%A9initialiser-un-mot-de-passe-oubli%C3%A9-sln27051.html
+</utt><utt uid=4> bien sur .
+</utt><utt uid=5> Voir dans les paramètres.
+</utt></s>
+<s><utt uid=1> Torrent9.biz ne repond plus et quant j essai de telecharger un torrent un avertissement surgi et arrete la suite comment faire?
+</utt><utt uid=2> Il m'a fait ça. Visiblement, ils ont déménagé au Pérou. Moi Firefox me dit que le site est "dangereux", mais on peut cliquer sur une option "j'y vais quand même", et après, tout va bien... 
+
+http://www.torrent9.pe/torrents_films.ht... 
+
+(mais j'ai un VPN)
+</utt><utt uid=3> Bonsoir. Le site est accessible en remplaçant .biz par .tv 
+Bon visionnage de contenu !
+</utt><utt uid=4> Bonjour ?
+</utt><utt uid=5> j ai un pote qui a reçu un message hadopi hier pour téléchargement d un film
+</utt><utt uid=6> Blocage?
+</utt></s>
+<s><utt uid=1> COMMENT CHANGER LE MOT DE PASSE?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> https://be.aide.yahoo.com/kb/account/Cha...
+</utt><utt uid=4> Facile 
+https://fr.aide.yahoo.com/kb/account/Changer-votre-mot-de-passe-Yahoo-ou-r%C3%A9initialiser-un-mot-de-passe-oubli%C3%A9-sln27051.html
+</utt><utt uid=5> Voir dans les paramètres.
+</utt></s>
+<s><utt uid=1> Quelle est la version de Windows la plus stable ?
+</utt><utt uid=2> Windows est stable depuis w7  ( j'ai encore un PC de 5ans sous w7 pro qui n'a pas eu besoin de réinstallation) et ceux de mon établissement ne posent pas de problème de ce genre. 
+J'avais des doutes au début mais en fait je n'ai pas de souci de stabilité avec w10 non plus.  
+Par contre avec XP,Vista et 8 c'était autre chose.
+</utt><utt uid=3> Windows 7
+</utt><utt uid=4> et hanouna , le windows 10 creators udapte , il faut l'installer sur windows udapte (mise à jour automatique) !
+</utt><utt uid=5> 10
+</utt><utt uid=6> La plus récente et comparativement adaptée au hardware dudit ordinateur
+</utt><utt uid=7> la 10 puisqu'elle verrouille toutes les innovations brisant le monopole de Microsoft. 
+- elle a été gratuite 
+- le nombre de demande de dépannage a fortement diminué 
+
+.
+</utt><utt uid=8> our le grand bonheur des utilisateurs, Microsoft vient de rendre disponible en téléchargement depuis son site la version finale du Creators Update pour Windows 10 dont la sortie officielle serait prévue pour le 11 avril prochain. En effet, les utilisateurs ont actuellement la possibilité de télécharger un utilitaire de très petite taille (5,5 Mo) qui leur permettra de procéder à l'installation de ladite version stable du Creators Update encore appelé Windows 10 version 1703. 
+
+La libération anticipée du Creators Update de Windows 10 n'est pas une première chez Microsoft, car rappelons-le, l'année dernière la firme de Redmond avait également mis à la disposition des utilisateurs un petit outil dont l'objectif était de permettre à ces derniers d'activer manuellement le téléchargement et l’installation de la mise à jour majeure de Windows 10 dénommée Anniversary Update. 
+
+D'après les informations recueillies, le géant du logiciel fait référence à la dernière build 15063 de Windows 10 pour désigner sa version stable ou Release to Manufacturing (RTM). Cette affirmation s'explique par le fait que les fichiers ISO de cette dernière (pour PC 32 bits et 64 bits) ont été localisés dans les serveurs de Microsoft. 
+
+En comparaison avec l'outil de mise à niveau de l'Anniversary Update, il convient de noter que la particularité du tout nouvel utilitaire de mise à jour vers la version stable du Creators Update résulte du fait qu'il procède d'abord à la vérification de la compatibilité de votre ordinateur avant de poursuivre le processus d'installation. Une fois que la vérification est faite avec succès, l'utilisateur reçoit un message lui notifiant que son PC est compatible et que le démarrage de Windows 10 va se faire incessamment.
+</utt></s>
+<s><utt uid=1> Bonjour à tous ! j'ai des problèmes pour la navigation de q/r lorsque j'ouvre le site pour lire les réponses je vois deux trois réponses?
+</utt><utt uid=2> Essaie avec un autre navigateur : il est préconisé d'en avoir au moins deux 
+Google chrome : https://www.google.fr/chrome/browser/desktop/index.html 
+Mozilla firefox : https://www.mozilla.org/fr/firefox/new/ 
+ou ta machine se fait vieille ou est trop encombrée.
+</utt><utt uid=3> J' ai eu le même souci d' ou ma question ! 
+https://fr.answers.yahoo.com/question/in...
+</utt><utt uid=4> Bonjour, 
+Essais d'actualiser la page en appuyant une fois sur la touche f5 du clavier. 
+Note: il y a beaucoup de bugs sur Yahoo. 
+
+Bonne chance.
+</utt><utt uid=5> Ne te plains pas; je n'en vois qu'une seule. Change de navigateur !
+</utt></s>
+<s><utt uid=1> Je veux yahoo.ca impossible de me connecter comment detruire yahoo france?
+</utt><utt uid=2> Voir dans les propriétés.
+</utt><utt uid=3> Tous ce qui parlent français se trouve ensemble.
+</utt><utt uid=4> Détruire ! Tu exagères, non ?
+</utt><utt uid=5> Détruire ? espèce de terroriste va ! 
+
+En bas, à gauche, tu cliques sur international et puis sur le drapeau du Canada. 
+
+Sinon ici https://ca.answers.yahoo.com/
+</utt></s>
+<s><utt uid=1> Pourquoi yahoo QUEBEC j'habite en france?
+</utt><utt uid=2> Pourquoi venir t'étonner ? 
+
+Pourquoi tu te connectes à : https://qc.yahoo.com/ 
+
+Au lieu de le faire à : https://fr.yahoo.com/
+</utt><utt uid=3> Aurais-tu récemment déménagé du Québec en France peu après avoir créé ton compte Yahoo?
+</utt><utt uid=4> Pourquoi yahoo QUEBEC j'habite en france? America will be last country to switch to Euro (antichrist's world currency). Contraceptives = abortion; using contraceptives for 1 year = 5 aborted kids. Unbaptized aborted/miscarried/unborn babies burn in hell for 33 and a half years; if pregnant, keep the kid and deliver at home because kids are chipped using ivs and vaccines in hospitals. Dentists and doctors chip patients secretly. Ultrasound leads to mark of the beast; don't do ultrasound, please. Abortion leads to breast cancer; a demon is released from hell for each aborted kid. Dogs can become possessed; don't keep dogs inside you home [Pelageya of Ryazan]. Walmart has technology to administer mark of the beast to those who have cat bacteria in their stomachs; stay away from cats [Afanasiy Sidyachiy]. Next false flag is the Statue of Liberty. Earth is flat; stands on 3 pillars (the Most Holy Trinity); pillars stand on water at zero Kelvin. Zodiac is planetary prison of demons; don't believe in horoscopes or you'll exhibit the traits of the trapped demons. Most thoughts and dreams are from demons; demons never do good. Sleep fully clothed; pray the Jesus prayer. Pray to your guardian angel to have normal sleep. Vyacheslav Krasheninnikov was the last prophet before Enoch and Elijah return to preach against the antichrist. Humans were created about 7525 years ago. 
+
+Birds participate in time creation. It's a sin to kill birds. Dinosaurs live under our level; they will get out through sinkholes and lakes; to kill them, go for their nerves. Save the birds; but kill the dinosaurs. First dinosaur will come out of Volga River in Russia. Demons grow human skin (from a sample taken during abduction) and put it on so as to look like us. Demons will invite people to be healed inside their UFOs; those who go will be like zombies after. Gov't provides demons with diamonds and allows demons to abduct people. If you're being abducted, slowly pray the Jesus prayer. 
+
+Don't panic. Demons use diamonds and souls to power their UFO craft. The bigger the diamond, the more it lasts. Demons have 4 UFO bases: 1)moon 2)inside fake mountain Kailash in Tibet 3)in lake Baikal in Russia 4)in Atlantis which is underneath the Mariana Trench in Pacific Ocean. There are no aliens. Nobody lives on other planets. Airplanes that go down are hit by demons because they need the airspace to fight Jesus. Antichrist is pale with red eyes. He's possessed by Satan since he's 12 years old. He flies. He wears gloves to hide long nails. He's surrounded by demons who appear as angels of light. 
+
+Don't go into a UFO to be healed by demons. Green 666 is given by isotope rays on wrist or forehead when people stretch hands to receive small plastic grey card with no name on it (World Passport). Police will microchip and isotope ray people on highways. Chipped people will be influenced by computers to take grey plastic card; but when they do, green mark by isotope rays is given on forehead/wrist. Food stores will isotope ray people too. Antichrist will also release prisoners to mark people. Reject 666 at all cost because it leads to permanent hell. If you're about to be marked, pray the Jesus prayer. Hide with Orthodox Christians to escape 666; leave all electronics behind so that antichrist's minions can't track you; burn documents because they're from Satan. Give to charity in the name of Archangel Michael; he rescues people from temporary hell twice a year (or brings them up a level, that is, to a level with less punishment; eventually, people are freed). Feed the pigeons; when pigeons bow down, people are saved from temporary hell. Forgive me.
+</utt><utt uid=5> Infos compte, Préférences, Ajouter un emplacement favori (France)
+</utt><utt uid=6> C'est un bug de plus ! ! !
+</utt></s>
+<s><utt uid=1> Pourquoi n'y a t il plus de yachts basés dans les ports français?
+</utt><utt uid=2> en même temps on s en bat les couilles , on a pas de yacht, même pas une barque  en plastique , juste une bassine et la baignoire en fibre de verre
+</utt><utt uid=3> A cause des taxes
+</utt><utt uid=4> Les "anneaux" sont plus chers. Les bateaux fichent le camp à Gènes ou à Barcelone.
+</utt><utt uid=5> ya plus de yach, mais ya du boeuf et du porc
+</utt><utt uid=6> Regarde dans ton PC
+</utt><utt uid=7> tu connais st raphaël ou antibes?
+</utt><utt uid=8> y avait que ça a st martin et st barth.......
+</utt><utt uid=9> mais si
+</utt><utt uid=10> Même pas à saint-Tropez ?
+</utt></s>
+<s><utt uid=1> Comment faire pour supprimer des photos envoyées svp?
+</utt><utt uid=2> Une fois envoyé, c'est pour de bon ! !
+</utt><utt uid=3> C'est trop tard !
+</utt><utt uid=4> cool tes photos en petite tenue !
+</utt><utt uid=5> Trop tard.  Il faut réfléchir avant d'envoyer.
+</utt></s>
+<s><utt uid=1> JE VEUX QUE MA PAGE D'ACCUEIL SOIT EN FRANCAIS?
+</utt><utt uid=2> . 
+https://www.youtube.com/watch?v=Tm88QAI8...
+</utt><utt uid=3> Dommage !
+</utt><utt uid=4> oui
+</utt><utt uid=5> Pourquoi tu gueules?
+</utt><utt uid=6> "Je veux..." 
+
+On n'est pas tes esclaves ! 
+Demandes plus poliment.
+</utt><utt uid=7> installe un nouveau navigateur google chrome
+</utt></s>
+<s><utt uid=1> Par où accéder au flux rss de ma messagerie yahoo ?
+</utt><utt uid=2> Pas possible, ça ne fonctionne plus.
+</utt><utt uid=3> Mission impossible... changer pour netcourrier ou GMail.
+</utt><utt uid=4> Merci mais dans le site indiqué est écrit :ATTENTION : A notre grande déception, la fonction d’affichage des fils RSS dans Yahoo Mail a disparu. Consultez nos autres astuces Yahoo Mail. Vraisemblablement il n'est plus possible, le 15/9/17, de récupérer les flux rss sur messagerie yahou
+</utt><utt uid=5> Toute la procédure est décrite sur ce site : https://www.arobase.org/yahoo-mail/affic...
+</utt></s>
+<s><utt uid=1> Revenir à l'ancienne version yahoo?
+</utt><utt uid=2> Non, non...ET NON on vous a déjà dit ! 
+
+♫ Prosper yop la boum c'est le chéri de ces dames, Prosper yop la boum 
+c'est le roi du macadam ♪♫
+</utt><utt uid=3> Impossible hélas
+</utt><utt uid=4> Dans vos rêves, c'est possible  ! !
+</utt><utt uid=5> pas possible !
+</utt><utt uid=6> Comment?
+</utt></s>
+<s><utt uid=1> Comment faire pour que l'ouverture d'un lien résultant d'une recherche Google s'ouvre dans un nouvel onglet pas le même en évitant le clic?
+</utt><utt uid=2> ça dépend du navigateur. 
+Dans les navigateurs basés sur Mozilla (e.g. Firefox, Pale Moon,...) 
+Dans Firefox aller dans les options > général 
+à la ligne Tab (onglet) : 
+cocher : 
+Open a new window in a new tab instead. 
+(Ouvrir une nouvel fenêtre dans un onglet plutôt que dans une fenêtre). 
+
+cocher : 
+When you open a link in a new tab, switch to it immédiately. 
+(Quand vous ouvrez un lien dans un menu contextuel, basculer vers lui tout de suite). 
+
+Ou cas de Pale Moon par exemple, aller dans options et menu Tabs 
+on retrouve les mêmes options. 
+
+Dans le cas d'utilisation du champ du moteur de recherche (dans le haut de la barre d'outils) 
+choisir clic droit : Paste & Search (coller et ouvrir). 
+Si on choisit Paste seulement cela s'ouvre à la place de l'onglet courant et donc efface son contenu. 
+
+Dans les navigateurs de type Chrome (que je déteste). 
+Je crois bien que l'option n'existe pas par défaut. En clair ça bascule dans un nouvel onglet mais ça l'affiche pas automatiquement, il faut ensuite aller ouvrir l'onglet. 
+(C'est vraiment con...). Après peut être que un Add On permet de le faire mais là je sais pas. 
+
+De manière générale, si on a coché  
+"When you open a link in a new tab, switch to it immédiately" 
+et que l'on sélectionne du texte dans une page puis on fait "Search for" (Rechercher). 
+La recherche Google va s'effectuer automatiquement dans un nouvel onglet et l'onglet s'affiche automatiquement (pour Firefox, pas Chrome). 
+
+quel navigateur tu utilises ? 
+
+@ Grinta19 : Salut mon cher ! Ben comme toi j'utilise Comodo comme AV. c'est un très bon AV, très efficace et qui a le mérite de pas faire chier tous les jours avec des promotions et des pubs pour acheter des options. De plus il intègre un Firewall intelligent (option mode apprentissage). Ainsi que une Sand box ! Et le tout est gratuit ! 
+Pour rappel la Sand Box est un environnement virtuel qui permet de tester une application tout en l'isolant du système et ainsi l'empécher de contaminer l'OS si elle possède un virus. 
+Bref Comodo c'est génial et pas un seul autre AV gratuit offre les mêmes options. 
+Enfin, oui Comodo installe une version un peu particulière d'un navigateur basé sur Chrome. 
+En fait c'est un navigateur assez stricte et restrictif qui ainsi offre une protection contre des vacheries que peuvent balancer certains sites ou pages web. 
+Revers de la médaille certains site ne fonctionne pas dessus à cause des restrictions de ce navigateur. 
+
+Et pour ce qui est de la possibilité de basculer dans un nouvel onglet ben que dalle en effet puisque c'est basé sur du Chrome et que ces cons de Google n'ont pas implémenté cette fonction de basculent automatique pourtant très pratique. 
+Résultat je n'utilise pas le navigateur de Comodo par défaut. Je préfère largement utiliser Pale Moon qui est très rapide et très peu consommateur de mémoire. 
+(On en avait discuté il ya qq mois ensemble si je me souviens bien).
+</utt><utt uid=3> Tout dépend du navigateur. En ce moment, j'utilise Comodo Dragon basé sur Chrome et la barre de navigation est la même que celle de recherche, c'est un peu le bordel et j'ai pas trouvé l'extension qu'il faut.
+</utt><utt uid=4> Tout en haut de l'écran, clique sur + (extrême droite), ça ouvre un nouvel onglet, une nouvelle page vierge. Avant ou après ouverture de la nouvelle page, tu peux écrire les mots-clés dans la fenêtre de recherche.
+</utt><utt uid=5> Régler dans les paramètres du navigateur.
+</utt><utt uid=6> Mdr, vous avez une solution, sans doute la solution, mais c'est encore trop contraignant, juste un clic.
+</utt></s>
+<s><utt uid=1> Tablette tactile?
+</utt><utt uid=2> Mais j'ai une tablette tactile. Elle est dans le placard. C'est quand même beaucoup moins pratique qu'un clavier et une souris !  Biensûr si on se contente de regarder des films...
+</utt><utt uid=3> La tablette est loin de pouvoir remplacer un pc, 
+par contre tout ce que je ferai avec une tablette tactile, je peut le faire avec mon smartphone, seul l'écran est plus petit.
+</utt><utt uid=4> non
+</utt><utt uid=5> j'ai les 2 mais je préfère mon PC plus confortable. Elle me sert quand je pars plusieurs jours.
+</utt></s>
+<s><utt uid=1> Comment revenir à la version précédente en français, je n'aime pas la nouvelle version Merci?
+</utt><utt uid=2> Voici comment revenir à la version précédente de Yahoo Mail. 
+    Cliquez sur l’icône Paramètres  
+    Cliquez sur Passer à la messagerie classique.(en bas)
+</utt><utt uid=3> Mission impossible !
+</utt><utt uid=4> Moi non plus , mais hélas ce n'est pas nous qui décidons .....😉😛😜
+</utt><utt uid=5> yahoo.fr
+</utt></s>
+<s><utt uid=1> Comment régler la mémoire virtuelle de mon PC car il est lent au démarrage ? (voir capture)?
+</utt><utt uid=2> --- NOUVEL AJOUT SUITE A TES INFOS --- 
+Beau travail ! 
+Bon alors c'est bien 16 Go de RAM physique, ce qui explique que la VM est à 32 Go. 
+Par défaut il est courant que la VM fasse le double de la valeur RAM. 
+Donc tout est normal de ce coté là. 
+
+Par contre les valeurs physiques des unités de disque ne correspondent pas du tout à ce que tu m'avais annoncé dans ta question sur le foutoir au démarrage ! 
+Là je vois : 
+un disque dur ST1000LM048-2E7172 
+D'une capacité totale de 931 Go 
+Divisé en deux partitions : 
+Lecteur C: 931,17 Go 
+Lecteur D: 350,00 Mo 
+Bus physique SCSI 1  
+
+Et un second disque : SanDisk USB Device 
+Capacité totale 29,81 Go 
+Une seule partition de 29,82 Go  
+(normal que les deux valeurs soient contradictoires, en octets la partition est plus petite que la taille totale, donc c'est bon) 
+qui, je suppose doit être vu comme Lecteur M: (disque amovible). 
+Bus physique SCSI 0 
+
+Il n'y a pas de disque dur de 3 To dans cette histoire ! 
+
+Par ailleurs Windows 8.1 est bien sur le volume C:/ 
+et la VM (mémoire virtuelle) sur C:\pagefile.sys. Donc le même disque. 
+Le volume D:/ est réservé au système  
+(celui qui devrait être caché vu que on doit pas l'utiliser, seul le système en a le droit) 
+
+Hormis le fait que je ne vois pas de disque de 3 To rien n'est anormal. 
+(sauf ce volume D: qui devrait être caché, mais c'est pas ça qui ralentit la machine évidemment) 
+
+Le rapport système fait état à la fin d'une multitude d'anomalies, certaines sont habituelles d'autres peut être pas mais là ça demande des heures pour éplucher toutes les lignes (il y en a des centaines (lol). 
+
+J'ai par ailleurs vérifié les infos à propos du disque dur ST1000LM048-2E7172 
+C'est bien un disque de 931.5 GB. Un Seagate BarraCuda ayant de bonnes performances et un cache disque de 128 Mo. Bref un très bon disque dur. 
+
+D'où ma question : 
+Que c'est il passé entre temps ??? 
+D'après tes premières infos tu avais un 3 To qui contenait pas mal de partitions dont les cadavres de W7 
+Et l'actuel disque de 1To (931 Go formaté) qui contient ton 8.1 
+
+Seconde question : As tu toujours une lenteur excessive au démarrage ? 
+Si oui, vu la taille de la RAM et de la VM c'est pas normal. 
+
+Si tu peux met moi à jour ta question avec des réponses à mes 2 questions. 
+
+----- FIN DE L'AJOUT ----- 
+
+
+AHH cette foutue VM, ou mémoire virtuelle, ou fichier d'échange ou pagefile. 
+Depuis que Windows existe il n'a jamais été capable de bien gérer sa VM. C'est à se demander pourquoi, alors que les versions de l'OS évolue, pourquoi ils n'ont jamais rien amélioré de vraiment efficace. 
+
+Bon dans ton cas déjà ya un truc pas catholique (mais ça je pense savoir pourquoi vu les précédents échanges) : 
+Je vois le volume D qui est réservé au système. En fait ce volume est très certainement la partition dédiée à Windows pour les options de récupération et la gestion de l'UEFI (voire mes précédentes réponses). 
+Or ce volume devrait être caché ! En fait, durant l'installation de l'OS aucune lettre ne devrait être assignée à ce volume afin de l’empêcher d'être visible par l'explorer. 
+Ce qui conforte mes doutes à propos de l'installation de l'OS qui n'a pas du être faite correctement. 
+
+Quoi qu'il en soit il ne faut SURTOUT PAS attribuer de la VM pour cette partition ! Sinon plantage assuré ! 
+
+Pour ce qui est de C:/ qui contient windows la taille est gérée par le système et le mieux est de la laisser ainsi. 
+Je vois que le recommandé est de 5 Go et des brouettes et que actuellement la VM occupe un peu plus de 16 Go. ça fait beaucoup. Mais je m'aventurerai pas dans des remarques à propos de cette taille car si je ne m'abuse tu est en 8.1 et je ne sais pas combien l'OS attribue de VM en 8.1 (Eh oui j'en suis restée au W7 et je m'en porte très bien). 
+
+En principe Windows attribue par défaut une VM à taille variable qui fait au minimum une taille égale à la RAM installée. Ensuite la VM varie en fonction des besoins. 
+Vouloir gérer manuellement la taille de la VM est pas forcément une bonne chose. 
+Trop de VM alloué n'augmente pas les performances et pas assez de VM va ralentir la machine voire même produire un merveilleux plantage du genre BSOD (Ecran bleu de la mort au démarrage). 
+
+Les puristes font des essais afin de l'optimiser au mieux, cela conduit à des tas et des tas d'essais pour finalement par grand chose de mieux en terme de performances.  
+
+Un doute me vient à propos de la question que tu poses car tu précise "lenteur au démarrage" 
+Or au démarrage la VM n'est pas très sollicitée, elle l'est par la suite lorsque on lance plusieurs applications. Donc je pense que ta lenteur au démarrage n'est pas forcément liée à un problème de VM. D'autant que vu l'historique de tes précédentes questions j'ai la forte impression que ton installation système n'est pas vraiment au top ! 
+Je pense donc que ta lenteur de démarrage est liée à d'autres choses et que chercher de ce coté va pas permettre de résoudre cette lenteur. 
+
+Pourquoi la VM peut poser des problèmes ? 
+Le premier problème vient du fait que la VM qui est rien d'autre qu'un fichier (ayant pour nom Pagefile.sys) est par défaut sur la même partition que celle contenant Windows plus les applications plus les fichiers temps, plus les documents utilisateurs, plus les prefs, plus plein d'autres fichiers. 
+En clair la VM se retrouve au milieu d'un vaste bordel qui avec le temps va créer de la fragmentation. Lorsque la partition est fragmentée bah la VM est fragmentée aussi ! Et donc l'accès en est ralenti. 
+On me dira, eh bien il faut défragmenter le volume C: ? 
+Manque de bol comme ce volume contient le système on peut pas le défragmenter ! 
+(En fait on peut mais pour ça il faut booter sur un autre volume, démonter ensuite le volume C: 
+et à ce moment là on peut le défragmenter, c'est comme ça et pas autrement). 
+
+Ensuite la VM est évidemment dépendante de la taille de la RAM. Si celle ci est trop petite par rapport à l'environnement de travail le système va passer le plus clair de son temps à écrire et lire dans la VM puisque la RAM est de taille insuffisante. 
+Bref, une machine qui est configurée avec une taille de mémoire RAM trop petite vis à vis de ce que l'on demande de faire, va forcément ramer. 
+
+Si je me réfère à l'historique, tu étais avant en W7 et actuellement en W8.1. 
+Je ne sais pas à combien se monte la gourmandise du 8.1 par rapport au 7 et donc je ne peux pas dire si cela est en cause. Si le 8.1 est bcp plus consommateur de mémoire que le 7 et que la machine a été configurée avec ce qu'il faut comme RAM pour un W7, ça peut être une cause. Là faudrait chercher des infos. 
+
+Pour savoir si une partie de la lenteur est liée à la VM il faudrait : 
+Savoir quelle est la taille de la RAM 
+Savoir combien consomme de mémoire le 8.1 (faut regarder dans le gestionnaire de tâche) 
+Savoir si il y a des applications qui se lance automatiquement au lancement de Windows et ce quelles consomme comme mémoire. 
+Après on peut commencer à savoir si la VM est en cause, mais sans cela inutile de faire des prédictions vu que on par sur aucune information permettant d'estimer le taux d'occupation. 
+
+Un dernier détail, surtout destiné aux puristes, mais pas inutile. 
+(Aucun rapport direct avec la question. Juste pour ceux que ça peut intéresser.) 
+Pour optimiser sa VM il y a une bonne solution qui est la suivante et que j'utilise : 
+Il faut mettre le pagefile.sys, la VM sur une partition dédiée uniquement pour elle. 
+Idéalement on utilise un disque spécifique qui n'a pas besoin d'être gros, un 100 Go suffit. 
+Ce disque contient une seule partition et on règle windows pour que il crée sa VM dessus. 
+On ne met rien d'autre dans ce disque ! 
+Ainsi la VM n'est pas polluée par les autres fichiers et ne sera pas fragmentée (ou très peu). 
+
+Il faut évidemment choisir un disque ayant un temps d'accès rapide et un cache disque conséquent (128 Mo par exemple). Là on observe vraiment une différence. 
+On peut à juste titre utiliser pour ça un SSD de petite taille donc pas cher mais qui sera rapide. 
+
+A défaut de pouvoir ajouter un disque (cas d'un portable). On peut créer une partition qui sera utilisée QUE par la VM. Si le portable à 2 unité disques on peut parfaitement avoir cette partition sur une unité disque différente de celle utilisée par le système (C:/). C'est même mieux. 
+En effet le disque C: est souvent sollicité puisque contenant le système et les applications. Et donc durant ces nombreux accès il devra faire sans cesse des aller et retours entre la partition système et la partition allouée à la VM. 
+Si en revanche on crée la partition dédiée à la VM sur un second disque on gagnera un peu en rapidité puisque ce disque sera bien moins sollicité. 
+
+Bon soyons clair cette configuration est peu commune. Peu de gens partitionne de cette façon, sans doute par méconnaissance de cette possibilité. Et donc je donne cette info pour les utilisateurs ayant une bonne connaissance. Cela dit j'utilise cette méthode et j'ai gagné pas mal en vitesse et donc je poireaute bien moins quand je swap d'une grosse application à une autre.
+</utt><utt uid=3> Pour accélérer (un peu) ton pc, il te faut le nettoyer. C'est plus facile que de modifier la mémoire. Tu peux installer des logiciels comme CC Cleaner, ou Glary Utilities, et corriger le "registre". Regarde également si ton antivirus peut faire quelque chose d'identique; AVG peux t'enlever certains de ces problèmes également. C'est peu, mais ton pc ira un peu plus vite. Regarde également si tu n'as pas de programmes que tu n'utilises pas. Ils prennent de la place et freinent ton processeur.
+</utt><utt uid=4> A mon avis tout dépend de la vitesse du disque,  stocker sur un disque puis vider réa-loué la mémoire vive... ensuite recharger la mémoire stocker. multiplie par 3 le temps d'une opération. 
+Fais toi une opinion 
+http://www.commentcamarche.net/faq/44516...
+</utt><utt uid=5> Commence par virer toutes les surcouches de " sécurité " que tu as installé. Multiplier les anti- trucs, anti-machins ou anti-choses ne sert absolument à rien. 
+Fais confiance en ton antivirus et cesse d'être parano.
+</utt><utt uid=6> Ca n'arrangera rien.  Il faut nettoyer le PC.
+</utt></s>
+<s><utt uid=1> Quand on reçoit une réponse automatique à un mail qu'on a envoyé, est ce que le mail est reçu ?
+</utt><utt uid=2> Oui.
+</utt><utt uid=3> En principe oui mais ça ne veut pas dire que le courriel a été lu , c'est parfois une réponse automatique.
+</utt><utt uid=4> reçu, oui. 
+lu ? pas sûr.
+</utt><utt uid=5> Oui . Ça veut dire ferme ta bouche laisse moi tranquille , parcque tu reçois le mail automatique 5 seconde après ton message envoyé , en Gros il tenvoi chier
+</utt></s>
+<s><utt uid=1> La différence entre la solitude et l'isolement?
+</utt><utt uid=2> les  2 sont assez  proches   et  sont aussi très  contextuelles !! 
+
+Quand  tu es  seul ,  tu souffres   d'isolement    et  de solitude     
+Mais la solitude peut  être  soit imposée  ,soit   choisie    e,t  la notion d'isolement    sera  toute  autre   selon  la situation   !! 
+
+quand tu es  isolé   ;   tu es loin de   tout    et  tu  te retrouves   bien  seul    aussi ...........  
+mais   pas  toujours   car on peut vivre isolé     mais  avec  qq'un !! 
+
+il y a    aussi  la  notion d'isolement  "forcé"     en prison   par exemple    en  quartier  d'isolement  !!Mais    là  c'est    imposé  de  par  la loi   !! 
+J'ajouterai   juste    ceci  : 
+Et même    au  milieu   de la foule   et/ou avec   des  gens  que l'on connait    on peut se sentir   très seul  et  isolé  aussi !!! 
+Parce  que ce  sont  aussi  des   ressentis    très  mentaux  !!!
+</utt><utt uid=3> L'isolement est un concept géographique. La solitude est un concept comportemental.
+</utt><utt uid=4> Le premier est volontaire pas le second.
+</utt><utt uid=5> La solitude est une demande du cœur, quand on se sent seul c'est qu'on a envi d'un ou d'une partenaire pour faire couple.  
+L'isolement c'est de choisir d’être seul dans la vie, un Hermite par exemple cherche l'isolement.
+</utt><utt uid=6> La solitude est pleine de soi, alors pas d'isolement trop long. 
+oui, c'est relatif
+</utt><utt uid=7> lol
+</utt><utt uid=8> On peut choisir la solitude ce que fait apparemment Delon!
+</utt></s>
+<s><utt uid=1> Pourquoi je n arrive pas à accêder à ma boîte email ?
+</utt><utt uid=2> C'est pas nouveau bugs chez yahoo
+</utt><utt uid=3> et lorsque tu clic sur le bouton mail en haut a droite il se passe quoi ?
+</utt><utt uid=4> C'est pas encore l'heure.
+</utt><utt uid=5> Très certainement un bug !
+</utt></s>
+<s><utt uid=1> La lopette part à Saint Martin finalement?
+</utt><utt uid=2> Ouii il va peut être prendre des selfies avec les pilleurs?
+</utt><utt uid=3> Après l'ouragan Irma, voilà le courant d'air qui rapplique ... pas de chance pour les habitants des îles sinistrées ! 
+
+J'ai dit !
+</utt><utt uid=4> il va aller se déguster du sperme de riche
+</utt><utt uid=5> Non elle reste en Hongrie !
+</utt><utt uid=6> tu parles de Tom ?!
+</utt><utt uid=7> laquelle?
+</utt><utt uid=8> Tt
+</utt><utt uid=9> Melanchon ?
+</utt></s>
+<s><utt uid=1> J'atteds ma répone svp sur mon antivirus
+merci?
+</utt><utt uid=2> de quand date ton dernier vaccin ?
+</utt><utt uid=3> Bonne chance.
+</utt><utt uid=4> Ben assieds-toi, ça risque de prendre un peu de temps.
+</utt><utt uid=5> que de fautes d'orthographes !
+</utt><utt uid=6> Réponse ici : 
+https://fr.answers.yahoo.com/question/in...
+</utt></s>
+<s><utt uid=1> L'affichage de mes pages web se fait en anglais; Comment puis-je les faire apparaître en français?
+Merci?
+</utt><utt uid=2> Voir dans les paramètres.
+</utt><utt uid=3> Essaie de lancer yahoo avec le lien : https://fr.yahoo.com/
+</utt><utt uid=4> https://productforums.google.com/forum/#...
+</utt><utt uid=5> Il suffit de  consulter les paramètres de ton client web (navigateur) précisément à l'option "contenu" >>Langues certes tout ceci en anglais. Si insatisfait, spécifier le navigateur
+</utt><utt uid=6> ouvre yahoo.fr
+</utt></s>
+<s><utt uid=1> J'attends la réponse à ma question concernant failure notice mailer-daemon@yahoo mon email verilecin@yahoo.fr?
+</utt><utt uid=2> L'adresse n'existe peut-être plus !
+</utt><utt uid=3> Pas vraiment sûr qu'on puisse te répondre. Mailer-daemon t'indique juste que ton message n'a pas pu être délivré à ton correspondant. Soit c'est une erreur temporaire, un serveur qui ne fonctionne pas par exemple, soit c'est une erreur permanente comme une adresse mail qui n'existe pas. Vérifie avec ton correspondant que tu as bien tapé la bonne adresse.
+</utt><utt uid=4> L'ADRESSE E-MAIL EST INEXISTANTE ALORS IL FAUT CHERCHER LA BONNE ADRESSE !!!
+</utt><utt uid=5> Parfois çà bug et  si tu recommence cela fonctionne  Sinon ouvre un nouveau compte ou l' adresse de ton correspondant n' est pas valable
+</utt><utt uid=6> Non mais quel boulet ! ça veut dire que la mail n'a pas pu être délivré au destinataire, tu as dû te tromper dans l'adresse.
+</utt><utt uid=7> ou bien que sa boîte mails est pleine ..
+</utt><utt uid=8> destinataire inexistant ou faute de frappe dans son nom
+</utt><utt uid=9> Rafistolage yahoo?
+</utt><utt uid=10> le mail ne passe pas, sauf que des fois c'est passé quand même
+</utt></s>
+<s><utt uid=1> Je voudrais l'ancien version de yahoo mail?
+</utt><utt uid=2> Moi aussi je voudrai.
+</utt><utt uid=3> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=4> Impossible!
+</utt><utt uid=5> C'est impossible !
+</utt><utt uid=6> Tu préfère pas la version minitel plutôt ?
+</utt><utt uid=7> et un vieux tourne-disque Tepaz
+</utt></s>
+<s><utt uid=1> Qui connait un bon logiciel de traitement de texte ?
+</utt><utt uid=2> word 97 moi il marche bien sur w10, comme quoi
+</utt><utt uid=3> Open Office ou Apache Open Office
+</utt><utt uid=4> J'utilise MSWord, très bon, nécessite un peu d'apprentissage mais .... payant.
+</utt><utt uid=5> Word ?
+</utt><utt uid=6> Il y en a plusieurs Write de libreoffice ou open office est un très bon gratuit et  
+microsoft word d'office, plus complet, est la référence . Attention cependant aux différents formats d'enregistrement de ton travail selon les versions.
+</utt><utt uid=7> http://opf.nobistex.com/fr?utm_campaign=...
+</utt><utt uid=8> Il y a aussi open office, mais c'est à toi de choisir selon tes goûts 
+https://www.openoffice.org/fr/
+</utt><utt uid=9> Si c'est juste pour du traitement de texte libre office c'est bien. Autrement word mais c'est payant.
+</utt><utt uid=10> Office Starter ( Word et Excel allégés ) GRATUIT légalement puis qu’offert par Microsoft : 
+https://support.office.com/fr-fr/article... 
+
+http://www.windows8facile.fr/office-word...
+</utt><utt uid=11> moi
+</utt></s>
+<s><utt uid=1> Bonjour
+je ne parviens plus à joindre un document en format PDF à mes mails. Le message de problème technique avec l'erreur n°14 s'affiche.?
+</utt><utt uid=2> Et donc on doit deviner avec quelle boite mail, avec quel appareil et quel système d'exploitation pour te répondre, banane ?
+</utt><utt uid=3> Ça doit terrible par rapport à la catastrophe de St-martin
+</utt><utt uid=4> Bonjour je ne parviens plus à joindre un document en format PDF à mes mails. Le message de problème technique avec l'erreur n°14 s'affiche.? America will be last country to switch to Euro (antichrist's world currency). Contraceptives = abortion; using contraceptives for 1 year = 5 aborted kids. Unbaptized aborted/miscarried/unborn babies burn in hell for 33 and a half years; if pregnant, keep the kid and deliver at home because kids are chipped using ivs and vaccines in hospitals. Dentists and doctors chip patients secretly. Ultrasound leads to mark of the beast; don't do ultrasound, please. Abortion leads to breast cancer; a demon is released from hell for each aborted kid. Dogs can become possessed; don't keep dogs inside you home [Pelageya of Ryazan]. Walmart has technology to administer mark of the beast to those who have cat bacteria in their stomachs; stay away from cats [Afanasiy Sidyachiy]. Next false flag is the Statue of Liberty. Earth is flat; stands on 3 pillars (the Most Holy Trinity); pillars stand on water at zero Kelvin. Zodiac is planetary prison of demons; don't believe in horoscopes or you'll exhibit the traits of the trapped demons. Most thoughts and dreams are from demons; demons never do good. Sleep fully clothed; pray the Jesus prayer. Pray to your guardian angel to have normal sleep. Vyacheslav Krasheninnikov was the last prophet before Enoch and Elijah return to preach against the antichrist. Humans were created about 7525 years ago. 
+
+Birds participate in time creation. It's a sin to kill birds. Dinosaurs live under our level; they will get out through sinkholes and lakes; to kill them, go for their nerves. Save the birds; but kill the dinosaurs. First dinosaur will come out of Volga River in Russia. Demons grow human skin (from a sample taken during abduction) and put it on so as to look like us. Demons will invite people to be healed inside their UFOs; those who go will be like zombies after. Gov't provides demons with diamonds and allows demons to abduct people. If you're being abducted, slowly pray the Jesus prayer. 
+
+Don't panic. Demons use diamonds and souls to power their UFO craft. The bigger the diamond, the more it lasts. Demons have 4 UFO bases: 1)moon 2)inside fake mountain Kailash in Tibet 3)in lake Baikal in Russia 4)in Atlantis which is underneath the Mariana Trench in Pacific Ocean. There are no aliens. Nobody lives on other planets. Airplanes that go down are hit by demons because they need the airspace to fight Jesus. Antichrist is pale with red eyes. He's possessed by Satan since he's 12 years old. He flies. He wears gloves to hide long nails. He's surrounded by demons who appear as angels of light. 
+
+Don't go into a UFO to be healed by demons. Green 666 is given by isotope rays on wrist or forehead when people stretch hands to receive small plastic grey card with no name on it (World Passport). Police will microchip and isotope ray people on highways. Chipped people will be influenced by computers to take grey plastic card; but when they do, green mark by isotope rays is given on forehead/wrist. Food stores will isotope ray people too. Antichrist will also release prisoners to mark people. Reject 666 at all cost because it leads to permanent hell. If you're about to be marked, pray the Jesus prayer. Hide with Orthodox Christians to escape 666; leave all electronics behind so that antichrist's minions can't track you; burn documents because they're from Satan. Give to charity in the name of Archangel Michael; he rescues people from temporary hell twice a year (or brings them up a level, that is, to a level with less punishment; eventually, people are freed). Feed the pigeons; when pigeons bow down, people are saved from temporary hell. Forgive me.
+</utt><utt uid=5> Certains problèmes de Yahoo Mail se traduisent par l’affichage du message d’erreur "Temporary Error 14/Erreur temporaire 14". Pas de panique ! En général, cette erreur se corrige d’elle-même (sans exiger d’intervention de votre part) au bout de quelques minutes ou de quelques heures.
+</utt></s>
+<s><utt uid=1> Comment contacter yahoo pour resoudre un probleme de connection.?
+</utt><utt uid=2> Pas possible.
+</utt><utt uid=3> Je voulais etre en contact avec un customer service de Yahoo
+</utt><utt uid=4> Mission impossible !
+</utt><utt uid=5> Essaie avec ce lien. Il est depuis longtemps dans mes favoris, j'espère qu'il fonctionnera encore. 
+
+https://io.help.yahoo.com/contact/index?...
+</utt></s>
+<s><utt uid=1> MA BOITE DE RECEPTION EST VIDE QUE FAIRE ?
+</utt><utt uid=2> C'EST BALLOT
+</utt><utt uid=3> DONNE  MOI TON ADRESSE YAHOO  JE  VAIS  T ENVOYER DES  MESSAGES  ET TE COMBLER
+</utt><utt uid=4> La remplir !
+</utt><utt uid=5> hein ? ta boîte aurait des fuites ?
+</utt><utt uid=6> Te faire des amis.
+</utt></s>
+<s><utt uid=1> Le WiFi a cessé brutalement de fonctionner! Que faire?
+</utt><utt uid=2> Éteins tout et débranche , tu rebranches ensuite et tu attends quelques minutes , ça devrait refonctionner .
+</utt><utt uid=3> pleure je ne vois que ça
+</utt><utt uid=4> IL arrive parfois des micro coupures dans le réseau, souvent dû aux techniciens du câbleur car intervention sur un terminal ! !
+</utt><utt uid=5> Active la 4G
+</utt></s>
+<s><utt uid=1> Comment changer la taille des polices?
+</utt><utt uid=2> Regarde dans l'aide.
+</utt><utt uid=3> sur Q/R, enfonces la touche ctrl et monte ou descends avec la molette de la souris
+</utt><utt uid=4> En mail clique sur Tt en bas de la page de rédaction.
+</utt><utt uid=5> ww
+</utt><utt uid=6> Voir dans les paramètres.
+</utt><utt uid=7> Faut obliger les flics à bouffer de la soupe.
+</utt><utt uid=8> C'est simple, écrivez au ministére de la justice pour leur demander des flics de quartier de pas plus d'1 m 20. Je l'ai fait, et en 2 jours ouvrable c'était fait.
+</utt></s>
+<s><utt uid=1> Je n,arrive pas a ouvrir ma boite mail yahoo ?
+</utt><utt uid=2> Change de messagerie.
+</utt><utt uid=3> Il reste ENCORE des gens qui utilisent Yahoo Mail, qui insistent et qui persistent ? 
+
+Seraient-ils masochistes ?
+</utt><utt uid=4> prends une clé de douze.
+</utt><utt uid=5> C'est un bug !
+</utt><utt uid=6> Blocage?
+</utt></s>
+<s><utt uid=1> Comment augmenter la taille des caractères des mels reçus ? Idem pour l'écriture des mels.?
+</utt><utt uid=2> Voir dans les paramètres.
+</utt><utt uid=3> L'écriture des mails : Clique sur Tt en bas de la page de rédaction.
+</utt><utt uid=4> fais la combinaison des touches ctrl +
+</utt><utt uid=5> zoom -110% +
+</utt></s>
+<s><utt uid=1> Je voudrais accéder à la signature?
+</utt><utt uid=2> Voir dans les paramètres.
+</utt><utt uid=3> vas y
+</utt><utt uid=4> Sais-tu écrire?
+</utt><utt uid=5> Pas moi.
+</utt><utt uid=6> ok
+</utt></s>
+<s><utt uid=1> Bonjour j'ai un compte yahoo qui n'existe plus il faut me le débloquer svp?
+</utt><utt uid=2> Non pas possible.
+</utt><utt uid=3> C'est un sacré problème !
+</utt><utt uid=4> La meilleure chose à faire est de créer un nouveau compte!
+</utt><utt uid=5> De profundis !
+</utt><utt uid=6> S'il n'existe plus, il ne peut pas être débloqué
+</utt><utt uid=7> Voilà, c'est fait !
+</utt><utt uid=8> Amen
+</utt></s>
+<s><utt uid=1> L'écran d'accueil "démarrage de Windows" sous Win 7 dure 10-15 minutes et Bienvenue (5 minutes) ? Que se passe-t-il ?
+</utt><utt uid=2> Lancer un scan avec votre antivirus 
+http://assiste.com/Demarrage_de_Windows_... 
+Sinon voir ici http://www.tutoriaux-excalibur.com/optim... 
+
+Pourquoi vous ne pas passer sous le Windows 10 la version prof fonctionne très bien
+</utt><utt uid=3> ESSAYE D'UTILISER  CCLEANER C GRATUIT IL T'AIDERA SUREMENT, MAIS IL NE FAUT PAS OUBLIER DE LANCER UN ANTIVIRUS D'ABORD
+</utt><utt uid=4> C'est juste le fonctionnement normal... Installe plutôt un vrai système d'exploitation...
+</utt><utt uid=5> faire une recherche avec malwarebytes, spybot, ccleaner
+</utt><utt uid=6> Nettoyer avec ccleaner
+</utt><utt uid=7> Ca détraque avec ces windows???
+</utt></s>
+<s><utt uid=1> JOINDRE UN FICHIER A UN MAIL?
+</utt><utt uid=2> Ah, enfin te revoilà ! Où étais-tu passée durant cette année ? 
+C'est parfois bien utile et bien pratique de joindre un fichier. Comme il est parfois bien pratique de savoir poser une question poliment. 
+Mais bon, toi t'as jamais appris c'est dommage !
+</utt><utt uid=3> c'est possible !
+</utt><utt uid=4> oui
+</utt><utt uid=5> Clique sur le trombone en bas de la page de rédaction.
+</utt></s>
+<s><utt uid=1> Je ne veux pas de la nouvelle version de ya?hoo comment faire?
+</utt><utt uid=2> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=3> NON! NON! et NON!!!
+</utt><utt uid=4> Des centaines se le demandent, sans avoir trouvé la réponse !
+</utt><utt uid=5> Reviens à la version classique.
+</utt><utt uid=6> ils vont nous casser les couilles encore combien de temps avec ça bordel... depuis 2 jours ça n'arrête pas les pleurnicheries sur les versions de ce putain de yahoo de merde....
+</utt><utt uid=7> rêtive au changement? 
+Vote conservateur!
+</utt></s>
+<s><utt uid=1> Je ne trouve pas les pièces jointes dans les emails antérieurs à 6 mois?
+</utt><utt uid=2> Mais qu'il est con ce pauvre Abdelali...pffft !
+</utt><utt uid=3> C'est ballot
+</utt><utt uid=4> Quelle tristesse !
+</utt><utt uid=5> Fallait les enregistrer dans un dossier, banane !
+</utt></s>
+<s><utt uid=1> Comment changer mon mot de passe?
+</utt><utt uid=2> Petite devinette ! 
+
+hachemi et hachemoi sont sur un bateau, qui tombe à l'eau ?
+</utt><utt uid=3> https://fr.aide.yahoo.com/kb/account/Cha...
+</utt><utt uid=4> Putain ça fait 2 jours que suis pas venu ici et sur quoi je tombe? Le 7000e demeuré  qui pose cette question...
+</utt><utt uid=5> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt></s>
+<s><utt uid=1> Pourqoui nos ancetres se brossent_ils avec des piegnes en bois?
+</utt><utt uid=2> Ils utilisaient des "piegnes" pour ensuite se mettre des beignes.
+</utt><utt uid=3> ils étaient écologiques et n’achetaient jamais de peigne en plastique
+</utt><utt uid=4> peignes?
+</utt><utt uid=5> en corne
+</utt></s>
+<s><utt uid=1> Je veux revenir à la version antérieure yahoo mail?
+</utt><utt uid=2> Mission impossible !
+</utt><utt uid=3> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=4> impossible
+</utt><utt uid=5> Si seulement!
+</utt></s>
+<s><utt uid=1> Comment récupérer l'ancienne version des mail yahoo. Yahoo m'a proposé une nle version qui ne me convient pas?
+</utt><utt uid=2> IDEM
+</utt><utt uid=3> Moi, c'est pareil. Je veux revenir à l'ancienne version.Comment faire? Quequun a trouvé?
+</utt><utt uid=4> Pour le moment sur internet il n'y a pas de procédure pour la nouvelle version de Yahoo. 
+Supprimer ce compte, créée un nouveau avec l'ancienne version
+</utt><utt uid=5> Impossible.
+</utt><utt uid=6> https://www.arobase.org/yahoo-mail/reven...
+</utt></s>
+<s><utt uid=1> Pas de bouton "Options" puis "Message d'absence" dans la nouvelle boite yahoo. Comment faire ?
+</utt><utt uid=2> Si y'a pas...TU FAIS PAS ! 
+On va pas l'inventer spécialement pour toi, non ?
+</utt><utt uid=3> En parler à l'administrateur, le problème est : il est autiste et il ne connais pas le français !
+</utt><utt uid=4> si , faut aller dans paramètres , puis à gauche ..
+</utt><utt uid=5> Rafistolage yahoo?
+</utt><utt uid=6> Bravo ! Je me passe de ce type de réponse inutile.
+</utt></s>
+<s><utt uid=1> Bonjour a qui et cette adresse email sur mon ordi artemidor90@yahoo.fr?
+</utt><utt uid=2> le mieux est de lui demander !
+</utt><utt uid=3> Corbeau.
+</utt><utt uid=4> lis ses mails et tu sauras qui c'est
+</utt><utt uid=5> cette personne prenon et gerald  de monbeliard25000   ou Belfort 90000    je veux savoir qui et cette personne   artemidor90@yahoo.fr          ou gerald90@yahoo.fr merci de me repondre
+</utt></s>
+<s><utt uid=1> Je n arrive pas à ouvrier mon compte sur Yahoo.fr?
+</utt><utt uid=2> C'est ballot.
+</utt><utt uid=3> Les ouvriers étaient en gréve hier, c'est sans doute la raison !
+</utt><utt uid=4> les ouvriers deviennent rare de nos jours
+</utt><utt uid=5> Ouvrir la fenêtre et prendre l'air !
+</utt></s>
+<s><utt uid=1> JE VEUX OUVRIR MON MAIL?
+</utt><utt uid=2> MOI AUSSI
+</utt><utt uid=3> Et moi je veux gagner a l'euromillion.
+</utt><utt uid=4> Tsogo.amour
+</utt><utt uid=5> www
+</utt><utt uid=6> avec une clé ? !
+</utt><utt uid=7> Moi aussi je veux gagner a l'Eurovision ! comme Yves
+</utt></s>
+<s><utt uid=1> Bonjour; j'ai étés piratée ce midi et l'on ma changer le mot de passe et l'adresse mail de secours.?
+</utt><utt uid=2> C'est en cliquant bêtement sur un lien qu'on se fait pirater. T'as plus qu'à essayer les questions secrètes ou ton numéro de téléphone si tu l'as renseigné. L'escroc est en Afrique ça ne sert à rien d'imaginer le retrouver.
+</utt><utt uid=3> Change et mets un mot de passe sécurisé.
+</utt><utt uid=4> par chance mes amis m'on prévenu qu'il ont reçu un mail "bizarre" de mon adresse mail. cerai t'il possible de retrouver cette personne
+</utt><utt uid=5> et la question est tu veux retrouver l'ancien mot de passe
+</utt></s>
+<s><utt uid=1> Je n'arrive pas à créer un 3ème compte appelé: J.bisotto@yahoo.com?
+</utt><utt uid=2> Il vaut mieux sur une autre plateforme comme netcourrier ou GMail.
+</utt><utt uid=3> Quel est ton mot de passe ? 
+
+ Qu'on initialise .
+</utt><utt uid=4> https://fr.aide.yahoo.com/kb/Cr%C3%A9er-...
+</utt><utt uid=5> mot de passe , qu'on initialise ... 
+j'ai copiter    fritz..
+</utt><utt uid=6> persévère
+</utt></s>
+<s><utt uid=1> Le ventilateur de mon ordi fait trop de bruit. Que faire?
+</utt><utt uid=2> Démonter la plaque arrière,  souffler avec ceci. 
+https://www.amazon.fr/Lots-Bombes-air-se... 
+Mettre une goute huile dans l'axe du ventilateur
+</utt><utt uid=3> Le réparer.
+</utt><utt uid=4> nettoyer dans un premier temps, monter un modèle plus silencieux si cela ne suffit pas. Sur une tour c'est simple( il y a même des refroidissements liquides) sur un portable beaucoup moins
+</utt><utt uid=5> Donne un bon coup de pied dans la tour, ce devrait fonctionner.
+</utt><utt uid=6> Un bon coup de nettoyage. 
+
+Ouvrir la bête et enlever les moutons de poussières. 
+
+Je t'ai mis 2 liens au hasard mais il y a plein d'autre tuto sur utube 
+https://www.youtube.com/watch?v=eHRYaN4Z... 
+https://www.youtube.com/watch?v=w_uOOPM7...
+</utt><utt uid=7> Dépanneur
+</utt><utt uid=8> Il faut le nettoyer en démontant ton PC , ce n' est pas trop compliqué normalement .
+</utt><utt uid=9> fermer la bête en acheter une neuve
+</utt></s>
+<s><utt uid=1> Je voudrais revenir avec l'ancienne version de yahoo.?
+</utt><utt uid=2> vous allez nous casser les couilles pendant encore combien de temps avec ça ? yahoo a changé il y a des mois !!!
+</utt><utt uid=3> Gééérrrraaaaaard !!! 
+- Faut que je te parle. Ta mère et moi nous t'avons élevé jusqu'à présent.  
+Surtout ta mère. 
+- Évidement, imbécile.  Je travaille toute la journée, ta mère elle a que ça à foutre. 
+- Je dis pas qu'élever huit gosses c'est pas du travail, je dis : ta mère, elle a  
+rien a foutre.  D'ailleurs, tu pourrais l'aider et ainsi donner l'exemple. Au lieu de ça, Monsieur donne un autre exemple. 
+- Gérard, tant que tu passais tes journées à écouter MicK Jéjère et les Beatles, passe encore, mais que tu fumes du hackique... non! 
+- Ta mère en a trouvé dans tes poches et tu nous empestes les cabinets avec ça. 
+- Gérard, j'ai été trop bon avec toi quand tu as abandonné lâchement tes études.  Tu aurais pu aller jusqu'au bac, pour faire plaisir à ta mère.  Si tu avais eu ton bac, tu aurais put être, j'sais pas moi... 
+- T'aurais pu être...  
+- T'aurais pu t'inscrire au chômage. 
+- Chômeur, oui mais au moins tu aurais été un chômeur honnête.  Au lieu de ça Monsieur fume du hackique avec les biknites. 
+- Fais attention Gérard, fais attention, tu es sur une pente savonneu...  
+- savonneu...  
+- savonneuse aujourd'hui.
+</utt><utt uid=4> . 
+
+  ►  Je voudrais retrouver l'époque où j'avais toutes mes dents .
+</utt><utt uid=5> NON! NON! et NON!!!
+</utt><utt uid=6> je ne vois pas comment faire ;  la nouvelle version n'a pas d'agenda
+</utt><utt uid=7> oui
+</utt><utt uid=8> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=9> Avec le pot à côté ? ! ! !
+</utt><utt uid=10> Ben vas-y...
+</utt><utt uid=11> Qui t'en empêche ????????
+</utt></s>
+<s><utt uid=1> Je viens de creer une nouvelle adresse amil et je n;arrive plus a aller sur l'ancienne?
+</utt><utt uid=2> Voir le mode d'emploi.
+</utt><utt uid=3> Vous devez vous déconnecter de celle-ci  effacer l'historique. 
+Sinon https://be.aide.yahoo.com/kb/SLN2051.htm...
+</utt><utt uid=4> Essayez avec un autre navigateur. 
+https://fr.aide.yahoo.com/kb/Cr%C3%A9er-...
+</utt><utt uid=5> persévères
+</utt></s>
+<s><utt uid=1> Je veux l'ancienne version !!!!!!! comment faire ???? Merci?
+</utt><utt uid=2> L'abus de points d'exclamation et d'interrogation nuit !
+</utt><utt uid=3> NON! NON! et NON!!!
+</utt><utt uid=4> Pour le moment sur internet il n'y a pas de procédure pour la nouvelle version de Yahoo.
+</utt><utt uid=5> On ne vit pas dans le passé !
+</utt><utt uid=6> Mets le Plein Écran (appuie sur F11) ,et dans les Paramètres , on peut voir Autres Paramètres ...et en Bas "Revenir à l'ancienne version"  ! à +
+</utt><utt uid=7> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=8> Impossible.
+</utt><utt uid=9> L'ancienne version n'existe plus on ne peut plus la récupérer.
+</utt><utt uid=10> Non...non et NON ! T'as tout mis, t'as tout donné, t'as payé l'prix, t'as encore tout raté, t'es triste et t'es tout seul, ils comprennent ... On t'a déjà dit qu't'étais quelqu'un de plutôt casse couilles?
+</utt><utt uid=11> On ne t'a roien proposé?
+</utt></s>
+<s><utt uid=1> Peut on acheter une tour PC maintenant et l'utiliser dans 4-7 ans ? Sinon je patiente c'est tout.?
+</utt><utt uid=2> en 2020, seront mis sur le marché les premiers ordinateurs quantiques en tant qu'unité centrale qui calcul en Qubit et plus en Bits, mais bons le principe restera toujours le même prévoit une tour que tu peux tuning aux files des années.
+</utt><utt uid=3> C'est toi qui décide.
+</utt><utt uid=4> On peut toujours faire évoluer une tour sur 10 ans si les fixations des cartes mères ne change pas
+</utt><utt uid=5> faudrait être barge pour acheter un truc dont on ne se servira pas
+</utt><utt uid=6> ça peut durer même plus longtemps. J'ai un tour du 1999 qui marche toujours
+</utt><utt uid=7> L'évolution informatique est encore rapide je déconseille d'acheter par avance (plusieurs années) quoi que ce soit qui ne sera peut-être plus compatible comme les lecteurs de disquettes 3 pouces 
+
+@Caroline tu as entièrement raison, en plus les "tours" tiendront dans des tablettes
+</utt><utt uid=8> Un pc acheté 500€ aujourd'hui vaudra 50€ dans 4ans. 
+
+Il y a mieux comme placement !
+</utt><utt uid=9> C'est ce que j'ai fait avec un minitel, encore 6 mois à attendre et je pourrais enfin l'utiliser, ça me tarde...
+</utt><utt uid=10> Quel est l'intérêt ? Pourquoi ne pas l'acheter dans 4-7 ans si tu veux l'utiliser dans 4-7 ans ?
+</utt><utt uid=11> mauvaise idée, en 4-5 ans l'informatique évolue beaucoup.
+</utt></s>
+<s><utt uid=1> COMMENT DEBLOQUER UN DIAPORAMA SUR ARRIERE PLAN DUBUREAU
+WINDOWS 7 ET MOZZILA
+MERCI?
+</utt><utt uid=2> Bonjour ?
+</utt><utt uid=3> Amiral Nelson.
+</utt><utt uid=4> Et SURTOUT, comment comprendre de QUOI tu HURLES ?
+</utt><utt uid=5> Esc, première touche en haut à gauche.
+</utt></s>
+<s><utt uid=1> Je voudrais retrouver l ancienne version de yahoo mail?
+</utt><utt uid=2> Paramètres et en bas clique sur revenir à yahoo classique
+</utt><utt uid=3> Comment?
+</utt><utt uid=4> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=5> Pas la peine de rêver, faut s'adapter à la nouvelle ! !
+</utt><utt uid=6> Non, non...ET NON !
+</utt><utt uid=7> impossible
+</utt></s>
+<s><utt uid=1> Je n'arrive pas à recuperer mon mot de passe ou à le changer?
+</utt><utt uid=2> Lequel ?
+</utt><utt uid=3> Voici pour récupérer. 
+https://login.yahoo.com/account/challeng...
+</utt><utt uid=4> https://fr-ca.aide.yahoo.com/kb/SLN27051...
+</utt><utt uid=5> https://login.yahoo.com/account/security
+</utt></s>
+<s><utt uid=1> Comment changer mot de passe pour accéder à mon mail?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> Voir avec les paramètres.
+</utt><utt uid=4> ww
+</utt><utt uid=5> Changer mot passe yahoo en 25 secondes. 
+https://www.youtube.com/watch?v=O7R460Nu...
+</utt></s>
+<s><utt uid=1> Je voudrai changer mon mot de passe?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> C'est possible de le faire, il faut aller dans les paramètres.
+</utt><utt uid=4> Changer mot passe yahoo en 25 secondes. 
+https://www.youtube.com/watch?v=O7R460Nu...
+</utt><utt uid=5> ww
+</utt></s>
+<s><utt uid=1> Je ne peux me connecter sur mon compte yahoo.mail sur ma tablette. Que dois-je faire ? Merci?
+</utt><utt uid=2> Si vous cliquez sur un bouton ou un lien, et que rien ne se passe pendant un temps inhabituellement long, c’est que votre navigateur est bloqué. Il s’agit généralement d’un signe temporaire de trafic élevé vers un site Web ou un serveur. Cependant, si vous remarquez que votre navigateur est souvent anormalement long, il se peut également qu’un programme ou un paramètre de votre appareil le ralentisse. 
+Vérifiez les points suivants afin de résoudre ce problème : 
+    Effectuez un test de votre connexion réseau - Votre connexion Internet sera ainsi testée. 
+    Vérifiez vos ressources système - Vous pouvez voir combien de programmes ou d’applications fonctionnent simultanément en arrière-plan grâce à votre Gestionnaire des tâches ou à votre Moniteur d’activité. 
+    Mise à jour de votre navigateur  - Les navigateurs les plus anciens ne prennent pas en charge les toutes dernières technologies Web et présentent des défauts de sécurité. 
+    Supprimez les fichiers Internet temporaires de votre navigateur -  Le vidage de votre cache peut améliorer les performances de votre navigateur. 
+
+Si les problèmes persistent, reportez-vous aux pages d’aide de votre navigateur ou contactez le fabricant de votre appareil.
+</utt><utt uid=3> Avec un ordinateur, c'est beaucoup mieux !
+</utt><utt uid=4> ww
+</utt><utt uid=5> change de tablette
+</utt></s>
+<s><utt uid=1> Mon email?
+</utt><utt uid=2> ?liame nom
+</utt><utt uid=3> un courriel en français !
+</utt><utt uid=4> ta bite ?
+</utt><utt uid=5> ah , c'est court comme question ..
+</utt></s>
+<s><utt uid=1> Je voudrais ouvrir mes mails yahho?
+</utt><utt uid=2> Allez sur votre boite mail pour les ouvrir.
+</utt><utt uid=3> yahho, ça n'existe pas !
+</utt><utt uid=4> j e t'envoie l'ouvre boite ..
+</utt><utt uid=5> C'est bien on est content de l'apprendre.
+</utt></s>
+<s><utt uid=1> COMMENT clore une session internet?
+</utt><utt uid=2> Se déconnecter !
+</utt><utt uid=3> Tu fermes ton navigateur.
+</utt><utt uid=4> Déconnexion
+</utt><utt uid=5> fermer
+</utt><utt uid=6> A gauche, dans le fond de l'écran, appuyer sur le logo window, ensuite aller à droite "arrêter", où sur la petite flèche à côté pour redémarrer ou changer d'utilisateur.
+</utt></s>
+<s><utt uid=1> Peut-on utiliser la lentille d'un ordinateur portable (laptop) pour enregistres des photos "papier" sur fichiers internes? Comment faire?
+</utt><utt uid=2> Lentille c'est quoi ?
+</utt><utt uid=3> Ce n'est pas une lentille : cela s'appelle une webcam et ce n'est pas fait pour enregistrer des documents papier . 
+Pour ton cas : utilise le scaner de ton imprimante . 
+Seconde solution : prendre des cours d'informatique dans un club .
+</utt><utt uid=4> Ça s'appelle une webcam et ça fait de très mauvaise photos, c'est pas fait pour ça.
+</utt><utt uid=5> non, c'est impossible
+</utt></s>
+<s><utt uid=1> Ouvrir mon courriel yahoo?
+</utt><utt uid=2> Ok
+</utt><utt uid=3> Sans problème, c'est gratuit !
+</utt><utt uid=4> Si tu parle à Siri tu peut dire ça, mais quand tu poses une question à des êtres humains il faut faire une vraie phrase.
+</utt><utt uid=5> Si tu sais , vas y !
+</utt></s>
+<s><utt uid=1> COMMENT DEBLOQUER UN DIAPORAMA COINCE SUR ARRIERE PLAN DU BUREAU
+WINDOWS 7 ET MOZZILA
+MERCI?
+</utt><utt uid=2> Gné
+</utt><utt uid=3> Et SURTOUT, comment comprendre de QUOI tu HURLES  ENCORE ?
+</utt><utt uid=4> Les Gaulois de Châlons en Champagne.
+</utt><utt uid=5> Esc (escape) première touche en haut à gauche.
+</utt></s>
+<s><utt uid=1> Comment enregistrer une signature mails?
+</utt><utt uid=2> Ah enfin te voilà ? 
+Tu es membre depuis le 17 Août 2016 et on se demandait QUAND tu allais utiliser ton compte...Il était temps ! 
+
+La signature il faut aller dans les paramètres de ta boite mail pour la créer et l'enregistrer.
+</utt><utt uid=3> Voir dans les paramètres.
+</utt><utt uid=4> bonne qr
+</utt><utt uid=5> en utilisant votre signature
+</utt></s>
+<s><utt uid=1> Quelle esr mon adresse e-mail?
+</utt><utt uid=2> Voir dans les paramètres du compte.
+</utt><utt uid=3> Cliquer sur votre nom d'avatar sur la colonne de gauche, cliquer sur "Préférences" et vous va lire votre adresse mail.
+</utt><utt uid=4> Comment voulez-vous qu'on devine, normalement il n'y a que vous qui pouvez le savoir.  Vous avez oublié ?  Tant pis...
+</utt><utt uid=5> Et la mienne ?
+</utt></s>
+<s><utt uid=1> Comment créer un nouveau compte Yahoo?
+</utt><utt uid=2> Un seul, c'est déjà trop !
+</utt><utt uid=3> Pareil comme vous venez de faire.
+</utt><utt uid=4> André, tu possèdes déjà un compte, c'est bon
+</utt><utt uid=5> https://fr.aide.yahoo.com/kb/Cr%C3%A9er-...
+</utt></s>
+<s><utt uid=1> J'ai 1 mail du 06-09 annoncant un piratage de ma bte mail + 1 lien. Auteur=connection@apstretch.co... bien vos services? Merci.?
+</utt><utt uid=2> . 
+Ne répondez surtout pas. 
+Supprimez ce mail. 
+C'est une tentative d'escroquerie (hameçonnage). 
+.
+</utt><utt uid=3> n"ouvre pas et signale à la police ou gendarme,   
+
+Yahoo n'est pas responsable des mails qui te sont adressés , par contre ne réponds JAMAIS à tous mails venant de ta banque ou d'une administration et te demandant ton N° de carte bancaire ou ton code.. JAMAIS personne ne peut te le demander, pas au téléphone non plus .  Jamais donner aucun renseignement persos .. 
+
+Et puis si tu ne connais pas l'expéditeur d'un mail, ne l'ouvre pas, fiche le direct dans ta corbeille et vide ta corbeille.
+</utt><utt uid=4> c;est pas bon
+</utt><utt uid=5> Bah... si tu poses la question c'est que tu connais la réponse.
+</utt><utt uid=6> Poubelle.
+</utt><utt uid=7> non surement pas
+</utt><utt uid=8> Signale le à la police .
+</utt></s>
+<s><utt uid=1> Comment réparer mon compte? parametres obsoletes?
+</utt><utt uid=2> ah bon ! y a longtemps que Yahoo ne nous faisait plus ce coup là ..il recommence on dirait !!!
+</utt><utt uid=3> Bonjour merci ?
+</utt><utt uid=4> ah ben on est quelques centaines de millions dans le monde dans ce cas !!!
+</utt><utt uid=5> Aucune idée !
+</utt><utt uid=6> Tu cliques sur ''preferences' ' et tu fais ce qu' ils te demandent mais parfois ça bug et il faut tout recommcer .
+</utt></s>
+<s><utt uid=1> Changer mot de passe?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=3> Et oui ! Il est possible de changer de mot de passe en ligne du moment que on connaît l'ancien. Dans certains cas d'oubli il suffit d'entrer l'adresse de sa boîte mail pour le reinitialiser sans connaître l'ancien.
+</utt><utt uid=4> xxxxxxxxx
+</utt><utt uid=5> oui, pourquoi pas
+</utt><utt uid=6> Lol
+</utt></s>
+<s><utt uid=1> Depuis que j'ai mit le nouveau yahoo,internet est trés lent.?
+</utt><utt uid=2> Bugs
+</utt><utt uid=3> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=4> bizarre, je n'ai pas eu ce problème pour le moment, es-tu vraiment sûr que ce soit ça ? En le supprimant cela devrait lever le doute.
+</utt><utt uid=5> la seule solution, le supprimer !
+</utt><utt uid=6> Yahoo est un virus très puissant qui pompe l'ensemble des ressources de ta machine et pille les informations stockées sur ton ordinateur. la légende raconte que certaines photos personnelles ont été publiées sur Yahoo News. 
+
+Un bon conseil, désinstalle le très vite !
+</utt></s>
+<s><utt uid=1> J ai un probleme avec mon ordinateur. A chaque fois que je veux regarder un episode de n importe quelle serie, l ordinateur m arrete et bug?
+</utt><utt uid=2> toujours a  une certaine partie! par exemple je peux etre en train de regarder 13 Reasons Why (une serie) je regarde l episode tranquillement et a 13:16 l episode s arrete et l ordinateur devient lent et bug!! L episode est dans mon disque dur que j ai scanné plusieurs fois (0 virus) et des fois quand j essaye de deplacer ou copier quelque chose du disque dur le deplacement peut s arreter aussi et l ordinateur se remettra a buger : ( j ai besoin d aide parce que ca devient enervant, a chaque fois que ca m arrive il faut que je debranche le disque dur, que je le rebranche et que je saute la scene qui a causé ce probleme :( help
+</utt><utt uid=3> Mets à jour flash player.
+</utt><utt uid=4> Le disque est saturé fait le menage
+</utt><utt uid=5> Tu utilises quoi pour lire tes vidéos ? 
+
+Si tu utilises le player windows, je te conseille de mettre à jour tes codecs. 
+Sinon utilise VLC. 
+
+http://www.clubic.com/telecharger-fiche3... 
+
+http://www.01net.com/telecharger/windows...
+</utt><utt uid=6> Essayer avec le navigateur "Opera " ! !
+</utt></s>
+<s><utt uid=1> Comment retrouver mon mot de passe de mon compte yahoo?
+</utt><utt uid=2> Voici une page d'aide 
+https://login.yahoo.com/account/challeng...
+</utt><utt uid=3> paramètres
+</utt><utt uid=4> C'est impossible, il n"est enregistré nulle part.   Il faut en demander un nouveau.
+</utt><utt uid=5> Demandez un nouveau MDP avec votre adresse ! !
+</utt></s>
+<s><utt uid=1> Bonjour,
+existe t'il un moyen de récupérer des mails effaces ?
+</utt><utt uid=2> Oui
+</utt><utt uid=3> Il faut voir avec l'administrateur.
+</utt><utt uid=4> Si vous avez un  logiciel  spécifique  et   affaire   à un crack   en informatique   c'est  possible
+</utt><utt uid=5> Oui s'il date moins de 7 jours 
+https://be.aide.yahoo.com/kb/SLN2552.htm...
+</utt></s>
+<s><utt uid=1> Peut-on être en dégroupage total avec sfr et annuler orange?
+</utt><utt uid=2> Oui, il te suffit de faire la portabilite du numéro de téléphone de ta box. Ensuite tu peut te faire rembourser les frais de résiliation. Tape ODR ORANGE sur Google pour connaître le montant remboursé.
+</utt><utt uid=3> Oui
+</utt><utt uid=4> Oui, c'est possible.
+</utt><utt uid=5> Oui avec la solution de dégroupement total SFR et en envoyant une lettre de résiliation à l'opérateur ORANGE
+</utt><utt uid=6> Oui biensur. En dégroupage total on n'a plus besoin d'abonnement ligne.
+</utt></s>
+<s><utt uid=1> Je ne veux pas la nouvelle formule de yahoo mail comment faire pour reprendre l'ancienne formule. Merci?
+</utt><utt uid=2> Non, non...ET NON on vous a déjà dit !
+</utt><utt uid=3> On ne peut pas revenir en arrière
+</utt><utt uid=4> Pas facile!
+</utt><utt uid=5> https://www.arobase.org/yahoo-mail/reven...
+</utt></s>
+<s><utt uid=1> J'ai l'impression que quelqu'un d'autre à crée un compte pirate?
+</utt><utt uid=2> C'est bud
+</utt><utt uid=3> c'est @BudX . C'est un expert. Il a 22 comptes
+</utt><utt uid=4> @Paul en a 3
+</utt><utt uid=5> C'est pas moi, j'ai pas de compte sur Yahoo.
+</utt><utt uid=6> Pirate des Caraïbes ............. ça souffle en ce moment  là bas .
+</utt><utt uid=7> Arrête de prendre des drogues.
+</utt></s>
+<s><utt uid=1> Comment changer taille police dans boite mail yahoo?
+</utt><utt uid=2> Facile
+</utt><utt uid=3> Dans les paramètres, en haut à droite (pour google chrome) mais je ne sais pas si ça se répercute sur la boite yahoo car je l'ai supprimée
+</utt><utt uid=4> Options
+</utt><utt uid=5> Dans Yahoo Mail Police La première partie de la barre vous permet de définir la police de caractères et sa taille. 
+Enrichissements  La partie suivante vous permet de définir les enrichissements du texte : gras, italique et souligné. 
+Couleurs  La partie suivante vous permet de préciser les couleurs. Le premier bouton vous permet de choisir la couleur du texte de la police, le deuxième celui du fond du texte (pour mettre en valeur ce dernier). 
+Puces  La partie suivante vous permet de créer des listes (à puces ou numérotées) et de décaler le texte. 
+Alignement  La partie suivante vous permet de définir l’alignement du texte : à gauche, au centre ou à droite. 
+Liens  Le bouton symbolisant un maillon de chaîne vous permet de créer un lien Web. 
+Smileys Le bouton en forme de smiley vous permet d’insérer des émoticônes. 
+Papier à lettres Le dernier bouton vous permet de choisir un papier à lettres.
+</utt><utt uid=6> Tu ferais mieux de changer de serveur mail.
+</utt><utt uid=7> Cliquer sur les barres parrallèles en haut à droite
+</utt><utt uid=8> Touche control +roulette de la souris.
+</utt><utt uid=9> Pour le réglage de la police, c'est sur votre boite mail en dessous de votre mail que vous avez écrit il y a une barre. 
+avec des icônes  Cliquer sut Tt
+</utt></s>
+<s><utt uid=1> Aimez vous quand des personnes vous prennent en photo sans votre accord ?
+</utt><utt uid=2> Je n'aime pas les photos!
+</utt><utt uid=3> Personne ne me prend en photo sans mon autorisation !
+</utt><utt uid=4> J'ai horreur des photos, non, tu n'as pas être photographié 
+à moins que tu ne fasses la même chose... 
+Mes photos sont des photos de paysages ou des photos de ma famille, après leur consentement et ça reste privé, je n'adhère à aucun de ces réseaux qui imaginent que la vie, c'est le Net
+</utt><utt uid=5> ca ne me derange  pas....si je sais que je fais parti du paysage
+</utt><utt uid=6> Je déteste, mais comme tout le monde le fait et trouve cela normal, s'en offenser est bien inutile.
+</utt><utt uid=7> m'en fous, suis pas musulmane pour en faire toute une histoire avec le CCIF qui porte plainte 
+http://www.islamophobie.net/articles/201...
+</utt></s>
+<s><utt uid=1> Je n'arrive pas a lubricant mon mail?
+</utt><utt uid=2> Quoiiiiiiiiiiiiiiiii ?
+</utt><utt uid=3> a faire quoi?
+</utt><utt uid=4> a mon avis c'est gripper 
+Ajoute de antirouille
+</utt><utt uid=5> Je ne comprends pas le mot lubricant !
+</utt></s>
+<s><utt uid=1> Je n'aime pas cette version de la page d'accueil. J'aimerais ravoir l'autre version qui a été changer cette semaine.?
+</utt><utt uid=2> Pas possible.
+</utt><utt uid=3> NON! NON! et NON!!!
+</utt><utt uid=4> NON! NON! et NON!!!
+</utt><utt uid=5> NON NON NON ET NON!!!!
+</utt><utt uid=6> NON NON NON ET NON!!!!
+</utt><utt uid=7> NON NON NON ET NON!!!!
+</utt><utt uid=8> Au mpoins, windows s'est arrêté à 10!
+</utt></s>
+<s><utt uid=1> Comment supprimer rubriques comme je le fais avec Google News. Par exemple je ne VEUX PAS de spôrt ? Merci?
+</utt><utt uid=2> Pas possible.
+</utt><utt uid=3> Pas facile!
+</utt><utt uid=4> Aucune idée.
+</utt><utt uid=5> Alors là, c'est mission impossible !
+</utt></s>
+<s><utt uid=1> Comment revenir à l'ancienne boite mail de yahoo?
+</utt><utt uid=2> Clique sur paramètre et en bas tu auras "Revenir à la version classique" .
+</utt><utt uid=3> Merci à vous tous. C'est vrai que je n'aurais pas du cliquer mais je l'ai fait par erreur alors que je visais autre chose. Par contre, c'est yahoo 2017 et non la version 2013 et je ne réussis pas à y revenir. Sur window 8, je n'ai pas le texte écrit en gris et en petit à droite pour revenir à l'ancienne version. Merci quand même et, si vous trouvez d'autres solutions, n'hésitez pas à me le dire.
+</utt><utt uid=4> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=5> Je suis encore sur windows 7.1 avec un pc, et passer à la version basique se trouve dans paramètres à droite et tout en bas en tout petit il est écrit : passé à la version classique, c'est tapé en grisâtre. Je ne trouvais plus non plus. Alors que hier, j'ai pu le trouver de suite. Faut chercher :-)
+</utt><utt uid=6> Fallait pas tripoter la nouvelle ; tu devrais savoir que tout ce qui est nouveau sur YAHOO ne fonctionne jamais parfaitement avant  6 mois .
+</utt><utt uid=7> ayé, 9h30 et c'est reparti avec cette question à la con posée 50 x hier..... misère...
+</utt></s>
+<s><utt uid=1> Hier le 7 Yahoo a bloqué mon ordinateur pourquoi?
+</utt><utt uid=2> Yahoo ne bloque pas les ordinateur ?
+</utt><utt uid=3> C'est le démon qui l'a guidé !
+</utt><utt uid=4> peut-être crainte de piratage
+</utt><utt uid=5> je confirme, hier était bien le 7 et mon ordinateur a été bloqué par le diable lui même, ouaih !!
+</utt><utt uid=6> par ce qu'il est vilain !
+</utt><utt uid=7> parce que Yahoo est un système qui détruit lentement et doucement tout système informatique
+</utt></s>
+<s><utt uid=1> Que faire quand on n'a un virus sur son PC Sans le formater avec un antivirus?
+</utt><utt uid=2> On ne formate pas avec un anti-virus. On détruit le virus avec l'anti-virus. Par contre si on formate, on perd la totalité du contenu, il faut réinstaller tout.
+</utt><utt uid=3> S'inscrire ici : 
+https://forum.pcastuces.com/securite-f25 
+un Helper s'occupera de désinfecter ton PC gratuitement. 
+Tu seras guidée tout au long de la procédure. 
+
+PS : un antivirus ne formate pas. 
+Tout comme on ne formate pas pour un simple virus.....
+</utt><utt uid=4> Le top est de ré-installer une image de C: (faite sur un 2e disque dur lorsque celui-ci était sain). avec un logiciel de sauvegarde comme Ghost, Acronis Backup (payants) oo alors "Drive Image XML" par ex. qui est gratuit. Ou encore avec la sauvegarde image de Windows ;) 
+
+ps : Un petit c.. s'amuse à attribuer des pouces baissés systématiquement à toutes les réponses au risque de créer la confusion pour la personne qui demande conseil. De vrais gosses...
+</utt><utt uid=5> lancer un scan avec ton antivirus
+</utt><utt uid=6> faire une analyse en ligne gratuite 
+https://www.f-secure.com/fr_FR/web/home_... 
+https://www.eset.com/fr/home/products/on... 
+http://www.secuser.com/outils/antivirus....
+</utt><utt uid=7> une bonne nuit de sommeille avec wick vaporup et des anti biotique
+</utt><utt uid=8> Débrancher tous les câbles spontanément..puis rebrancher tout ! Sans plus débrancher à nouveau si le virus est toujours là ! Et un informaticien technicien peut vous sauver la mise ! (Pour pas cher)
+</utt></s>
+<s><utt uid=1> Mot de passe?
+</utt><utt uid=2> xxxxxxxx
+</utt><utt uid=3> Il n'y a que vous qui le connaissez, si oublié le réinitialiser.
+</utt><utt uid=4> bjr 7!9! 2017
+</utt><utt uid=5> SuCemon25
+</utt></s>
+<s><utt uid=1> Pourquoi me demander vous à chaque fois un code d'accès pour le même compte, le même ordinateur, et même mot de passe payant??
+</utt><utt uid=2> Voir avec l'administrateur.
+</utt><utt uid=3> Moi je t'ai rien demandé!
+</utt><utt uid=4> Nous on ne t'as rien demandé, tu crois parler à qui ? 
+Je m'appelle pas yahoo moi. 
+
+Edit: 
+Les seuls mots de passe "payant" que je connaisse, ce sont les ransonware: des virus qui bloquent un pc, encryptent les données et demandent de payer pour les récupérer.
+</utt><utt uid=5> Mot de passe payant ? Jamais entendu parler !
+</utt></s>
+<s><utt uid=1> Je n'arrive plus a accéder a YouPorn......que faire?
+</utt><utt uid=2> Xvideo, Xhamster, PornHub... Le net est un gigantesque vidéo-club porno!! Sinon, tu peux aussi aller te promener, respirer l'air frais et qui sait, sur un malentendu, rencontrer des vraies filles. ^^
+</utt><utt uid=3> fais bosser ton imagination pour te branler ....!!
+</utt><utt uid=4> Fais travailler ton imagination tu enrichiras ton monde intérieur et ta sensualité
+</utt><utt uid=5> . 
+
+https://www.youtube.com/watch?v=82oPNXUf...
+</utt></s>
+<s><utt uid=1> C'est quoi la meilleur antivirus et malware app gratuit ?
+</utt><utt uid=2> Anti virus 
+https://www.avira.com/fr/free-antivirus-windows 
+
+malware: 
+http://www.commentcamarche.net/download/telecharger-34055379-malwarebytes-anti-malware
+</utt><utt uid=3> faites votre marché http://www.gentside.com/anti-malware/ant... il y a le choix!
+</utt><utt uid=4> Panda Free Antivirus mais il faut décocher 3 cases, voire image ci-dessous. 
+http://www.pandasecurity.com/france/home...
+</utt><utt uid=5> Pourquoi pas Avast ? 
+Je l'utilise depuis des années sans problème !
+</utt></s>
+<s><utt uid=1> Je voudrais supprimer le numero de telephone du Rwanda et mettre du gabon pour recuperon en cas de besoin de mon compte yahoo?
+</utt><utt uid=2> OSEF
+</utt><utt uid=3> CE BON MAINTENAT
+</utt><utt uid=4> ah vous avez Yahoo?
+</utt><utt uid=5> ah vous avez le téléphone ?
+</utt></s>
+<s><utt uid=1> Bonjour, je n'ai plus acces au bouton ascenseur ,pour consulter mes mails merci de votre réponse cordialement?
+</utt><utt uid=2> C'est ballot.
+</utt><utt uid=3> A tout hasard, agrandissez votre page ou la diminuer en cliquant sr le petit carré tout en haut à côté de la croix ( à droite)
+</utt><utt uid=4> Allez y a pied
+</utt><utt uid=5> Le droit à la maintenance nécessite un contrat chez un ascensoriste. Etes-vous à jour?
+</utt><utt uid=6> mdr
+</utt></s>
+<s><utt uid=1> Je veux revenir à l'ancienne version yahoo?
+</utt><utt uid=2> Pas possible.
+</utt><utt uid=3> Comment?
+</utt><utt uid=4> Non,..Je veux revenir à l`ancienne version yahoo
+</utt><utt uid=5> NON NON NON et NON !!
+</utt></s>
+<s><utt uid=1> Bloquer la réception d'un email?
+</utt><utt uid=2> Regarde dans l'aide
+</utt><utt uid=3> Clique sur la rue crantée en haut à droite. Paramètres, dans la colonne de gauche, dernier : Adresses bloquées.
+</utt><utt uid=4> s'il est arrivé, trop tard pour le bloquer !
+</utt><utt uid=5> A par le mettre en spam je ne vois pas.
+</utt><utt uid=6> Blédard ?
+</utt><utt uid=7> demande à allah, il peut tout faire même bloquer les mails. met toi le cul levé sur un tapis et demande lui !
+</utt></s>
+<s><utt uid=1> Copier un dossier que j'ai créé?
+</utt><utt uid=2> bravo t'as créé un dossier ! 
+encore 15ans d'informatique et tu sauras comment changer le nom d'un fichier
+</utt><utt uid=3> prier très fort. Redémarrer le pc ....
+</utt><utt uid=4> Il suffit que vous trouviez l'option "copier" puis coller. Si le dossier n'est pas vide, il copie aussi tout l'intérieur (sous-dossier y compris). En principe les nouveaux systèmes d'exploitation vont modifier automatiquement le nom du "nouveau dossier" si celui-ci est collé dans l'arborescence d'origine car il est impossible d'avoir deux noms identiques (de dossiers ou de fichiers) dans la même arborescence.
+</utt><utt uid=5> c'est religieusement  impossible si tu ne demandes pas à ton dieu , en lui fourrant bien sur , un gros billet dans sa poche , les  tenants de dieux adorent les grosses coupures
+</utt></s>
+<s><utt uid=1> Je veux retourner a l'ancienne version mais je ne sais pas comment faire?
+</utt><utt uid=2> L'ancienne version https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=3> que faire
+</utt><utt uid=4> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=5> que faire?
+</utt></s>
+<s><utt uid=1> Mail envoyé perdu comment le recuperer?
+</utt><utt uid=2> Un mail envoyé ne se perd pas sauf si l'adresse n'est pas bonne. Si c'est le cas vous recevrez un mail
+</utt><utt uid=3> C'est la blague!
+</utt><utt uid=4> dans ta boite mails envoyés !!!
+</utt><utt uid=5> récupérer
+</utt><utt uid=6> Voir sur ta boite mails envoyés ^^
+</utt></s>
+<s><utt uid=1> Le son de mon ordi ne fonctionne pas , que dois-je faire ?
+</utt><utt uid=2> Changer d'ordinateur.
+</utt><utt uid=3> d'abord un virus ,ensuite le ventilo qui fait trop de bruits ,maintenant le son ,pour la prochaine question demande nous quel ordi acheter
+</utt><utt uid=4> Vérifier tous les paramètres du son puis dépanneur
+</utt><utt uid=5> Fait comme si tu étais sourd. 
+
+Ça fait  3 mois que je n' ai plus de son , je fais avec .
+</utt></s>
+<s><utt uid=1> Salut , comment je peut contacte le support yahoo svp?
+</utt><utt uid=2> Pas possible.
+</utt><utt uid=3> bonjour je viens de les contacte pour un problème de spam est il mon répondu donc je te donne l'adresse mail  
+    customercare@cc.yahoo-inc.com   bonne réception
+</utt><utt uid=4> C'est mission impossible !
+</utt><utt uid=5> Contacter yahoo 
+http://services-client.net/yahoo/
+</utt><utt uid=6> donc comment je fait pour recuperer mon adresse mail
+</utt><utt uid=7> Impossible puisque programmé juste par ordinateurs.
+</utt><utt uid=8> impossible
+</utt></s>
+<s><utt uid=1> Comment retirer cet écran télé qui s'affiche dans ma boîte mail Yahoo.
+Merci?
+</utt><utt uid=2> Bonjour ?
+</utt><utt uid=3> Débranche la télé !!
+</utt><utt uid=4> Fermer l'ordinateur.
+</utt><utt uid=5> y a une tite flèche à coté
+</utt></s>
+<s><utt uid=1> Existe-t-il chez Yahoo la possibilité d'avoir des accusés de réception ?
+</utt><utt uid=2> apparemment non https://fr.aide.yahoo.com/kb/SLN3386.htm... c'est qui le disent!
+</utt><utt uid=3> Non yahoo ne le propose pas , il faut demander une réponse au correspondant , c' est la seule solution.
+</utt><utt uid=4> NON
+</utt><utt uid=5> L'accusation est le propre de Yahoo. 
+Les réceptions c'est pour la fioriture
+</utt><utt uid=6> Je suppose que oui, mais je n'utilise pas yahoo pour mes courriels !
+</utt></s>
+<s><utt uid=1> Mon adresse mail est t elle sécuriser?
+</utt><utt uid=2> Si vous avez mis comme mot de passe 1234, non
+</utt><utt uid=3> On s'en fout.
+</utt><utt uid=4> ça dépend, si tu donnes ton code, c'est foutu !
+</utt><utt uid=5> Oui
+</utt></s>
+<s><utt uid=1> Bonjour mon bloqueur de pub Adblock plus est obsolète par quoi le remplacer merci?
+</utt><utt uid=2> Moi aussi je me trouve confronté à ce p....n de blocage des extensions, c'est Ublock Origin qui avait disparu (le bouton) et qui ne fonctionnait plus alors que je n'avais rien changé (alors que l'extension était activée mais marquée obsolète). 
+J'ai cherché sur le net comment refaire fonctionner cette extension qui m'est précieuse, mais j'ai dû me débrouiller seul et j'ai trouvé la parade :  
+J'ai vidé le cache de l'extension et fais les MAJ des listes et c'est reparti.
+</utt><utt uid=3> il suffit de le mettre a jour pour qu'il ne le soit plus
+</utt><utt uid=4> Heu!
+</utt><utt uid=5> il est obsolète  aussi ils sont tous obsolète avec le nouveau firefox un moyen de nous pister, moi je le laisse
+</utt><utt uid=6> Sûrement pas par moi, tu sais...
+</utt><utt uid=7> ublock origin
+</utt><utt uid=8> Télécharger ceci http://www.clubic.com/telecharger-fiche4...
+</utt></s>
+<s><utt uid=1> Bjr
+j'ai déjà réinitialisé mon mot de passe,
+je n'arrive pas à avoir accès à mes mails que dois-je faire ?
+</utt><utt uid=2> Bjr, ce n'est pas du français !
+</utt><utt uid=3> tu as validé ?  
+réessaye avec l'ancien ..
+</utt><utt uid=4> Prier
+</utt><utt uid=5> Changer de téléphone
+</utt><utt uid=6> mon téléphone me réclame le code puk et le conseiller me dit avoir envoyé le code par mail, besoin urgemment que mon téléphone soit débloqué car outil de travail 
+
+je n'arrive pas à contacter le service client 
+totalement désespérée
+</utt></s>
+<s><utt uid=1> Stop aux nouvelle publicités qui masquent le debut de l ecran?
+</utt><utt uid=2> Comme Bud, je n'ai qu'un bandeau blanc. Mais oui ras le bol des pubs
+</utt><utt uid=3> Non mais Allo, tu surf sur le net en 2017 et tu n'as pas de bloqueur de pub ! Allo !
+</utt><utt uid=4> je ne vois qu'un bandeau blanc
+</utt><utt uid=5> Mets l'extension Ublock et tu seras tranquille...
+</utt><utt uid=6> ras le cul les pubs
+</utt><utt uid=7> J'ai un truc.Quand je vois une pub j'achète autre chose.
+</utt><utt uid=8> . 
+
+  ►   Quelles pubs ?, je ne les vois pas , mon cerveau les zappe .
+</utt><utt uid=9> Pas de pubs avec Adblock
+</utt><utt uid=10> oui, stop aux pubs ! marre !
+</utt></s>
+<s><utt uid=1> Pouvez-vous me recommander un logiciel pour découper en parties des documents sonores numériques?
+</utt><utt uid=2> Audacity
+</utt><utt uid=3> audacity est pas mal
+</utt><utt uid=4> Essaie BreakSongs. Très bon logiciel.
+</utt><utt uid=5> Windows Video Maker !
+</utt></s>
+<s><utt uid=1> J'ai oublié mon mot de passe, comment en avoir un autre?
+</utt><utt uid=2> Faire une demande auprès de la plateforme gestionnaire.
+</utt><utt uid=3> Réinitialiser un mot de passe oublié 
+https://be.aide.yahoo.com/kb/account/Cha...
+</utt><utt uid=4> J'en vend 10€ pièce .
+</utt><utt uid=5> C'est très compliqué avec Yahoo... Je te conseillerais presque de créer un nouveau compte. Mais essaie, ils te proposent l'option 'mot de passe oublié' quand tu te connectes.
+</utt><utt uid=6> C'est ballot.
+</utt></s>
+<s><utt uid=1> Mon Yahoo rame pas possible depuis que j'ai refais mon ordi. Le système de code sms est merdique.?
+</utt><utt uid=2> Quand un site rame, ça vient rarement du pc lui même, car afficher une page web ça demande pas une puissance très importante, les smartphones avec des processeurs 10 fois moins puissant que ceux des pc y arrivent très bien. 
+
+C'est soit les serveurs web et dans ce cas tous les visiteurs du sites sont affectés, 
+soit ta connexion internet. 
+
+Si en changeant de pc tu est passé d'un câble réseau au wifi ou si tu t'es éloigné de la borne wifi, ça pourrait être la cause du problème.
+</utt><utt uid=3> Le mien aussi !
+</utt><utt uid=4> non
+</utt><utt uid=5> aaa
+</utt></s>
+<s><utt uid=1> Ma messagerie ait été piratée comment contacter un sav de yahoo mail
+y a til un telephone peut on se faire rappeler ? mon tél 0675575940?
+</utt><utt uid=2> Là c'est du lourd
+</utt><utt uid=3> Change ton mot de passe.
+</utt><utt uid=4> oh la la
+</utt><utt uid=5> vous êtes sur un forum fréquenté par des centaines de personnes donc beaucoup de cons, ne donnez pas votre numéro en public voyons !!! yahoo tout entier est piraté, ça concerne des millions de gens donc y a rien à faire à part changer son mot de passe tout les mois.
+</utt></s>
+<s><utt uid=1> Je recherche mon skype d'avant j'étais mfir@outlook.fr?
+</utt><utt uid=2> Moi aussi
+</utt><utt uid=3> Mais ça c'était AVANT ! 
+Regarde DTC la gourdasse qui donne son numéro de téléphone !
+</utt><utt uid=4> pas possible ces questions de demeurés ici...
+</utt><utt uid=5> 06 35 94 88 74
+</utt></s>
+<s><utt uid=1> Je ne retrouve pas mon mot de passe de yahoo france?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> C'est ballot... 
+Et bien Baka, y'a qu'a s'acheter un cerveau !
+</utt><utt uid=4> à quoi bon t'en donner un autre, tu vas aussi l'oublier...
+</utt><utt uid=5> Il est entré par ici... il sortira par là ....
+</utt><utt uid=6> Je voudrais changer mon mot de passe oublié
+</utt></s>
+<s><utt uid=1> Comment désactiver le filtre mineur?
+</utt><utt uid=2> Demande à papa et maman
+</utt><utt uid=3> Utilise un autre navigateur Internet ou un vpn ou un vps ou un emulateur tu as l embarras du choix pour bousiller ta libido
+</utt><utt uid=4> Demande a tes parents
+</utt><utt uid=5> t'occupes pas ! va faire tes devoirs plutôt et range ta chambre avant !
+</utt><utt uid=6> Sacré toi , tu crois que nous allons te donner la réponse. Attends tes 18 ans.
+</utt></s>
+<s><utt uid=1> Quel ordinateur portable gamer ?
+</utt><utt uid=2> bonjour, 
+j'ai environs 800 euros de budget pour un pc portable ''gamer'' 
+le jeu principal que je souhaite acheter demande : 
+
+CPU SPEED:  Dual core from Intel or AMD at 2.8 GHz   
+RAM:  4 GB   
+OS:  Windows 7 or newer   
+VIDEO CARD:  nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600   
+SOUND CARD:  DirectX Compatible   
+FREE DISK SPACE:  15 GB   
+
+mais j'aimerais quelque chose qui fonctionne très bien, peu de temps d'attente etc...et surtout avec mémoire SSD.. 
+avez vous des suggestions?
+</utt><utt uid=3> AMD chauffe très vite en plus sur un portable..... 
+4GO pour un PC gamer, c'est plus que bas, vraiment pas assez. Et c'est la minimum que l'on trouver actuellement sur  n'importe quel PC portable ou non, de bas.... 
+800€ tu peux avoir mieux que ce que tu décris ici ( PC d'occasion ? ). 
+En plus Seven n'aura plus de support en 2020, donc bientôt 
+https://support.microsoft.com/fr-fr/help... 
+
+Regarde ce portable : 
+https://www.cdiscount.com/informatique/o...
+</utt><utt uid=4> Ordi portable gamer c'est nul. Prend une tour
+</utt><utt uid=5> Google est ton ami.
+</utt><utt uid=6> Les caractéristiques que tu proposes sont insuffisantes; pour un bon portable gamer il faudrait pour bien faire un intel i7 , 16go de RAM, une carte graphique n' vidia 1070, 1 SSD pour les programmes et un HDD de 1T0 pour le stockage et Windows 10 
+Tu devrais trouver ce que tu veux cher HP OMEN, Alienware ou un Asus rog mais pas pour 800€. 
+Cependant si tu fais monter une tour en fixe c'est un peu moins cher mais il va falloir augmenter ton budget pour un bon PC Gamer.
+</utt><utt uid=7> RAM: 4 GB  trop bas 
+Pour jouer, c'est mieux de construire une tour. 
+http://www.ldlc.be/informatique/cint3063...
+</utt></s>
+<s><utt uid=1> Je souhaiterai bloqué les notification de facebook?
+</utt><utt uid=2> Si votre boîte de réception compte trop de notifications Facebook, Facebook vous permet de choisir quelles activer ou désactiver. Consultez la page d’aide Facebook et recherchez les paramètres de notification pour apprendre comment désactiver les avis étant envoyés à votre boîte de réception Yahoo.
+</utt><utt uid=3> Sur la notification, en bas, tu trouves comment le faire. Clique sur les mot en bleu : se désabonner.
+</utt><utt uid=4> Bonne idée ! On s'en contrefout en fait.
+</utt><utt uid=5> souhaiteraiS, bloqueR notificationS, 3 fautes en 1 petite phrase stupide... quelle misère...
+</utt></s>
+<s><utt uid=1> Un système, sans perte; cela n'existe pas?
+</utt><utt uid=2> Non
+</utt><utt uid=3> Bien sur que si, c'est Lavoisier qui l'a découvert, rien ne se perd, rien ne se crée tout se transforme. 
+
+Avec la radio activité on a cru qu'il s'était gouré, et bien pas du tout, les mutations radioactives si on prend en comptes les absorbions ou éjection d'énergie respectent aussi cette loi. 
+
+Un atome excité à bouffé un photon, pour se dé-exciter il recrache le photon et le tout est joué 
+
+Ce que nous appelons des pertes c'est l'énergie transformée en chaleur dont nous n'avons pas l'utilité chaque fois qu'on peu récupérer cette chaleur pour chauffer un immeuble c'est rattrapé 
+
+et ce qui reste perdu réchauffe l'univers et resservira plus tard 
+
+Dans le cas des crédits subprimes ce sont les banques américaines qui s'étaient mis dans l'idée de voler l'argent à ceux qui n'en avaient pas... 
+Alors évidement à la sortie du grand foutoir ceux qui avaient acheté cet argent qu'i n’existait pas ont tout perdu
+</utt><utt uid=4> helas
+</utt><utt uid=5> un système parfait
+</utt></s>
+<s><utt uid=1> Modifier mot de passe yahoo mail?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> C'est possible, il faut demander au responsable.
+</utt><utt uid=4> Changer mot passe yahoo en 25 secondes. 
+https://www.youtube.com/watch?v=O7R460Nu...
+</utt><utt uid=5> Bonjour...
+</utt></s>
+<s><utt uid=1> What are the even natural numbers less than 14?
+</utt><utt uid=2> Et en français ?
+</utt><utt uid=3> (0) 2 4 6 8 10 12 ?
+</utt><utt uid=4> I would personally like to sue the great inventor of the English language for discrimination against odd numbers since the synonims of odd could be "bizarre", "strange" or even (lol) weird ...
+</utt><utt uid=5> I don't know even if 12 10 8 6 4 2 (0) could be an answer
+</utt></s>
+<s><utt uid=1> Bounjour j`ai besoin d'aide pour un programme en langage c?
+</utt><utt uid=2> bon 
+Longueur = racine((xA-xB)^2+(yA-yB)^2) 
+
+https://www.developpez.net/forums/d15424...
+</utt><utt uid=3> Prends des cours
+</utt><utt uid=4> J'ai rien compris a l'énoncé, mais je vois que l'éducation est toujours a la pointe de la technologie. 
+
+Quand le C était a la mode, on nous faisait étudier le pascal, 
+dans 10ans ils se mettrons au php 4 et dans 20 ans ils commenceront a enseigner le langage java.
+</utt><utt uid=5> non
+</utt><utt uid=6> aaa
+</utt></s>
+<s><utt uid=1> Je n'arrive plus à me connecter sur yahoo mail, comment faire pour y accèder?
+</utt><utt uid=2> C'est pas nouveau.
+</utt><utt uid=3> Essayer avec un autre navigateur.
+</utt><utt uid=4> installe un nouveau système d'exploitation
+</utt><utt uid=5> on peut plus depuis longtemps !!! arrêtez de poser cette question toutes les 10 minutes...
+</utt></s>
+<s><utt uid=1> Comment changer de mot de passe?
+</utt><utt uid=2> Nous ne répondons plus à cette question posée 3250 fois. Regardez les réponses faites aux questions similaires.
+</utt><utt uid=3> Voir avec mode d'emploi.
+</utt><utt uid=4> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=5> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=6> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=7> tiens !! pas encore vu passer ce matin cette question déjà posée près de 7000 fois !!!!!
+</utt></s>
+<s><utt uid=1> Je ne trouve plus l'agenda dans Yahoo
+comment faire pour rétablir le contact?
+</utt><utt uid=2> Regarde dans l'aide Yahoo
+</utt><utt uid=3> Tout est là pour le Yahoo Agenda : https://policies.yahoo.com/ie/fr/yahoo/p...
+</utt><utt uid=4> J'ai un carnet comme agenda, je n'ai pas à faire de recherche pendant des heures !
+</utt><utt uid=5> C'est sur votre boite mail en haut de l'écran il  y a l’icône contact
+</utt><utt uid=6> T'as pensé à brancher la prise ?
+</utt></s>
+<s><utt uid=1> Impossible de naviger avec yahoo pourtant ma connexion est établie et j'ai mis yahoo comme moteur de recherche sur firefox?
+</utt><utt uid=2> Bugs yahoo change de moteur de recherche.
+</utt><utt uid=3> Impossible de naviger avec yahoo pourtant ma connexion est établie et j'ai mis yahoo comme moteur de recherche sur firefox? America will be last country to switch to Euro (antichrist's world currency). Contraceptives = abortion; using contraceptives for 1 year = 5 aborted kids. Unbaptized aborted/miscarried/unborn babies burn in hell for 33 and a half years; if pregnant, keep the kid and deliver at home because kids are chipped using ivs and vaccines in hospitals. Dentists and doctors chip patients secretly. Ultrasound leads to mark of the beast; don't do ultrasound, please. Abortion leads to breast cancer; a demon is released from hell for each aborted kid. Dogs can become possessed; don't keep dogs inside you home [Pelageya of Ryazan]. Walmart has technology to administer mark of the beast to those who have cat bacteria in their stomachs; stay away from cats [Afanasiy Sidyachiy]. Next false flag is the Statue of Liberty. Earth is flat; stands on 3 pillars (the Most Holy Trinity); pillars stand on water at zero Kelvin. Zodiac is planetary prison of demons; don't believe in horoscopes or you'll exhibit the traits of the trapped demons. Most thoughts and dreams are from demons; demons never do good. Sleep fully clothed; pray the Jesus prayer. Pray to your guardian angel to have normal sleep. Vyacheslav Krasheninnikov was the last prophet before Enoch and Elijah return to preach against the antichrist. Humans were created about 7525 years ago. 
+
+Birds participate in time creation. It's a sin to kill birds. Dinosaurs live under our level; they will get out through sinkholes and lakes; to kill them, go for their nerves. Save the birds; but kill the dinosaurs. First dinosaur will come out of Volga River in Russia. Demons grow human skin (from a sample taken during abduction) and put it on so as to look like us. Demons will invite people to be healed inside their UFOs; those who go will be like zombies after. Gov't provides demons with diamonds and allows demons to abduct people. If you're being abducted, slowly pray the Jesus prayer. 
+
+Don't panic. Demons use diamonds and souls to power their UFO craft. The bigger the diamond, the more it lasts. Demons have 4 UFO bases: 1)moon 2)inside fake mountain Kailash in Tibet 3)in lake Baikal in Russia 4)in Atlantis which is underneath the Mariana Trench in Pacific Ocean. There are no aliens. Nobody lives on other planets. Airplanes that go down are hit by demons because they need the airspace to fight Jesus. Antichrist is pale with red eyes. He's possessed by Satan since he's 12 years old. He flies. He wears gloves to hide long nails. He's surrounded by demons who appear as angels of light. 
+
+Don't go into a UFO to be healed by demons. Green 666 is given by isotope rays on wrist or forehead when people stretch hands to receive small plastic grey card with no name on it (World Passport). Police will microchip and isotope ray people on highways. Chipped people will be influenced by computers to take grey plastic card; but when they do, green mark by isotope rays is given on forehead/wrist. Food stores will isotope ray people too. Antichrist will also release prisoners to mark people. Reject 666 at all cost because it leads to permanent hell. If you're about to be marked, pray the Jesus prayer. Hide with Orthodox Christians to escape 666; leave all electronics behind so that antichrist's minions can't track you; burn documents because they're from Satan. Give to charity in the name of Archangel Michael; he rescues people from temporary hell twice a year (or brings them up a level, that is, to a level with less punishment; eventually, people are freed). Feed the pigeons; when pigeons bow down, people are saved from temporary hell. Forgive me.
+</utt><utt uid=4> C'est pas avec Yahoo que tu peux naviguer, mais avec Firefox
+</utt><utt uid=5> Je déconseille Yahoo, je vous conseille Qwant, c'est le moins intrusif des moteurs de recherche pour la vie privée.
+</utt></s>
+<s><utt uid=1> Comment je peux retourner à l'ancienne version de yahoo mail?
+</utt><utt uid=2> Non, non et NON. 
+N'insiste pas C'EST NON !
+</utt><utt uid=3> ça y en a pas être possible boudiou de merde !!
+</utt><utt uid=4> Comment je peux retourner à l'ancienne version de yahoo mail? America will be last country to switch to Euro (antichrist's world currency). Contraceptives = abortion; using contraceptives for 1 year = 5 aborted kids. Unbaptized aborted/miscarried/unborn babies burn in hell for 33 and a half years; if pregnant, keep the kid and deliver at home because kids are chipped using ivs and vaccines in hospitals. Dentists and doctors chip patients secretly. Ultrasound leads to mark of the beast; don't do ultrasound, please. Abortion leads to breast cancer; a demon is released from hell for each aborted kid. Dogs can become possessed; don't keep dogs inside you home [Pelageya of Ryazan]. Walmart has technology to administer mark of the beast to those who have cat bacteria in their stomachs; stay away from cats [Afanasiy Sidyachiy]. Next false flag is the Statue of Liberty. Earth is flat; stands on 3 pillars (the Most Holy Trinity); pillars stand on water at zero Kelvin. Zodiac is planetary prison of demons; don't believe in horoscopes or you'll exhibit the traits of the trapped demons. Most thoughts and dreams are from demons; demons never do good. Sleep fully clothed; pray the Jesus prayer. Pray to your guardian angel to have normal sleep. Vyacheslav Krasheninnikov was the last prophet before Enoch and Elijah return to preach against the antichrist. Humans were created about 7525 years ago. 
+
+Birds participate in time creation. It's a sin to kill birds. Dinosaurs live under our level; they will get out through sinkholes and lakes; to kill them, go for their nerves. Save the birds; but kill the dinosaurs. First dinosaur will come out of Volga River in Russia. Demons grow human skin (from a sample taken during abduction) and put it on so as to look like us. Demons will invite people to be healed inside their UFOs; those who go will be like zombies after. Gov't provides demons with diamonds and allows demons to abduct people. If you're being abducted, slowly pray the Jesus prayer. 
+
+Don't panic. Demons use diamonds and souls to power their UFO craft. The bigger the diamond, the more it lasts. Demons have 4 UFO bases: 1)moon 2)inside fake mountain Kailash in Tibet 3)in lake Baikal in Russia 4)in Atlantis which is underneath the Mariana Trench in Pacific Ocean. There are no aliens. Nobody lives on other planets. Airplanes that go down are hit by demons because they need the airspace to fight Jesus. Antichrist is pale with red eyes. He's possessed by Satan since he's 12 years old. He flies. He wears gloves to hide long nails. He's surrounded by demons who appear as angels of light. 
+
+Don't go into a UFO to be healed by demons. Green 666 is given by isotope rays on wrist or forehead when people stretch hands to receive small plastic grey card with no name on it (World Passport). Police will microchip and isotope ray people on highways. Chipped people will be influenced by computers to take grey plastic card; but when they do, green mark by isotope rays is given on forehead/wrist. Food stores will isotope ray people too. Antichrist will also release prisoners to mark people. Reject 666 at all cost because it leads to permanent hell. If you're about to be marked, pray the Jesus prayer. Hide with Orthodox Christians to escape 666; leave all electronics behind so that antichrist's minions can't track you; burn documents because they're from Satan. Give to charity in the name of Archangel Michael; he rescues people from temporary hell twice a year (or brings them up a level, that is, to a level with less punishment; eventually, people are freed). Feed the pigeons; when pigeons bow down, people are saved from temporary hell. Forgive me.
+</utt><utt uid=5> aidez-moi à retourner à l'ancienne version de yahoo mail svp
+</utt></s>
+<s><utt uid=1> Comment démarrer un logicil en même temps que windows?
+</utt><utt uid=2> logicil ? C'est quoi cette bête ?
+</utt><utt uid=3> Comment démarrer un logicil en même temps que windows? America will be last country to switch to Euro (antichrist's world currency). Contraceptives = abortion; using contraceptives for 1 year = 5 aborted kids. Unbaptized aborted/miscarried/unborn babies burn in hell for 33 and a half years; if pregnant, keep the kid and deliver at home because kids are chipped using ivs and vaccines in hospitals. Dentists and doctors chip patients secretly. Ultrasound leads to mark of the beast; don't do ultrasound, please. Abortion leads to breast cancer; a demon is released from hell for each aborted kid. Dogs can become possessed; don't keep dogs inside you home [Pelageya of Ryazan]. Walmart has technology to administer mark of the beast to those who have cat bacteria in their stomachs; stay away from cats [Afanasiy Sidyachiy]. Next false flag is the Statue of Liberty. Earth is flat; stands on 3 pillars (the Most Holy Trinity); pillars stand on water at zero Kelvin. Zodiac is planetary prison of demons; don't believe in horoscopes or you'll exhibit the traits of the trapped demons. Most thoughts and dreams are from demons; demons never do good. Sleep fully clothed; pray the Jesus prayer. Pray to your guardian angel to have normal sleep. Vyacheslav Krasheninnikov was the last prophet before Enoch and Elijah return to preach against the antichrist. Humans were created about 7525 years ago. 
+
+Birds participate in time creation. It's a sin to kill birds. Dinosaurs live under our level; they will get out through sinkholes and lakes; to kill them, go for their nerves. Save the birds; but kill the dinosaurs. First dinosaur will come out of Volga River in Russia. Demons grow human skin (from a sample taken during abduction) and put it on so as to look like us. Demons will invite people to be healed inside their UFOs; those who go will be like zombies after. Gov't provides demons with diamonds and allows demons to abduct people. If you're being abducted, slowly pray the Jesus prayer. 
+
+Don't panic. Demons use diamonds and souls to power their UFO craft. The bigger the diamond, the more it lasts. Demons have 4 UFO bases: 1)moon 2)inside fake mountain Kailash in Tibet 3)in lake Baikal in Russia 4)in Atlantis which is underneath the Mariana Trench in Pacific Ocean. There are no aliens. Nobody lives on other planets. Airplanes that go down are hit by demons because they need the airspace to fight Jesus. Antichrist is pale with red eyes. He's possessed by Satan since he's 12 years old. He flies. He wears gloves to hide long nails. He's surrounded by demons who appear as angels of light. 
+
+Don't go into a UFO to be healed by demons. Green 666 is given by isotope rays on wrist or forehead when people stretch hands to receive small plastic grey card with no name on it (World Passport). Police will microchip and isotope ray people on highways. Chipped people will be influenced by computers to take grey plastic card; but when they do, green mark by isotope rays is given on forehead/wrist. Food stores will isotope ray people too. Antichrist will also release prisoners to mark people. Reject 666 at all cost because it leads to permanent hell. If you're about to be marked, pray the Jesus prayer. Hide with Orthodox Christians to escape 666; leave all electronics behind so that antichrist's minions can't track you; burn documents because they're from Satan. Give to charity in the name of Archangel Michael; he rescues people from temporary hell twice a year (or brings them up a level, that is, to a level with less punishment; eventually, people are freed). Feed the pigeons; when pigeons bow down, people are saved from temporary hell. Forgive me.
+</utt><utt uid=4> Il suffit de le mettre dans le groupe de démarrage.
+</utt><utt uid=5> Vous avez Cclener, avec ça c'est possible. 
+
+S vous l'avez, aller dans outil, puis démarrer, puis cliqué sur votre programme pour qu'il se mette en gras, puis cliqué sur activée. 
+au prochain redémarrage, votre logiciel démarrera en même temps. 
+
+Vous pouvez aussi désactiver des programmes que vous n'avez pas besoins au démarrage et qui ralentissent le démarrage du PC.
+</utt></s>
+<s><utt uid=1> Comment mettre en place sur windows une notification d'arrivée de mails ?
+</utt><utt uid=2> Notificateur d'email - Les meilleurs logiciels  
+http://www.logitheque.com/logiciels/wind...
+</utt><utt uid=3> GMAIL notifier ou dans le genre voir chrome web store ou mozilla addons !
+</utt><utt uid=4> Comment mettre en place sur windows une notification d'arrivée de mails ? America will be last country to switch to Euro (antichrist's world currency). Contraceptives = abortion; using contraceptives for 1 year = 5 aborted kids. Unbaptized aborted/miscarried/unborn babies burn in hell for 33 and a half years; if pregnant, keep the kid and deliver at home because kids are chipped using ivs and vaccines in hospitals. Dentists and doctors chip patients secretly. Ultrasound leads to mark of the beast; don't do ultrasound, please. Abortion leads to breast cancer; a demon is released from hell for each aborted kid. Dogs can become possessed; don't keep dogs inside you home [Pelageya of Ryazan]. Walmart has technology to administer mark of the beast to those who have cat bacteria in their stomachs; stay away from cats [Afanasiy Sidyachiy]. Next false flag is the Statue of Liberty. Earth is flat; stands on 3 pillars (the Most Holy Trinity); pillars stand on water at zero Kelvin. Zodiac is planetary prison of demons; don't believe in horoscopes or you'll exhibit the traits of the trapped demons. Most thoughts and dreams are from demons; demons never do good. Sleep fully clothed; pray the Jesus prayer. Pray to your guardian angel to have normal sleep. Vyacheslav Krasheninnikov was the last prophet before Enoch and Elijah return to preach against the antichrist. Humans were created about 7525 years ago. 
+
+Birds participate in time creation. It's a sin to kill birds. Dinosaurs live under our level; they will get out through sinkholes and lakes; to kill them, go for their nerves. Save the birds; but kill the dinosaurs. First dinosaur will come out of Volga River in Russia. Demons grow human skin (from a sample taken during abduction) and put it on so as to look like us. Demons will invite people to be healed inside their UFOs; those who go will be like zombies after. Gov't provides demons with diamonds and allows demons to abduct people. If you're being abducted, slowly pray the Jesus prayer. 
+
+Don't panic. Demons use diamonds and souls to power their UFO craft. The bigger the diamond, the more it lasts. Demons have 4 UFO bases: 1)moon 2)inside fake mountain Kailash in Tibet 3)in lake Baikal in Russia 4)in Atlantis which is underneath the Mariana Trench in Pacific Ocean. There are no aliens. Nobody lives on other planets. Airplanes that go down are hit by demons because they need the airspace to fight Jesus. Antichrist is pale with red eyes. He's possessed by Satan since he's 12 years old. He flies. He wears gloves to hide long nails. He's surrounded by demons who appear as angels of light. 
+
+Don't go into a UFO to be healed by demons. Green 666 is given by isotope rays on wrist or forehead when people stretch hands to receive small plastic grey card with no name on it (World Passport). Police will microchip and isotope ray people on highways. Chipped people will be influenced by computers to take grey plastic card; but when they do, green mark by isotope rays is given on forehead/wrist. Food stores will isotope ray people too. Antichrist will also release prisoners to mark people. Reject 666 at all cost because it leads to permanent hell. If you're about to be marked, pray the Jesus prayer. Hide with Orthodox Christians to escape 666; leave all electronics behind so that antichrist's minions can't track you; burn documents because they're from Satan. Give to charity in the name of Archangel Michael; he rescues people from temporary hell twice a year (or brings them up a level, that is, to a level with less punishment; eventually, people are freed). Feed the pigeons; when pigeons bow down, people are saved from temporary hell. Forgive me.
+</utt><utt uid=5> Dans les possibilités, voir avec le mode d'emploi
+</utt></s>
+<s><utt uid=1> Pourquoi acheter neuf quand on peut acheter d occasion? http://www.ebay.fr/usr/nzokfr4?
+</utt><utt uid=2> un matelas avec des punaises ça se trouve aussi
+</utt><utt uid=3> Attention aux microbes !
+</utt><utt uid=4> Cela dépend de quoi.  
+Si t'achètes c'est que t'as un peu les moyens donc certaines choses tu les achètes neuves. Il y a même des avions occasions.
+</utt><utt uid=5> Et pas mal du tout!!! J'ai été collectionneur de sneakers donc j'ai pas mal de paires à la maison. Je suis surpris de constater comme certaines sont devenues chères car introuvables de nos jours. Mais quand je les ai acheté c'était pour les porter, donc un petit coup de rénovation peut être sympa et plus économique qu'un nouvel achat. Perso ton lien pourra m'être utile
+</utt><utt uid=6> Cela dépend quoi ! 
+Des chaussures, je ne suis pas persuadée.
+</utt><utt uid=7> on peut trouver des filles d'occasion aussi?
+</utt></s>
+<s><utt uid=1> Je souhaitet créer une adresse pour mon fils de 12 ans. est ce possible?
+</utt><utt uid=2> oui, mais pas le faire venir sur QR, c'est plein de gens grossiers, vulgaires, de pédophiles, de tarés, de dégénérés et pire que tout : de musulmans...  pour adultes QR !
+</utt><utt uid=3> Très jeune, soyez prudente, internet n'est pas contrôlable !
+</utt><utt uid=4> Il vaut mieux que lui le fasse en lui expliquant les avantages et les inconvénients du net.
+</utt><utt uid=5> tout est possible !
+</utt><utt uid=6> Tu inscris you porn dans les favoris.
+</utt><utt uid=7> Serais-tu inconsciente ? 
+
+De toute manière : rassure-toi, il en a certainement une, si tu le laisses aller sur le PC familial + un compte facebook + tweeter + instagram + plein d'autres trucs où il y a un âge minimum pour s'inscrire ......  
+
+Quoi, quoi, quoi tu croyais que le tien était mieux que les autres ?  Beuh nan !!!!!
+</utt></s>
+<s><utt uid=1> Resiliation compte yahoo?
+</utt><utt uid=2> non non non et NON !! boudiou !!
+</utt><utt uid=3> Alors que tu es Membre depuis : aujourd’hui ? 
+
+Tu vas beaucoup nous manquer on commençait juste à s'habituer à toi...c'est ballot !
+</utt><utt uid=4> Ils censurent,ça décourage certains.
+</utt><utt uid=5> réinstalle ton système d'exploitation et le problème sera résolu; c'est vraie que c'est une solution un peu radicale
+</utt></s>
+<s><utt uid=1> Pourquoi faut-il payer pour envoyer un fax par ordi merci?
+</utt><utt uid=2> http://www.commentcamarche.net/forum/aff...
+</utt><utt uid=3> Parce-que tu as mal cherché.
+</utt><utt uid=4> Si ca passe par le téléphone et le modem ADSL en 1mn et 30sc ces fais et si la box 0€
+</utt><utt uid=5> Parce que ton ordinateur n'est pas un fax !
+</utt><utt uid=6> Fax ? Ce truc ante diluvien ? Ça existe encore ?
+</utt></s>
+<s><utt uid=1> Supprimer historique?
+</utt><utt uid=2> Outils / options / vie privée et là tu fais le ménage et les réglages que tu souhaites sur la conservation de l'historique.
+</utt><utt uid=3> c'est pas bien d'aller sur youporn en cachette
+</utt><utt uid=4> oui mais pas l'histoire
+</utt><utt uid=5> ouiiiiiiiiiiiiiiiiii
+</utt></s>
+<s><utt uid=1> J'ai oublié mon mot de passe Yahoo et ne peux plus accéder à ma messagerie sur mon iphone;
+comment créer un nouveau mot de passe?
+</utt><utt uid=2> C'est ballot
+</utt><utt uid=3> dans paramètres du compte ,  
++ sécurité du compte ..
+</utt><utt uid=4> Maintenant?
+</utt><utt uid=5> Réinitialiser un mot de passe oublié. 
+https://be.aide.yahoo.com/kb/SLN27051.html
+</utt><utt uid=6> à peine 8 h et ça commence déjà les questions mots de passe ?
+</utt><utt uid=7> faut essayer à partir d'un ordi
+</utt><utt uid=8> Avec des lettres et des chiffres.
+</utt></s>
+<s><utt uid=1> Ne peux plus ECRIRE, ni répondre à mes Courriels?
+</utt><utt uid=2> C'est extrêmement fâcheux.
+</utt><utt uid=3> Bien reçu -stop- Faisons le nécessaire -stop-
+</utt><utt uid=4> essaie en braille
+</utt><utt uid=5> ah ben ça c'est ballot....
+</utt></s>
+<s><utt uid=1> Que pensez-vous de Google Assistant sur Android?
+</utt><utt uid=2> Cela sert surtout à bien de cerner pour t'envahir de pubs par la suite !
+</utt><utt uid=3> Le meilleur moyen pour l'immense majorité de tester Google Assistant sera d'acheter un Google Home.  
+Une stratégie marketing donc inutile.
+</utt><utt uid=4> Lis tj ceci ! ! http://www.01net.com/actualites/google-a...
+</utt><utt uid=5> je pense juste que c'est un Assistant
+</utt><utt uid=6> Oui très utile
+</utt></s>
+<s><utt uid=1> Comment changer le mot de passe ?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> Changer mot passe yahoo en 26 secondes. 
+https://www.youtube.com/watch?v=O7R460Nu...
+</utt><utt uid=4> ah bon ?
+</utt><utt uid=5> Voir avec mode d'emploi.
+</utt><utt uid=6> https://be.aide.yahoo.com/kb/account/Cha...
+</utt><utt uid=7> ah ! la première de la journée !! (sur 7000 à peu près....)
+</utt><utt uid=8> en en mettant un autre
+</utt></s>
+<s><utt uid=1> Une alimentation de lecteur dvd expliquée avec du texte, ou trouver cela?
+</utt><utt uid=2> Sur Google
+</utt><utt uid=3> Un lecteur DVD utilise une alimentation à découpage comme du reste beaucoup d'appareils. 
+Que ce soit un ordinateur de bureau, un écran, un téléviseur, un chargeur de téléphone ou bon nombre d'autres appareils ; tous et depuis des années, utilisent une alimentation à découpage. 
+Les seules différences tiennent dans : 
+- le nombre de tensions continues disponibles en sortie 
+une seule dans un chargeur de téléphone 
+en règle générale 3 dans un lecteur DVD 
+plus de 5 dans un ordinateur 
+
+- la puissance disponible en sortie qui peut aller de 2A pour un simple chargeur de téléphone à plus de 25A pour un ordinateur. 
+
+Pour le reste le principe est toujours le même. 
+
+Le principe générale d'une alimentation à découpage est le suivant : 
+la tension alternative du secteur est en premier redressée pour obtenir une tension continue. 
+cette tension est ensuite hachée, découpée en tout ou rien à une fréquence relativement élevée (en général entre 30 khZ et 200 kHz). 
+Pour ce faire on utilise un transistor Mosfet de puissance qui va être utilisé comme un interrupteur, il va être passant pendant un temps puis coupé. Le résultat est donc un courant de forme rectangulaire. qui va être appliqué au primaire d'un transformateur. Pour faire varier ou ajuster la tension utilisable sur le ou les enroulement secondaires on va simplement faire varier la largeur des temps de conductions et donc la largeur des créneaux du courant découpé. cette technique a pour nom PWM : Pulse Width Modulation (modulation de la largeur d'impulsion). 
+
+Comme dans toute alimentation le transformateur isole la partie courant secteur (zone primaire) de la partie tensions en sortie (zone secondaire). Les tensions au secondaire sont ensuite redressées et filtrées. 
+Une des tensions du secondaire est utilisée pour produire une régulation un asservissement afin d'avoir une tension stable indépendamment de la puissance utilisée (dans les limites d'utilisation). Pour ce faire on dispose d'une référence de tension à laquelle est comparée la tension de sortie. la tension résultante de cette comparaison est alors renvoyée vers le primaire au travers d'un optocoupleur afin d'assurer l'isolation entre primaire et secondaire.  
+
+Au primaire, cette tension de comparaison va être appliquée au circuit qui commande le transistor de découpage et on fera ainsi varier la largeur des impulsions de commande afin de produire la régulation. 
+
+Si on regarde le schéma joint on retrouve les éléments suivants : 
+A gauche la tension secteur passe en premier par un jeu de filtres destinés à empêcher les signaux produits par le découpage de retourner vers le secteur ce qui produirait des parasites.  
+La tension secteur est ensuite redressée par le pont de diode D1 (en haut à gauche) puis on emmagasine de l'énergie dans le condensateurprimaire C1 (en haut à gauche) afin de contrer les variations de tension du secteur. 
+Le courant est alors appliqué à l'enroulement primaire du transformateur, la sortie de cet enroulement passe par le Mosfet Q (au centre) qui va se charger de découper le courant. la largeur des impulsions de découpage est pilotée par un circuit de hachage (IC1 au centre). (Un enroulement additionnel coté primaire tu transfo produit une tension redressée par D3 et filtrée. Cette tension alimente le circuit intégré produisant le hachage (PWM)). 
+
+De l'autre coté du transformateur on retrouve les enroulements secondaires, ici dans l'exemple il y en a deux, cette alimentation produit donc 2 sorties principales. Les tensions alternatives produites dans les enroulements secondaires sont redressées et filtrés par les diodes rapides DS1et leur capacité associées. 
+On peut parfois ajouter des inductances de filtrage additionnelles comme c'est le cas sur la sortie 12V. 
+Pour produire d'autres tensions supplémentaires on a souvent recours à des régulateurs de tension linéaires (type 7805, 78012 ect) qui vont à partir d'une tension produite (ici le 12V), fournir des tensions supplémentaires (ici du 8V et 3.3V) 
+
+En bas à droite de la figure dans le rectangle blanc on retrouve le circuit de comparaison destiné à réguler le fonctionnement il contient une référence de tension sous la forme d'une diode zener programmable (généralement on utilise des TL431) et on voit un diviseur de tension formé par RS1, RS2 et Radj. La tension résultante est envoyée sur un optocoupleur dont la sortie retourne vers le circuit de commande de PWM qui produit le découpage de la tension primaire. Ainsi on crée une boucle d'asservissement. 
+Si la tension de sortie est plus basse ou plus haute que la valeur de référence (TL431), l'émetteur de l'optocoupleur voit sa tension d'alimentation varier en fonction de cette variation. la sortie de l'optocoupleur va alors conduire et le circuit de commande, une tension trop faible, le circuit PWM va augmenter la largeur des impulsions afin de produire plus d'énergie. Si la tension de sortie est plus élevée que la référence c'est l'inverse on diminue la largeur des impulsions de découpage afin de diminuer l'énergie transférée par le transformateur. 
+
+Toutes les alimentations à découpage fonctionnent (à quelques variations près et topologie de commande) sur ce même principe. 
+
+Pour des raisons de place dans la réponse j'ai simplifié l'explication du principe de ces alimentations mais cela donne une idée générale du fonctionnement. 
+Je t'avais dans une de tes précédentes questions sur le sujet, renvoyé vers une vidéo youtube de Des Ex Silicium qui explique en vidéo ce même principe.
+</utt><utt uid=4> chez Mc Do
+</utt><utt uid=5> Avec les instructions
+</utt></s>
+<s><utt uid=1> Comment faire pour changer le mot d passe !?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=3> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=4> Question posée déjà des milliards de fois sur ce site ! Ça suffit !
+</utt><utt uid=5> ddd
+</utt><utt uid=6> tiens ça faisait bien 3 h qu'on l'avait pas eue cette question !!! 
+déjà posée près de 7000 x ici, donc je te donne le lien des presque 700 pages de "comment changer mon putain de mot de passe !!!!"
+</utt><utt uid=7> Maintenant?
+</utt></s>
+<s><utt uid=1> Que se passe-t-il avec Yahoo? je ne peux recevoir les messages ??
+</utt><utt uid=2> personne ne peut.
+</utt><utt uid=3> si li fôte di l'ôtre tipete di Jean Foutre !
+</utt><utt uid=4> Idem. On fait avec.
+</utt><utt uid=5> Eh non ! moi non plus.... Ca va s'arranger !
+</utt></s>
+<s><utt uid=1> Impossible d'avoir de supprimer les spam et d'avoir accé à la corbeille?
+</utt><utt uid=2> Il faut réinitialiser ton cerveau .
+</utt><utt uid=3> Voir avec mode d'emploi.
+</utt><utt uid=4> c'est a gauche de votre ordi!
+</utt><utt uid=5> Oui
+</utt></s>
+<s><utt uid=1> CHANGER LE MOT DE PASSE de yahoo mail?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=3> Voir avec mode d'emploi.
+</utt><utt uid=4> Va dans ton profil.
+</utt><utt uid=5> https://qc.answers.search.yahoo.com/sear...
+</utt></s>
+<s><utt uid=1> Comment désactiver un compte yahoo ?
+</utt><utt uid=2> Ne plus l'utiliser !
+</utt><utt uid=3> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=4> Jettes le à la poubelle.
+</utt><utt uid=5> Tu viens de t' inscrire , tu ne sais pas ce que tu veux ?
+</utt></s>
+<s><utt uid=1> Je suis à la recherche de l'email merzouksmail@yahoo.fr?
+</utt><utt uid=2> Rentrer le lors de la connexion sur yahoo
+</utt><utt uid=3> et tu l'as perdu où ? tu te rappelles pas?  tu l'as fait tomber? t'as regardé sous le lit? sinon va au commissariat du bled !
+</utt><utt uid=4> a priori tu l'as trouvé !
+</utt><utt uid=5> Cherches bien , il n'est pas loin.
+</utt><utt uid=6> mais tu l'as !!!
+</utt><utt uid=7> ouii c smail d koeur brise mesen ce momen il es en tournzage
+</utt><utt uid=8> merzouksmail@yahoo.fr
+</utt></s>
+<s><utt uid=1> Que signifie la citation: glissez mortels n'appuyez pas?
+</utt><utt uid=2> « Glissez, mortels, n’appuyez pas » est une expression que l’on attribue parfois, à tort, à La Fontaine ou à Voltaire, et que l’on doit en réalité à un certain Pierre-Charles Roy. C’est à peu près la seule phrase que la postérité ait retenu de cet auteur du XVIIIè siècle, pourtant prolixe, qui s’était spécialisé dans les livrets de « tragédies lyriques », un genre tombé en désuétude dont il paraît qu’il était cousin de l’opéra. 
+
+Le mot parle à l’évidence pour une traversée légère de la vie, et semble se suffire à lui-même. Mais il est en fait extrait d’un quatrain, qui figurait au bas d’un tableau représentant des patineurs :  
+
+Sur un mince cristal l’hiver conduit leurs pas 
+Le précipice est sous la glace 
+Telle est de nos plaisirs la légère surface 
+Glissez, mortels, n’appuyez pas 
+Le duc de Luynes, apprenant la mort de Roy, écrit dans ses Mémoires, en date du 10 février 1754 : « Il serait à désirer qu’il ne se fût pas laissé aller à la facilité qu’il avait de faire des vers », ce qui est un jugement sévère si l’on s’en tient à ces seuls patineurs. Mais Luynes avait sans doute eu l’occasion d’entendre le reste de sa production.
+</utt><utt uid=3> Citation
+</utt><utt uid=4> Ne pas de faire de bile !
+</utt><utt uid=5> avec la citation en entier c'est mieux afin de la comprendre: 
+
+ "Sur un mince cristal l'hiver conduit leurs pas: - Le précipice est sous la glace; - Telle est de vos plaisirs la légère surface. - Glissez, mortels, n'appuyez pas." de Pierre Charles Roy ,  
+
+ce quatrain figurait au bas d’un tableau représentant des patineurs. 
+Le mot parle à l'évidence pour une traversée légère de la vie.
+</utt><utt uid=6> Restez ZEN.
+</utt></s>
+<s><utt uid=1> Augmenter la police d'affichage mails?
+</utt><utt uid=2> CTRL et la roulette de la souris.
+</utt><utt uid=3> Bonjour merci ?
+</utt><utt uid=4> Pour changer la police d'affichage,  
+c'est sur votre boite mail en bas il y a une barre  avec plusieurs icônes. 
+Cliquer sur l’icône Tt et changer la taille voulue.
+</utt><utt uid=5> En Rédiger cliquez sur Tt, en bas de la page.
+</utt></s>
+<s><utt uid=1> Comment suprimmer yahoo?
+</utt><utt uid=2> Déjà ?
+</utt><utt uid=3> Boom !!!
+</utt><utt uid=4> Pour supprimer un compte yahoo 
+https://www.comment-supprimer.com/un-com... 
+Cliquer sur Commencer la suppression de votre compte Yahoo
+</utt><utt uid=5> Personne n'a encore trouvé comment faire !
+</utt><utt uid=6> ah tu veux carrément supprimer yahoo toi?? de quel droit ? le quart de la planète utilise yahoo et toi tu veux le supprimer? ben dis donc... prétentieux !!
+</utt></s>
+<s><utt uid=1> Comment changer le mot de passe?
+</utt><utt uid=2> question posée 20 x par jour, environ 7000 x depuis le début.... c'est pas croyable !!! Lobotamisé !!
+</utt><utt uid=3> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=4> on peut pas !! c'est trop difficile, faut bac +4 pour changer le mot de passe.
+</utt><utt uid=5> LOBOTA   TU ES  SUR  YAHOO   HOTMAIL  OU  AUTRE  ,,????  EXPLIQUE  TOI  PUIS  JE TE DONNERAI LA SOLUTION
+</utt><utt uid=6> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=7> Maintenant?
+</utt></s>
+<s><utt uid=1> Changer mon code?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=3> Passer en phares ! 
+Ou bien le code de bonne conduite?
+</utt><utt uid=4> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=5> zyva !!
+</utt></s>
+<s><utt uid=1> Comment envoyer un ffax par ordi Merci?
+</utt><utt uid=2> a une époque il existait des logiciels
+</utt><utt uid=3> bescherelle.com
+</utt><utt uid=4> Mais où ! 
+A Fairfax ou à Belfax ?
+</utt><utt uid=5> https://www.google.fr/search?q=fax+en+ligne&oq=fax+en+ligne&aqs=chrome..69i57.6015j0j8&sourceid=chrome&ie=UTF-8
+</utt></s>
+<s><utt uid=1> Bjr, les mails reçus dans mon alias ne sont pas copiés dans ma boite principale
+Que faire? merci?
+</utt><utt uid=2> Gné
+</utt><utt uid=3> Mais DE QUOI tu parles là ? 
+A propos "d'alias" j'ai bien connu Jean-Baptiste Poquelin, alias Molière...
+</utt><utt uid=4> Chercher dans le mode d'emploi.
+</utt><utt uid=5> eee
+</utt></s>
+<s><utt uid=1> MODIFIER MON MOT DE PASSE?
+</utt><utt uid=2> Voir avec mode d'emploi.
+</utt><utt uid=3> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=4> déjà demandé presque 7000 fois... 
+
+https://fr.answers.search.yahoo.com/sear...
+</utt><utt uid=5> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=6> Mon pauvre Riton,t'es bien con
+</utt></s>
+<s><utt uid=1> Nous allons réaliser une vidéo youtube, sur le démontage des carénages, du XC 300 sport de yamaha?
+</utt><utt uid=2> Passionnant ! Et c'est quoi la question ?
+</utt><utt uid=3> ben bon courage...
+</utt><utt uid=4> parce que ça n'existe pas sur internet
+</utt><utt uid=5> et ?
+</utt></s>
+<s><utt uid=1> Comment retrouver un dossie archivé?
+</utt><utt uid=2> Ouvrir l'archive dans lequel ce dossier a été mis.
+</utt><utt uid=3> Je ne cherche rien !
+</utt><utt uid=4> C'est quoi un dossie ? 
+
+https://support.office.com/fr-fr/article/Rechercher-des-%C3%A9l%C3%A9ments-archiv%C3%A9s-2E2B55A4-F681-4B93-90CB-31D39349FB95 
+
+https://productforums.google.com/forum/#!topic/gmail-fr/skS4wCcoPfE 
+
+vous devez aller dans les paramètres de votre compte, cliquer sur l'onglet "Libellés", en face de : 
+
+"Tous les messages", cliquer sur le lien "Afficher". 
+
+Enregistrer vos modifications. 
+
+Vos messages que vous avez archiver, se trouve donc dans le libellé : "Tous les messages".
+</utt><utt uid=5> Dans la colonne de gauche (en mail) clique sur Dossiers et tu trouveras tous le dossier que tu as créé. Pour créer un dossier clique sur la croix, à côté du mot Dossiers.
+</utt><utt uid=6> avec un numéro
+</utt></s>
+<s><utt uid=1> Quels antivirus gratuit?
+</utt><utt uid=2> Les antivirus gratuits filtre à 60% 
+Les payants  99,9%
+</utt><utt uid=3> Avast , très utilisé et personne n' a d' ennui , ça fait des années que je l' ai .
+</utt><utt uid=4> Panda ou Kaspersky Free.
+</utt><utt uid=5> Avast mais il vaut prendre un module payant pour avoir plus de tranquillité.
+</utt><utt uid=6> Sur Windows 10 l'antivirus inclus de Microsoft convient parfaitement.
+</utt><utt uid=7> les antivirus gratuits sont inutiles , un vrais antivirus est payant !!
+</utt></s>
+<s><utt uid=1> Je veux agrandir yahoo?
+</utt><utt uid=2> Bonjour merci ?
+</utt><utt uid=3> Il ne poussera plus !
+</utt><utt uid=4> Appuyer sur la touche CTRL, maintenir enfoncé, faire rouler la roulette de votre souris  vers l'avent pour agrandir, vers vous pour diminuer.
+</utt><utt uid=5> Que veux tu dire exactement ?
+</utt></s>
+<s><utt uid=1> Récupérer photos supprimées ?
+</utt><utt uid=2> Bonjour, 
+Recuva est un programme gratuit spécifiquement conçu pour la récupération des fichiers qu'on a effacés accidentellement. 
+http://www.commentcamarche.net/download/...
+</utt><utt uid=3> Les photos supprimées par erreur se trouve à la poubelle. Sélectionnez les et cliquez sur Restore.
+</utt><utt uid=4> quel ordinateur as-tu ?
+</utt><utt uid=5> non
+</utt><utt uid=6> Je ne pense pas... il faut toujours conserver des doubles.
+</utt></s>
+<s><utt uid=1> Bonjour,
+je viens de trouver dans mes SPAM un mail de Yahoo signalant que je ne peux plus envoyer ni recevoir de messages.?
+</utt><utt uid=2> Vider le SPAM
+</utt><utt uid=3> Supprimer le spam et surtout ne pas y répondre. Le mieux est de ne jamais ouvrir les spams et de les éliminer systématiquement.
+</utt><utt uid=4> Ignore le. C'est un SPAM qui essaie de prendre l'identité de Yahoo. Même si la charte graphique est identique, ignore le !
+</utt><utt uid=5> si ça n'a rien changé aux mails faut le laisser dans les spams
+</utt><utt uid=6> T 'as pas payé ...???
+</utt></s>
+<s><utt uid=1> Comment virer son patron de facebook sans le vexer?
+</utt><utt uid=2> Il y a quelques mois j ai fait un stage, et mon patron m a demandé en ami sur facebook. Cela m était égal à l époque, mais petit à petit je me suis rendue compte qu il était très connecté sur les réseaux et quil passe son temps à éplucher son actualité et voir ce que les gens font. Cela me dérange qu il commente mes photos ou qu il m envoie des messages (sachant que mon stage est terminé). Il me demande comment ca va, et me dit les actualités pour son entreprise alors que je m en fiche royalement. Comment faire pour le supprimer sans le vexer ?
+</utt><utt uid=3> tu vas  dans ta liste d'amis , tu cliques sur son non , puis sur "retirer de la liste d'amis "..
+</utt><utt uid=4> Ben tu le vires et c'est tout. Il comprendra qu'il te fait chier et toi tu auras compris qu'un patron ne doit jamais être considéré comme un ami, ni sur face de bouc qui pue, ni ailleurs.
+</utt><utt uid=5> dd
+</utt><utt uid=6> sais pas
+</utt></s>
+<s><utt uid=1> Pourquoi mon compte refuse ma photo ?
+</utt><utt uid=2> Trop grande !
+</utt><utt uid=3> parce que tu es moche
+</utt><utt uid=4> t'es si moche que ça ??
+</utt><utt uid=5> c'est plutot le programmeur qui refuse ta photo
+</utt></s>
+<s><utt uid=1> Je veux changer mon mot de passe?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=3> C'est vrai ?
+</utt><utt uid=4> Maintenant?
+</utt><utt uid=5> va dans les paramètres et clique sur "changer de mot de passe"  
+entre ton mdp actuel et ensuite entre ton nouveau mdp (une 1ere fois puis une 2e fois pour confirmer)
+</utt><utt uid=6> Oui
+</utt></s>
+<s><utt uid=1> Pourquoi les médecins répètent sans cesse, qu'il n'y a que des mensonges sur internet et qu'il ne faut pas y aller s'informer?
+</utt><utt uid=2> c  est leur habitude
+</utt><utt uid=3> Ca dépend des sources, évitez Doctissimo par exemple, c'est devenu le repère des voyants, médiums, astrologues.
+</utt><utt uid=4> altruisme médical
+</utt><utt uid=5> Pour le risque de mal interpréter et de se croire atteint de maladie grave.
+</utt><utt uid=6> Par manque de formation on peut mal interpréter. Pour se renseigner c'est bon, mais il faut toujours parler à votre docteur.
+</utt><utt uid=7> Le mien ne dit pas ça, mais il sait que je ne tiens compte que des avis donnés par les gens sérieux. C'est vrai qu'il y a un gros déchet....
+</utt><utt uid=8> Oui, pourquoi croire des gens qui ont fait 12 ans d'étude alors que ma cousine Josiane dit le contraire ?
+</utt></s>
+<s><utt uid=1> Je ne veut plus yahoo en page d,' acceuil merci?
+</utt><utt uid=2> Moi j'en veux, de rien.
+</utt><utt uid=3> Virez la !
+</utt><utt uid=4> Gné
+</utt><utt uid=5> de toutes les matières, c'est la oath que j'préfère
+</utt><utt uid=6> ah bon ?
+</utt><utt uid=7> ben vire cette merde !
+</utt><utt uid=8> de rien
+</utt><utt uid=9> pas de quoi .
+</utt></s>
+<s><utt uid=1> Mon compte a été piraté que dois je faire tous mes contacts sont bloqués impossible de les avertirs?
+</utt><utt uid=2> Avec ce lien. 
+https://login.yahoo.com/account/challenge/username?.=&intl=fr&authMechanism=secondary&yid=&done=https%3A%2F%2Fwww.yahoo.com%2F&s=QQ--&c=4x3igKL.2bJeVRjDsmn4CI7w2iNyh7X0bc8skO28F99JjM0QGAlK8PnIXdnuDFmlK3BX1oSKJ53vF8I5aukUnPBLWu45xP5CcfteKa8DQZkZU2T5H2ahRUyiSzA1A4VinmSTOtGT1bPc_l891OfSU.xGrUyOAd2By.F_q0VHg2pYngT6_IyuwI1j_VFhTevM1d3v0WfaWE_HPNI8vrClT4VRBLVqexTsxP5wbvFWWpopFZbpxaG8K7ZhGiY-~A
+</utt><utt uid=3> Change ton mot de passe yahoo.
+</utt><utt uid=4> Détraquage?
+</utt><utt uid=5> Allez sur Google et tapez : 
+fr.aide.yahoo.com 
+Vous trouverez la marche à suive pour un compte piraté
+</utt><utt uid=6> Je créerais un autre compte avec un autre fournisseur et je les avertirais.
+</utt><utt uid=7> Installe in antivirus et si tu es infecté, il va corriger le problème.
+</utt></s>
+<s><utt uid=1> Je ne veux plus montrer mon visage sur Youtube, Facebook en public, mais plutôt ma voix sur Youtube uniquement quitte à la modifier?
+</utt><utt uid=2> Ca depend de ce que tu veux y faire, perso j'ai une chai0ne ou je crée des vidéos de "divertissement" en présentant différents records du monde mais je ne mets que ma voix sur Youtube et pas mon visage, je le ferai peut etre un jour je n en sais rien.
+</utt><utt uid=3> Gné
+</utt><utt uid=4> Si tu es Glajimachin j'comprends pourquoi tu n'veux pas que l'on voit ta tronche ... pour la voix, bah y'a du boulot mais comme tu ignores les conseils.
+</utt><utt uid=5> Montre ton cul , c'est plus difficile à reconnaître .
+</utt></s>
+<s><utt uid=1> Mon pseudo yahoo a été changé sans me consulter!
+Comment le rétablir ?
+</utt><utt uid=2> c'est trés technique,il faut aller dans parametres du compte avec la roue crantée -infos personnelles- et le remettre.
+</utt><utt uid=3> Aller sur la roue crantée là en haut------------------------------> 
+Cliquer sur paramètres du compte. 
+Aller sur vos noms et surnom, changer  
+et cliquer sur enregistrer
+</utt><utt uid=4> Moi aussi. 
+
+Normalement il faut cliquer sur ton pseudo, puis sur "Préférences" et  "Modifier", 
+mais ça bug depuis des mois:
+</utt><utt uid=5> putain vous êtes graves les mecs !!! il existe encore des demeurés qui ne savent pas que yahoo c'est de la merde?? piraté ? que ça bug à mort?? t'as tes mails ? c'est comme ça pour des millions de gens!!
+</utt><utt uid=6> Ce site est inaccessible 
+Impossible de trouver l'adresse DNS du serveur us.rd.yahoo.com. 
+DNS_PROBE_FINISHED_NXDOMAIN
+</utt><utt uid=7> d2TRAQUAGE,
+</utt></s>
+<s><utt uid=1> Mon écran d’ordinateur devient noire de temps en temps?
+</utt><utt uid=2> Bonjour, 
+
+Juste après avoir ajouter un accessoire (boîtier front panel pour USB et carte SD) sur la carte mère en USB 3.0, l’écran de mon PC devient tout noir pendant quelques secondes puis reviens a la normale. J'ai vérifie si le câble VGA était bien brancher mais tout semble OK... Je ne sais pas si le fait d'avoir ajouter un élément au PC a endommager quelque chose. 
+L écran et neuf... 
+
+Si quelqu'un a une piste, je serai ravie de la connaître. 
+
+Merci infiniment.
+</utt><utt uid=3> Salut 
+
+Tu peux nous en dire dire plus sur ta config ? 
+Notamment la marque et le type de l'alimentation. 
+Sinon, as-tu tester un autre écran sur ton PC ? 
+Et le même écran sur une autre config pour voir ?
+</utt><utt uid=4> Trop de ports usb et ça cafouille, il vaut mieux changer l'ordi.
+</utt><utt uid=5> Essaie un autre port USB sur ta carte mère et/ou de brancher ton écran en hdmi ou bien en display port selon ce que permet ta carte graphique et l'écran.
+</utt><utt uid=6> j'ai un problème voisin, pareillement pour le multi port USB mais moi je me retrouve en veille .. c'est inégal en plus,  ça peut le faire 3 fois en 2 minutes et puis après je suis tranquille. 
+
+ mais je n'ai pas de solution ;0( je suis une vraie buse avec tous les trucs informatiques
+</utt><utt uid=7> va voir l'électronicien du coin
+</utt></s>
+<s><utt uid=1> Piratage : comment récupérer ses adresses?
+</utt><utt uid=2> Une prière à saint internet !
+</utt><utt uid=3> Avec cette page. 
+https://login.yahoo.com/account/challeng...
+</utt><utt uid=4> Porter plainte au commissariat .
+</utt><utt uid=5> j'ai eu de la chance de les retrouver ailleurs sinon c'est fichu
+</utt></s>
+<s><utt uid=1> JE VEUX OUVRIR MA BOITE E-MAIL
+sans une clef a chaque ouverture SVP
+Merci à vous Sylviane DASSÉ?
+</utt><utt uid=2> C'est une obligation d'avoir un mot de passe.
+</utt><utt uid=3> Pas possible !
+</utt><utt uid=4> C'est pour votre bien, Sylviane !
+</utt><utt uid=5> Oui
+</utt></s>
+<s><utt uid=1> Que dois-je faire pour désactiver ma clé de compte yahoo ?
+</utt><utt uid=2> Depuis votre ordinateur, accédez à la page Infos compte Yahoo..https://edit.yahoo.com/config/eval_profi... 
+Cliquez sur Sécurité du compte. 
+Cliquez sur Gérer à côté de la Clé de compte Yahoo. 
+Appuyez sur Désactiver la Clé de compte. 
+Cliquez sur Oui, désactiver la Clé de compte pour confirmer. 
+Cliquez sur Compris. 
+Lors de votre prochaine connexion à Yahoo, vous pourrez vous connecter avec votre ancien mot de passe. Vous n’aurez pas à confirmer de code de Clé de compte. 
+
+
+Désactiver la Clé de compte à partir d’une application. 
+Ouvrez une application Yahoo prenant en charge la Clé de compte. 
+Appuyez sur l’icône de menu 
+Appuyez sur Clé de compte. 
+Appuyez sur Gérer la Clé de compte. 
+Appuyez sur Oui, désactiver la Clé de compte pour confirmer. 
+Appuyez sur Oui, désactiver la Clé de compte. 
+Appuyez sur Compris.
+</utt><utt uid=3> https://fr-ca.aide.yahoo.com/kb/SLN25781...
+</utt><utt uid=4> est ce possible
+</utt><utt uid=5> mais c'est quoi ces putains de clés yahoo dont tout le monde parle ?? quelle clé? où ça une clé?
+</utt></s>
+<s><utt uid=1> COMMENT RÉCUPÉRER MAILS effacés?
+</utt><utt uid=2> dans la corbeille
+</utt><utt uid=3> Dans ta corbeille sinon c'est perdu
+</utt><utt uid=4> Encore cette question !!Vas voir dans la rubrique "informatique et internet" tu  trouveras la réponse à cette question posée 1000 fois.
+</utt><utt uid=5> si ils ont été supprimés il y a plus de 7 jours ils sont perdus a tout jamais 
+PS: pour les auteurs des pouces en bas : Si l’un de vos mails a été supprimé ou s’est perdu au cours des 7 derniers jours, vous pouvez envoyer une demande de restauration et nous ferons tout notre possible pour le récupérer."
+</utt></s>
+<s><utt uid=1> Comment trouver un dossier archivé?
+</utt><utt uid=2> Je ne cherche rien !
+</utt><utt uid=3> Dans la colonne de gauche (en mail) clique sur Dossiers et tu trouveras tous le dossier que tu as créé. Pour créer un dossier clique sur la croix, à côté du mot Dossiers.
+</utt><utt uid=4> avec une baguette magique
+</utt><utt uid=5> chépa
+</utt></s>
+<s><utt uid=1> Je ne recoit pas les mails du site "disons demain"?
+</utt><utt uid=2> C'est vraiment ballot...Je compatis.
+</utt><utt uid=3> https://www.disonsdemain.fr/ 
+Nous avons maintenant une idée de ton âge, lol.
+</utt><utt uid=4> reçois
+</utt><utt uid=5> R
+</utt></s>
+<s><utt uid=1> Bonsoir mon compte a été piraté?
+</utt><utt uid=2> Avec ce lien. 
+https://login.yahoo.com/account/challenge/username?.=&intl=fr&authMechanism=secondary&yid=&done=https%3A%2F%2Fwww.yahoo.com%2F&s=QQ--&c=4x3igKL.2bJeVRjDsmn4CI7w2iNyh7X0bc8skO28F99JjM0QGAlK8PnIXdnuDFmlK3BX1oSKJ53vF8I5aukUnPBLWu45xP5CcfteKa8DQZkZU2T5H2ahRUyiSzA1A4VinmSTOtGT1bPc_l891OfSU.xGrUyOAd2By.F_q0VHg2pYngT6_IyuwI1j_VFhTevM1d3v0WfaWE_HPNI8vrClT4VRBLVqexTsxP5wbvFWWpopFZbpxaG8K7ZhGiY-~A
+</utt><utt uid=3> A l'abordage !
+</utt><utt uid=4> Détraquage?
+</utt><utt uid=5> D'accord et ensuite ?
+</utt></s>
+<s><utt uid=1> Qui peut m'aider?
+</utt><utt uid=2> Pas moi
+</utt><utt uid=3> appelle la CAF, damne caffard ... et poursuis en justice l'organisme de gestion de ton HLM pour t'avoir cree un tel stress dans ton oisivete passive, soumise et assistee : on ne perturbe pas la vie d'un parasite comme ca, diable !
+</utt><utt uid=4> Il y a votre banque
+</utt><utt uid=5> aide-toi et le ciel t'aidera
+</utt><utt uid=6> Personne d'autre que toi.
+</utt></s>
+<s><utt uid=1> Changer mot de passe yahoo?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications
+</utt><utt uid=3> yep !
+</utt><utt uid=4> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=5> quelle est ton adresse ta rue  ville   age   tailles .....
+</utt></s>
+<s><utt uid=1> Ocomment lire mon autre boite mail?
+</utt><utt uid=2> Avec un autre navigateur
+</utt><utt uid=3> Gné
+</utt><utt uid=4> je parle pas aux riches !
+</utt><utt uid=5> ?
+</utt><utt uid=6> fichez nous la paix avec vos boîtes mails les bouseux de la creuse...
+</utt></s>
+<s><utt uid=1> Creer une nouvelle adresse mail?
+</utt><utt uid=2> Pareil comme vous venez de faire.
+</utt><utt uid=3> Regarde dans l'aide.
+</utt><utt uid=4> va ailleurs ducon .
+</utt><utt uid=5> avec de la pâte à modeler.
+</utt><utt uid=6> non non non et re-non !!!!!! ouvrez ailleurs , pas yahoo !
+</utt></s>
+<s><utt uid=1> Comment se faire livrer en France un produit uniquement dispo aux pays-bas ?
+</utt><utt uid=2> en le commandant en ligne
+</utt><utt uid=3> je veux acheter du mobilier sur un site hollandais mais il ne livre que dans leur pays 
+
+et j'ai trouvé ce que je recherche depuis des mois seulement sur leur site !! 
+
+alors comment me faire livrer en France si le site ne fait que des livraisons dans leur pays ??
+</utt><utt uid=4> en chargeant un paysbasque
+</utt><utt uid=5> en s'inscrivant a un go fast.
+</utt></s>
+<s><utt uid=1> Publicité sur Internet:meilleure méthode pour s'en débarrasser?
+</utt><utt uid=2> Utiliser une boite mail poubelle
+</utt><utt uid=3> et même ici maintenant, tu as  vu les liens laisser sur les commentaires ?  pénible .. je vous engage à les signaler systématiquement, quand Yahoo en aura assez il fera quelque chose. 
+
+pour la pub à droite de l'écran  je me défoule.. je donne des " explications"  musclées ^^
+</utt><utt uid=4> Même sur youtube! Si seulement on pouvait la virer!
+</utt><utt uid=5> télécharges adblock
+</utt><utt uid=6> UbBlock Origine
+</utt><utt uid=7> J'utilise plusieurs extensions sur Chrome. Cherchez "bloqueurs de publicité". Mais attention, certains sites vous bloqueront en représailles, car la pub est leur gagne-pain.
+</utt><utt uid=8> éteindre l'odinateur
+</utt></s>
+<s><utt uid=1> Api-ms-win-crt-runtime-l1-1-0.... manquant?
+</utt><utt uid=2> Bonjour, après une mise à jour de Origin j'ai voulu le relancer mais impossible de l'ouvrir. Un fenêtre d'erreur s'est ouverte "fichier api-ms-win-crt-runtime-l1-1-0.dll manquant". 
+
+Alors voilà, j'ai fait absolument tout ce qui pouvait être fait je crois. 
+J'ai désinstaller et réinstaller Origin. -> Toujours le même problème 
+J'ai fait toutes les Maj de Windows possible (je suis sur windows 8.1) 
+J'ai réinstaller la version la plus récente de Microsoft Visual C++ 
+Je suis même aller jusqu'à restaurer complètement mon ordinateur, état à neuf. 
+Mais toujours le même problème!! 
+
+Ensuite je suis parvenue à trouver sur interner le fichier dll que j'ai téléchargé, puis mis dans windows/system32 et j'ai voulu l'exécuter avec regsvr32. 
+Je pensais que ça remarcherait, mais quand je fait la commande regsvr32 api..., un autre message d'erreur s'affiche cette fois: 
+"Le module "api-ms-win-crt-runtime-l1-1-0.dll" a été chargé, mais le point d'entrée DllRegisterServer est introuvable. 
+Vérifiez que "api-ms-win-crt-runtime-l1-1-0.dll" est un fichier DLL ou OCX valide, puis réessayez." 
+
+Je vais craquer donc si quelqu'un aurait une solution svp! 
+
+Merci d'avance
+</utt><utt uid=3> Explications ici : 
+
+http://www.malekal.com/erreur-api-ms-win...
+</utt><utt uid=4> Google est ton ami
+</utt><utt uid=5> Pour ceux qui aurait eu le même problème, voici la solution: 
+http://answers.ea.com/t5/Technical-Issues/api-ms-win-crt-runtime-l1-1-0-dll/m-p/6240351/highlight/false#M98065
+</utt><utt uid=6> je pige pas
+</utt></s>
+<s><utt uid=1> J'ai été piratée sur mon mail yahoo.com
+impossiblee d'avoir un contact nullité de yahoo.pas de reponse?
+</utt><utt uid=2> Il suffit de changer ton mot de passe yahoo.
+</utt><utt uid=3> Il vaut mieux changer de boite à courriels !
+</utt><utt uid=4> c'est fichu pour les contacts, faudra retrouver des vieux mails, bien changer de mot de passe et supprimer sur la configuration de la boite mail l'envoi vers une autre adresse mail
+</utt><utt uid=5> Le plus nul est celui qui se fait pirater, ça n'arrive pas par hasard.
+</utt></s>
+<s><utt uid=1> Modification de mot de passe?
+</utt><utt uid=2> Voir avec mode d'emploi.
+</utt><utt uid=3> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=4> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=5> on en est à combien avec cette question? 7000 ??
+</utt><utt uid=6> J en sais rien
+</utt></s>
+<s><utt uid=1> Changer mot de passe de mon courriel?
+</utt><utt uid=2> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=3> Voir avec mode d'emploi.
+</utt><utt uid=4> https://fr.answers.search.yahoo.com/sear...
+</utt><utt uid=5> Va dans ton profil.
+</utt><utt uid=6> https://qc.answers.search.yahoo.com/sear...
+</utt></s>
+<s><utt uid=1> Comment qu'on change le putain de mot de passe? mes paramètres sont zobsolètes et oùkissont tous les mails?? koman ouvrir un compte, merde?
+</utt><utt uid=2> Maintenant?
+</utt><utt uid=3> Pointeur souris sur la roue ----------------------------------------... là en haut. Cliquer sur Paramètres du compte. Cliquer sur Sécurité du compte. Suivre les indications.
+</utt><utt uid=4> ah
+</utt><utt uid=5> https://qc.answers.search.yahoo.com/sear...
+</utt><utt uid=6> Sur cette page vous cliquez sur la roue dentée en haut et droite puis  sur paramètres du compte puis sur sécurité du compte.
+</utt><utt uid=7> sss
+</utt><utt uid=8> Cliquez sur S'identifier, 
+Entrez votre adresse mail ainsi que votre mot de passe, puis cliquez sur Ouvrir une session. 
+Placez votre curseur sur "Bonjour, Nom_d'utilisateur", 
+Cliquez sur Configurer mon compte, 
+Entrez à nouveau votre mot de passe, puis cliquez sur Ouvrir une session. 
+Dans la rubrique Connexion et sécurité, cliquez sur Modifier votre mot de passe. 
+Tapez votre mot de passe actuel, puis votre nouveau mot de passe deux fois. 
+Pour finir, Cliquez sur Enregistrer.
+</utt></s>
+<s><utt uid=1> Bonjours comment effacer des pièces jointe de mon Yahoo mails merci avance?
+</utt><utt uid=2> Facile
+</utt><utt uid=3> Avec une gomme magique en principe.
+</utt><utt uid=4> installe un nouveau système d'exploitation
+</utt><utt uid=5> attendez je regarde sur google et je te recopie 
+
+Besoin de supprimer un fichier de votre groupe pour une raison ou pour une autre ? La procédure est rapide et facile. 
+
+Sur la page principale du groupe, cliquez sur Fichiers. 
+Pour modifier des fichiers, cliquez sur Tous les fichiers. 
+Pour modifier des pièces jointes, cliquez sur Pièces jointes. 
+Placez le curseur sur l'élément à supprimer. 
+Cliquez sur l'icône Supprimer Poubelle. 
+Cliquez sur Supprimer.
+</utt></s>
+<s><utt uid=1> Comment vider une clé USB où j'ai mis des chansons. merci?
+</utt><utt uid=2> En la reformatant
+</utt><utt uid=3> Tu va dans tes périphériques tu cliques sur le nom de ta clé et tu supprimes ce que tu veux !
+</utt><utt uid=4> EVELYNE C  SIMPLE  POUR TT EFFACER  FO  FORMATER...  CLIC  DROIT SUR LA  CLE  ET  CLIC  SUR FORMATER  C  TT SIMPLE
+</utt><utt uid=5> Tu sélectionnes les fichiers et tu appuies tout simplement sur la touche Suppr du clavier...
+</utt><utt uid=6> Tout simplement en la formatant !
+</utt><utt uid=7> Formater la clé USB 
+https://www.youtube.com/watch?v=cJ6K0tyl...
+</utt><utt uid=8> c'est normal si ce n'est que de 2-3min
+</utt><utt uid=9> lol
+</utt><utt uid=10> T 'enregistre du silence par dessus
+</utt></s>
+<s><utt uid=1> Quelle manip. dois-je effectuer pour récupérer mon faire pour récupérer mon ancien pseudo; "Lilibubu" . Merci?
+</utt><utt uid=2> Vas sur la petite roulette en haut à droite de ton écran! Tu choisis "paramètres de compte" et tu vas sur infos personnelles... et tu changes!
+</utt><utt uid=3> c est plus beau claire
+</utt><utt uid=4> ... Regarde ma réponse d'hier : 
+https://fr.answers.yahoo.com/question/in...
+</utt><utt uid=5> moi je suis en point d'interrogation .......!
+</utt><utt uid=6> moi je vois ton nom Lilibubu
+</utt><utt uid=7> dans paramètre du compte ,  
+à moi aussi ils m'ont effacé deux fois mon pseudo ..   et je le remets ..
+</utt><utt uid=8> Claire est un prénom très joli .
+</utt><utt uid=9> Allez sur la roue cranté là en haut------------------------------------... 
+Cliquer sur Paramètres du compte. 
+Aller sur vos  noms et changer 
+Cliquer sur Enregistrer
+</utt><utt uid=10> C'est quoi ce *outoir ?
+</utt></s>
+<s><utt uid=1> Bonjour j'ai créé une boite mail pour ma mère et je ne peux recevoir aucun message.?
+</utt><utt uid=2> ok moi ça fait 5 ans
+</utt><utt uid=3> bug
+</utt><utt uid=4> Ben c'est normal, faut demander à votre mère Jeanine.
+</utt><utt uid=5> faut lui écrire ..
+</utt></s>
+<s><utt uid=1> Que faire et comment, pour créer un hyperlien, ou un lien actif dans un document Word par exemple.?
+</utt><utt uid=2> Google est ton ami
+</utt><utt uid=3> tu regarde jamais tes réponses ? 
+
+https://fr.answers.yahoo.com/question/in...
+</utt><utt uid=4> Va dans la rubrique "aide" de Word.
+</utt><utt uid=5> et si vous alliez lire les réponses à votre question posée ce matin, gros malin ! 
+
+https://fr.answers.yahoo.com/question/in...
+</utt></s>
+<s><utt uid=1> J'ai des problèmes avec ma résiliation d'adsl free comment contacter une asso de défense sur bordeaux?
+</utt><utt uid=2> a bordeaux s'est le bordelle
+</utt><utt uid=3> Adresse toi ici c'est l’association des utilisateur Free 
+http://www.aduf.org/portal.php
+</utt><utt uid=4> Dorénavant les professionnels doivent te permettre de saisir un médiateur
+</utt><utt uid=5> y'en a pas
+</utt><utt uid=6> Tu cherches sur Google.
+</utt></s>
+<s><utt uid=1> Revenir à l'ancien yahoo?
+</utt><utt uid=2> Ben z'y va ‼
+</utt><utt uid=3> Impossible
+</utt><utt uid=4> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=5> Impossible.
+</utt></s>
+<s><utt uid=1> Je voudrais retrouver l'ancienne version de yahoo?
+</utt><utt uid=2> Voir avec l'administrateur.
+</utt><utt uid=3> Non, impossible.
+</utt><utt uid=4> https://www.arobase.org/yahoo-mail/reven...
+</utt><utt uid=5> Tu rêves ;)
+</utt></s>
+<s><utt uid=1> Il m'est impossible de me connecter ce matin pourquoi?
+</utt><utt uid=2> C'est ballot
+</utt><utt uid=3> Tiens, et là vous ne l'êtes pas ?
+</utt><utt uid=4> ... bin qu'est-ce que tu fais là ou ICI alors !!?
+</utt><utt uid=5> C'est bien dommage.
+</utt><utt uid=6> C'est dommage... pourtant tu poses une question  ! ! !
+</utt><utt uid=7> comment tu a fait pour envoyer ton message??????????
+</utt><utt uid=8> Des musulmans
+</utt><utt uid=9> De connecter ton doigt à ton cerveau?Bois deux cafés.
+</utt><utt uid=10> c'est à cause des extra-terrestres.
+</utt><utt uid=11> Bug
+</utt></s>
+<s><utt uid=1> Je n'arrive pas à ouvrir mes mails correctement après avoir appuyer sur archivages de mail?
+</utt><utt uid=2> Bugs chez yahoo, change de messagerie.
+</utt><utt uid=3> Faut pas toucher à archivages de mail !!
+</utt><utt uid=4> Changer pour netcourrier ou GMail
+</utt><utt uid=5> ben déjà on s'en tape, et que veux tu qu'on y fasse ? fallait pas prendre yahoo !
+</utt></s>
+<s><utt uid=1> Je reviens sur ce site après un long temps d'absence, j'ai l'impression que pas mal ont disparut, c'est chiant quand même?
+</utt><utt uid=2> Le pire, c'est qu'il y en a qui sont revenus....... 
+
+PS : je ne parle pas de vous hein.
+</utt><utt uid=3> c'est triste mais il faut dire qu'il y a beaucoup de retraites ici et que les canicules successives ont fait de gros degats
+</utt><utt uid=4> Long temps d'absence ? C'est relatif, avec toi ça se compte au pire en mois. 
+Et encore, peu. Il y a eut des absents de plusieurs années !
+</utt><utt uid=5> Certains sont envore en vacances et puis avec la vente de yahoo d' autres attendent de savoir si le site va continuer ou pas.
+</utt><utt uid=6> Mais non, ils se mettent en anonymes... les hypocrites !
+</utt><utt uid=7> Qui va à la chasse perd ses godasses
+</utt></s>
+<s><utt uid=1> Je ne peux plus supprimer les mails indésirables dans ma boite de réception?
+</utt><utt uid=2> déplacer dans la boite indésirable ou spam
+</utt><utt uid=3> Désigne-les comme spams. En cliquant sur les carré précédant chacun, 5 icônes apparaissent en haut. Clique sur le bouclier avec un X. Tu peux tous les sélectionner un à un et faire l'opération ensuite. Comme ils seront identifiés comme spams, ils seront peut-être plus facile à supprimer.
+</utt><utt uid=4> Détraquage?
+</utt><utt uid=5> Chez moi c'est toujours possible, ça doit encore être un bug.
+</utt></s>
+<s><utt uid=1> Bonjour
+mes adresse jetables s'enregistre sous yahoo.com alors que c'est yahoo.fr
+pourtant la racine est ichangée?
+</utt><utt uid=2> C'est ballot
+</utt><utt uid=3> Osef.
+</utt><utt uid=4> merci de repondre 
+
+oui, effectivement
+</utt><utt uid=5> toutes les nouvelles adresses sont en .com,y compris les adresses jetables créees a partir d'adresses en fr.
+</utt></s>
+<s><utt uid=1> Mon pc toshiba ne fonctionne plus. Merci de regarder le détail de la question c est très compliqué ! Merci de votre aide?
+</utt><utt uid=2> Bonjour. Ceci est pour des personnes doués !  
+J ai un pc toshiba satellite l50 (pc portable mais la batterie ne se retire pas) avec Windows 10.  
+Hdd/ssd toshiba mq01abd075  
+
+Mon pc, actuellement, affiche un ecran noir avec la souris apparente après l allumage du pc et sa réparation automatique. Puis plus rien même après 1h d attente.. l ecran reste noir.  
+J ai installé crystal disk avant que ça plante :  
+Nombre de secteur instable et realloué sont les seuls indiqué en prudence. Il ne voulais pas se réinitialiser ou nettoyer le lecteur.  
+Le pc ne veut plus démarrer en mode sans échec ni en forçant avec le menu de démarrage. Plusieurs Manip ont été faites mais rien. J ai essayé de le connecter a un autre écran et il ne le détecte plus.  
+Je n ai pas de cd ou clé de ré installation. Je n ai qu une clé USB avec le logiciel de Windows 10 dessus mais le pc ne le détecte pas.  
+Peur importe les manip f8, f12, control alt sup. Le pc me dirige vers : réparation automatique avec le rond qui charge et après écran noir. Peut importe si je perd les donnés du pc je souhaite juste qu il fonctionne.  
+Si quelqu un a une idée..
+</utt><utt uid=3> C'est assez mal barré vu le problème. Avant d'entrer dans les détails une petite précision : 
+Tu n'a pas indiqué la référence complète de ton portable. La série satellite L50 comporte pas mal de versions. Vu que tu précises que la batterie ne se retire pas je suppose que ta machine est de la série L50-A (à partir des L50-B les batteries sont extractibles comme sur la plupart des modèles de portables). Ceci dit, et si c'est bien un L50-A la batterie est remplaçable mais il faut la dévisser ! (C'est vraiment des cons chez Toshiba pour emmerder le monde au point de ne pas placer une batterie extractible, quel bande de voleurs...) 
+
+Donc, au cas où, ta batterie se remplace, il faut la dévisser et retirer (avec précaution) le connecteur situé au bout de son câble. Et elle est toujours vendue, voir ici par exemple : 
+
+Bon, à présent coté panne : Il manque une information importante : As tu été dans le Setup de la machine ? Et si oui il faudrait voir si le disque dur est bien reconnu dans le Setup. 
+Info à ajouter ici le cas échéant en complément dans ta question. 
+
+Vu les détails que tu indiques il y a de fortes chances pour que ce soit un problème de disque (et la cause de la panne du disque je l'expliquerai plus loin). 
+Ton disque dur, un  MQ01ABD075, n'est pas un SSD mais un disque dur classique, c'est du SATA on ne peut plus ordinaire de 750 Mb en 5400 T/min avec un cache de 8Mo. 
+
+Les disques Toshiba n'ont pas une très bonne réputation et  du reste j'en ai vu pas mal crever assez rapidement. L'utilitaire Crystal Disk (que je connais), t'as affiché des secteurs HS. 
+Et ton problème vient sans doute de là. 
+
+Le  MQ01ABD075 est un disque dur qui supporte mal la chaleur comme la plupart des disques durs. Il est donné pour une température de service qui ne doit pas dépasser les 55° C. Et il y a fort à parier que suite à un encrassement du circuit de ventilation le refroidissement de ton portable ne s'effectue pas correctement. Conséquences le disque dur chauffe, et chauffe trop ! 
+
+Un disque dur qui chauffe trop et arrive à des températures qui dépassent les 40° rencontre fréquemment ce problème, c'est classique. Une température excessive produit un endommagement du média qui petit à petit accumule les secteurs endommagés d'où des erreurs d'écriture et de lecture. 
+
+En fait un disque dur possède une zone de secours qui contient des secteurs de rechange. (Spare Sector Zone). quand un secteur du média est HS un secteur de la Spare Sector est réalloué à sa place. 
+Mais le nombre de secteurs de secours est limité ! De plus si ton disque a des secteurs qui deviennent morts dans des zones critiques, zone de gestion et d'information du disque par exemple (qui se situe en dehors de la zone utilisable) le problème conduit a des défaillances irrémédiables.  
+En fait le disque dur n'est alors plus capable de lire ses propres informations lui permettant (au démarrage) de savoir comment fonctionner. Cela se solde alors généralement par un petit bruit classique, le disque dur au démarrage fait des séries de clics, clics espacés d'environ une demi à une seconde, puis après plusieurs tentatives (généralement 10 à 20) il cesse de tourner et basta, plus rien à faire. 
+
+Je te conseille donc déjà pour savoir si c'est ton problème de - portable à l'arrêt, coller l'oreille contre la carcasse de ton portable en dessous du coté ou se trouve le disque et de l'allumer. Si tu entends une série de clics clics puis silence, cherche pas c'est le problème et le disque est mort. 
+
+Que ce soit dans la zone de service du disque ou dans la zone de données, une accumulations de secteurs morts se solde par une impossibilité de formater le disque. 
+
+Et ce problème est directement lié à la chaleur excessive ! Une température supérieure à la température maximale d'utilisation produit (lentement mais sûrement), une dégradation du média, (dégradation de la couche très fine d'oxyde magnétique de quelques microns qui est déposée sur le plateau. Ce dernier n'est pas en métal mais en céramique ou en verre). Des zones en surface sont alors endommagées et forcément, là ou c'est le cas il n'y a plus de secteurs ! 
+
+Bref, il y a de fortes chances pour que ton disque soit en train de mourir d'une mort assez classique. Si tu as le souvenir que ton portable avait tendance à pas mal chauffer et que le dessous (là où justement se trouve le disque dur) était plutôt très chaud, il y a fort à parier que ce soit la conséquence de tes ennuis. 
+
+Avant de tenter la réinstallation d'un système que ce soit le 10 ou le 8.1 (version d'origine pour le L50) Il faut donc non seulement tester le disque et certainement le remplacer. 
+ET, je dis bien ET ! Nettoyer le circuit de ventilation interne afin que le prochain disque ne se retrouve pas également dans la même situation en train de cuire pour finir lui aussi par crever ! 
+
+Enfin en ce qui concerne Windows, bah évidemment sur le L50 il n'y avait pas de DVD accompagnant la machine, c'est comme toujours maintenant une image disque pré-installée dans une partition cachée sur le disque qui permet l'installation et la restauration de Windows en cas de problèmes. Normalement (mais quasiment personne ne le fait), l'utilisateur du portable doit dès la première utilisation, utiliser l'assistant de sauvegarde qui permet (avant que ce ne soit trop tard...) de créer un jeu de CD ou un DVD contenant une copie de l'installation. Ce qui en cas de casse du disque permet de réinstaller le système sur un disque neuf. 
+Lis bien tu verras c'est marqué dans le manuel livré avec, mais comme personne lit les manuels et ne se préoccupe de le faire ben on en arrive à ton ton problème ! 
+(Je sais ce sont des connards ils pourraient vendre un DVD d'install avec le portable, mais, ils préfèrent économiser 50 centimes de DVD et te laisser le faire à leur place ! Sympa les constructeurs hein ?) 
+
+Donc il te faudra trouver un DVD d'installation plus une clé d'activation de Windows et donc c'est pas gratuit ! 
+
+Bilan : Sans doute un disque dur à changer plus un Windows 8.1 ou 10 avec une clé d'installation à acheter. 
+
+Je devrai pas le dire mais ça m'échappe (Lol). Il y a des possibilités de se procurer un 8.1 en téléchargement (image ISO) pour ensuite re graver un DVD d'installation. 
+Et il existe des outils (très bien faits) qui permettent de cracker la clé d'activation de Windows et donc de ne rien acheter mais c'est illégal, donc je dis ça mais faut pas le faire ! 
+(Nous sommes d'accord hein ?) 
+
+Voilà - à mon avis - ce qui t'attends. Certes je peux me tromper n'ayant pas vu la machine et n'ayant donc pas testé le disque. Mais à force de voir ce genre de problème je pense que j'ai peu de chances de me tromper quant à mon hypothèse à propos de ta machine. 
+
+Anecdote : Ces fumiers de constructeurs se gardent bien de dire que la majorité des ordinateurs portables finissent avec l'accumulation de poussière dans le circuit de ventilation par trop chauffer et avoir ce genre de panne. Ben tiens on va t'expliquer ça hein ? 
+Pour autant c'est hélas souvent le problème. 
+Le circuit de ventilation est prévu pour refroidir le processeur et le GPU mais pour ce qui est du disque il doit se démerder ! Sur 90% des portables il n'y a pas de conduits dirigeant de l'air frais directement vers le disque, c'est la circulation générale de l'air dans le portable qui doit tant bien que mal refroidir le logement où se trouve le disque dur. Et quand cette ventilation commence à ne plus bien fonctionner en raison de la poussière qui s'accumule c'est toujours le disque dur qui en subit les conséquences. 
+
+Pour info, si tu te lances dans la réparation, évite de remettre un disque dur Toshiba ! 
+Met du Seagate ou du Western Digital, ils sont plus fiables. Mais à plus de 50° ils finiront eux aussi par crever, ya pas de miracles ! Ne jamais dépasser les 40° pour un disque dur en fonctionnement c'est la seule méthode pour l’empêcher de mourir assez rapidement. 
+
+Histoire de, voici au cas où 
+Datasheet de ton actuel disque dur : 
+http://www.storage.toshiba.com/docs/prod... 
+
+Exemple de fournisseur pour une batterie de remplacement : 
+http://www.aboutbatteries.com/fr/batteri... 
+
+Coté disque dur : 
+Disque dur Seagate 2,5 pouces SATA, je te conseille un ST1000LM048, Seagate série BarraCuda. Moins de 60 balles en 1 To (toute façon on ne trouve plus rien de moins de 1 To). 
+Coté performance il sera meilleur, c'est aussi du 5400 rpm mais avec un cache de 128 Mo au lieu des minables 8Mo du Toshiba, donc des temps de transferts plus courts en copie de fichiers et en accès pour la VM. 
+Et coté fournisseur LDLC est une boutique sérieuse. (En cas d'envoi les disques sont très bien emballés et protégés. 
+lien vers la fiche de ce disque : 
+https://www.ldlc.com/fiche/PB00219924.ht... 
+P.S. (pas de soucis pour les dimensions, largeur et hauteur c'est le format standard et ce disque fait 7mm d'épaisseur, l'actuel dans ta machine est un 9mm. 
+
+
+Pour ta batterie, elle ressemble à ça normalement :
+</utt><utt uid=4> Faites l'effort d'aller dans une boutique informatique et adressez-vous à un spécialiste réparateur  ! !
+</utt><utt uid=5> Le processus de réparation dure plusieurs heures C'est long attend au moins 5 ou 6 heures, si cela échoue le système de préviendra. 
+En tout cas ton disque à eu des problèmes. 
+Si tu n'as pas préparé un disque de réinstallation c'est foutu. 
+http://www.toshiba.fr/support/storage-de... 
+Adresse toi ici c'est plus de leur domaine. 
+http://www.sosordi.net/
+</utt><utt uid=6> Ca ressemble à une panne de disque dur, souvent fatale pour un pc.
+</utt></s>
+<s><utt uid=1> Jai mont espace mail attaquer par des spam avec des idéograme faite quelleque chose?
+</utt><utt uid=2> C'est 50 €
+</utt><utt uid=3> Installer Signal Spam 
+https://www.signal-spam.fr/
+</utt><utt uid=4> Démerde-toi.
+</utt><utt uid=5> Ici tu ne parles pas à yahoo mais à d'autres utilisateurs de yahoo, donc on ne peut rien faire pour toi, à part donner quelques conseils. 
+
+Les spams arrivent généralement lorsque tu donne ton adresse mail à n'importe qui, ou que tu l'affiche en clair sur des forums ou des sites public. 
+Une fois que les spammeurs connaissent ton adresse mail, t'es foutu, ils te lâcherons jamais. 
+La seule chose que tu peut faire c'est cliquer sur le bouton spam pour les envoyer dans le dossier spam.
+</utt><utt uid=6> Les SPAM doivent être supprimés, il faut s’habituer. 
+
+Les idéogrammes proviennent en général d'un problème de paramètre d'affichage des caractères, cela ne veut pas dire que cela vient de Chine.
+</utt><utt uid=7> C'est bon tout est sous contrôle, j'ai appellé les pompiers.
+</utt></s>
