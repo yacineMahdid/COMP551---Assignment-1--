@@ -36,30 +36,32 @@ def nextPage(webPage, tag, attr):
 #              'content': ['td', {'class': 'section'}]}
 
 
-# directory = []
-# startURL = "http://www.smail.fr/forums/"
-# linkScrape(startURL, 'div', {'class': "content"}, directory)
-# print(directory)
-#
-# for page in directory:
-#     fileDump = []
-#     while page is not None:
-#         linkScrape(page, 'td', {'class': "topic"}, fileDump)
-#         page = nextPage(page, 'div', {'class': 'right small menu'})
-#         print(page)
-#     print(fileDump)
-#     with open("smallfrlinks2.txt", "a", encoding='utf8') as x:
-#         for element in set(fileDump):
-#             x.write(element + '\n')
+directory = []
+startURL = "http://www.smail.fr/forums/"
+linkScrape(startURL, 'div', {'class': "content"}, directory)
+print(directory)
+
+for page in directory:
+    fileDump = []
+    while page is not None:
+        linkScrape(page, 'td', {'class': "topic"}, fileDump)
+        page = nextPage(page, 'div', {'class': 'right small menu'})
+        print(page)
+    print(fileDump)
+    with open("smallfrlinks2.txt", "a", encoding='utf8') as x:
+        for element in set(fileDump):
+            x.write(element + '\n')
 
 
 with open("smallfrlinks.txt", 'r', encoding='utf8') as urlDirectory:
     for url in urlDirectory:
         print(url)
-        with open('smallfrx.xml', 'a', encoding='utf8') as file:
+        with open('smailfr.xml', 'a', encoding='utf8') as file:
             file.write("<s>")
             while url is not None:
                 try:
+                    # the requset library returned a 410 error despite the existance of the page
+                    #this solution still occasionally returned such an error, necessitating the error handling
                     sock = request.urlopen(url)
                     site = sock.read()
                     soup = BeautifulSoup(site, "lxml")
