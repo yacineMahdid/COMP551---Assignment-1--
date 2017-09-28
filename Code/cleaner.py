@@ -1,6 +1,7 @@
 import re
 
 setList = []
+# These strings very prevelent and not removed by other means, or fixed during encoding repair, so were removed directly
 nonstandard = "«»¤¡♥°ºœ¨ùø§¹"
 replace = "             "
 transtable = str.maketrans(nonstandard, replace)
