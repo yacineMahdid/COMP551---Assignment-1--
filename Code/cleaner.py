@@ -14,7 +14,8 @@ with open("Clean.xml", "w", encoding='utf8') as x:
         element = element.lower()
         # Uncomment to strip out tags as well, to recover raw text
         # element = re.sub(r'<.*?>', '', element)
-        element = re.sub(r'https?:\/\/.*[]', ' removedurl ', element)
+        element = re.sub(r'https?:\/\/.*[ \n]', ' removedurl ', element)
+        element = re.sub(r'www.*?[ \n]', ' removedurl ', element)
         newElement = []
         # Used to anonymize email addresses and user targets (already done in base datasets)
         for word in element.split(" "):
